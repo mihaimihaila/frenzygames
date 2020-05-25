@@ -1,0 +1,178 @@
+[
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "ForgotPassword",
+    "Title": "Forgot Password",
+    "Tags": "pin,remember,forget,forgot,sign",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/forgot-password.html"
+  },
+  {
+    "Priority": 1,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "CancelSubscription",
+    "Title": "Cancel Subscription",
+    "Tags": null,
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-cancel-subscription.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "HelpCrowns",
+    "Title": "What are Crowns",
+    "Tags": "crowns,free",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/what-are-crowns.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "EarnCrowns",
+    "Title": "How to Earn Crowns",
+    "Tags": "crowns,free,pension",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-earn-crowns.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "WinCrowns",
+    "Title": "5 Secrets to Win Crowns",
+    "Tags": "crowns,free,pension",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/win-crowns.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "HowToPurchase",
+    "Title": "How to Purchase",
+    "Tags": "pay,address,phone,expensive,free,card,paypal,credit,money",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-purchase.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "Puzzles",
+    "Title": "Free Puzzles",
+    "Tags": "free,pension,ads,commercial,money",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/free-puzzles.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "Restart puzzle",
+    "Title": "How to Restart a Puzzle",
+    "Tags": "restart,puzzle",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/restart-puzzle.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "PuzzleGameModeClassicVsTray",
+    "Title": "Puzzle game modes: Classic vs. Tray",
+    "Tags": "manual,order,tray,side",
+    "Thumbnail": "https://img.youtube.com/vi/Hu9HW_IMIHw/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/Hu9HW_IMIHw.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "MoveMultiplePieces",
+    "Title": "Move Multiple Pieces",
+    "Tags": "side,move,clutter,piece,puzzle",
+    "Thumbnail": "https://img.youtube.com/vi/qcB1hmQowHE/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/qcB1hmQowHE.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "RevealHiddenPieces",
+    "Title": "Reveal Hidden Pieces",
+    "Tags": "missing,piece,puzzle",
+    "Thumbnail": "https://img.youtube.com/vi/IBlHBF_-TRA/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/IBlHBF_-TRA.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "TrackScore",
+    "Title": "Track Your Score",
+    "Tags": "score,points",
+    "Thumbnail": "https://img.youtube.com/vi/MWnVwj_wyDI/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/MWnVwj_wyDI.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "PeekImage",
+    "Title": "Peek at the Puzzle Image",
+    "Tags": "puzzle",
+    "Thumbnail": "https://img.youtube.com/vi/9w-Mnm2qHRA/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/9w-Mnm2qHRA.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "EdgesFirst",
+    "Title": "Solving Edges First",
+    "Tags": "edge,piece,puzzle",
+    "Thumbnail": "https://img.youtube.com/vi/8JtT_D704AA/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/8JtT_D704AA.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "ChangeBackground",
+    "Title": "Change Background Color",
+    "Tags": null,
+    "Thumbnail": "https://img.youtube.com/vi/q6RpJSlsyNo/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/q6RpJSlsyNo.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "MovingAllPieces",
+    "Title": "Moving All Pieces at Once",
+    "Tags": "piece,puzzle",
+    "Thumbnail": "https://img.youtube.com/vi/EwyzJjzzNU4/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/EwyzJjzzNU4.html"
+  }
+]
