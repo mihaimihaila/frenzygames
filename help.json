@@ -141,16 +141,5 @@
     "Thumbnail": "https://img.youtube.com/vi/q6RpJSlsyNo/mqdefault.jpg",
     "Game": "puzzle",
     "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/q6RpJSlsyNo.html"
-  },
-  {
-    "Priority": 0,
-    "ContentType": "Video",
-    "Type": "Learn",
-    "Name": "MovingAllPieces",
-    "Title": "Moving All Pieces at Once",
-    "Tags": "piece,puzzle",
-    "Thumbnail": "https://img.youtube.com/vi/EwyzJjzzNU4/mqdefault.jpg",
-    "Game": "puzzle,puzzlekids",
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/EwyzJjzzNU4.html"
   }
 ]
