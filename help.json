@@ -29,7 +29,7 @@
     "Title": "What are Crowns",
     "Tags": "crowns,free",
     "Thumbnail": null,
-    "Game": "puzzle,wordsearch",
+    "Game": "puzzle,wordsearch,mahjong",
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/what-are-crowns.html"
   },
   {
@@ -40,7 +40,7 @@
     "Title": "How to Get Crowns",
     "Tags": "crowns,free,pension",
     "Thumbnail": null,
-    "Game": "puzzle,wordsearch",
+    "Game": "puzzle,wordsearch,mahjong",
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-earn-crowns.html"
   },
   {
@@ -62,7 +62,7 @@
     "Title": "Free Puzzles",
     "Tags": "free,pension,ads,commercial,money",
     "Thumbnail": null,
-    "Game": null,
+    "Game": "puzzle",
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/free-puzzles.html"
   },
   {
@@ -73,7 +73,7 @@
     "Title": "How to Restart a Puzzle",
     "Tags": "restart,puzzle",
     "Thumbnail": null,
-    "Game": null,
+    "Game": "puzzle",
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/restart-puzzle.html"
   },
   {
