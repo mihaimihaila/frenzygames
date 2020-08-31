@@ -1,11 +1,11 @@
 ## Free puzzles
 
-The game contains **75 puzzles** that can be played in any difficulty mode, using any puzzle shape and as many times as you want.
+The game contains **75 puzzles** that can be played in any difficulty mode, as many times as you want.
 
 ## Ad Sponsored Puzzle of the Day
 
-Every day we offer a unique puzzle that can be played after watching a short video ad. By watching the video ad, you gain access the puzzle and you can play it like a regular free puzzle. Remember to finish the game before the end of the day, as Puzzle of the Day changes at midnight.
-If you want to play Puzzle of the Day without having to watch ads you can purchase a Remove ads subscription or a Premium subscription. See Subscription rules below for details.
+Every day we offer a unique puzzle that can be played after watching a short video ad. By watching the video ad, you gain access the puzzle and you can play it like a regular free puzzle. Remember to finish the game before the end of the day, as [Puzzle of the Day](https://frenzygames.net/custom/pod) changes at midnight.
+If you want to play [Puzzle of the Day](https://frenzygames.net/custom/pod) without having to watch ads you can purchase a Remove ads subscription or a [Premium](https://frenzygames.net/custom/premium) subscription. See Subscription rules below for details.
 
 ## Paid Puzzle Packs
 
@@ -13,12 +13,12 @@ We offer a lot of puzzle packs for sale. The typical puzzle pack contains **25 p
 
 ## Premium Subscription
 
-For dedicated users we offer premium subscriptions. Users with an active subscription can play any puzzle in our library. We offer two types of subscriptions: a monthly subscription and a yearly subscription.
-Purchasing a Premium subscription also removes the Puzzle of the Day video ads.
+For dedicated users we offer [Premium](https://frenzygames.net/custom/premium) subscriptions. Users with an active subscription can play any puzzle in our library. We offer two types of subscriptions: a monthly subscription and a yearly subscription.
+Purchasing a Premium subscription also removes the [Puzzle of the Day](https://frenzygames.net/custom/pod) video ads.
 
 ## Unlock Puzzle Pack with Crowns
 
-When playing Puzzle of the Day you can choose to create an account and participate in our daily contest. Top 3 players that solve the puzzle the fastest receive **1 crown** each at the end of the day. There are 5 contests every day, one for each difficulty level. The earned crowns can be saved and used to unlock paid puzzle packs.
+When playing [Puzzle of the Day](https://frenzygames.net/custom/pod) you can choose to create an account and participate in our daily contest. Top 3 players that solve the puzzle the fastest receive **1 crown** each at the end of the day. There are 5 contests every day, one for each difficulty level. The earned crowns can be saved and used to unlock paid puzzle packs.
 
 ## Subscription Rules
 
