@@ -80,6 +80,17 @@
     "Priority": 0,
     "ContentType": "Video",
     "Type": "Learn",
+    "Name": "August2020Q&A",
+    "Title": "August 2020 Q&A",
+    "Tags": "order,tray,side,side,move,clutter,piece,puzzle",
+    "Thumbnail": "https://img.youtube.com/vi/0dIxw2qsw0s/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/0dIxw2qsw0s.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
     "Name": "PuzzleGameModeClassicVsTray",
     "Title": "Puzzle game modes: Classic vs. Tray",
     "Tags": "manual,order,tray,side",
