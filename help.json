@@ -152,5 +152,16 @@
     "Thumbnail": "https://img.youtube.com/vi/q6RpJSlsyNo/mqdefault.jpg",
     "Game": "puzzle",
     "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/q6RpJSlsyNo.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "UnlockPuzzleForFree",
+    "Title": "Unlock Puzzles for Free",
+    "Tags": "free",
+    "Thumbnail": "https://img.youtube.com/vi/n37eicRbSMA/mqdefault.jpg",
+    "Game": "puzzle",
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/n37eicRbSMA.html"
   }
 ]
