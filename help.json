@@ -11,17 +11,6 @@
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/forgot-password.html"
   },
   {
-    "Priority": 1,
-    "ContentType": "Article",
-    "Type": "Help",
-    "Name": "CancelSubscription",
-    "Title": "Cancel Subscription",
-    "Tags": null,
-    "Thumbnail": null,
-    "Game": null,
-    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-cancel-subscription.html"
-  },
-  {
     "Priority": 0,
     "ContentType": "Article",
     "Type": "Help",
