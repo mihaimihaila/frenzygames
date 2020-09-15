@@ -13,4 +13,3 @@
 
 * [How to purchase](docs/how-to-purchase.md)
 * [Forgot Password](docs/forgot-password.md)
-* [How to cancel subscription](docs/how-to-cancel-subscription.md)
