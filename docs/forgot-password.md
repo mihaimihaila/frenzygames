@@ -1,12 +1,23 @@
-Purchases are performed using **Microsoft Account**. If you are asked to log in, use your **Microsoft Account** password, the same password you use for Windows or for checking your email on **outlook.com**.
+# Forgot Password
 
-## If you can't remember your pasword or it's not working
+Purchases are performed using your **Microsoft account**. If you are asked to log in, use your Microsoft account password, the same password you use for Windows or for checking your email on outlook.com.
 
-You can reset your Microsoft account password by following these steps:
+## How to reset your Microsoft account password
 
-1. Go to the [Recover your account](https://go.microsoft.com/fwlink/p/?LinkId=242000) page.
-1. Enter the email address, phone number, or Skype ID you used when you made your Microsoft Account. This could be any email address, or an email ending in a Microsoft domain like **hotmail.com** or **outlook.com**.
-1. If you have security info on your account, we'll send a one-time code to the alternate phone number or email address you gave us. After you enter that code on the next screen, you'll be able to make a new password.
-1. Enter your new password, then select **Next**.
+You can reset your Microsoft account password by following these steps.
 
-For further information about forgotten passwords, see [How to reset your Microsoft account password](https://support.microsoft.com/en-us/help/4026971).
+1. Sign into your Microsoft account dashboard dashboard using your email address, phone number, or Skype ID and your existing password.
+
+1. Select **Security** from the navigation across the top of the Account home page.
+
+1. On the Security basics page, select **Change my password**.
+
+1. If you have security info on your account, you'll see the Verify your identity form with a partial view of the phone number or email address you chose for account verification. Select the one where you want to receive your code and enter the requested verification information. When you're done, select Send code.
+
+1. Enter the code you received and select **Verify**.
+
+1. On the Change your password page, enter your existing password and then add your new password. When you're finished, select **Save**.
+
+If you don’t have the necessary security information and can’t receive a verification code, you may need to use a different verification option, see [Recover your Microsoft Account](https://support.microsoft.com/help/17875).
+
+If you've forgotten your username and can't sign into the Microsoft account dashboard, see [How to find your Microsoft account](https://support.microsoft.com/help/13811).
