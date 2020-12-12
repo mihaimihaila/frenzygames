@@ -56,6 +56,17 @@
   },
   {
     "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "WhyAds",
+    "Title": "Why the Game contains Ads",
+    "Tags": "ads,free",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/why-ads.html"
+  },
+  {
+    "Priority": 0,
     "ContentType": "Video",
     "Type": "Learn",
     "Name": "August2020Q&A",
