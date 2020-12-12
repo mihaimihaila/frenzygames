@@ -6,7 +6,7 @@ Purchases are performed using your **Microsoft account**. If you are asked to lo
 
 You can reset your Microsoft account password by following these steps.
 
-1. Sign into your Microsoft account dashboard dashboard using your email address, phone number, or Skype ID and your existing password.
+1. Sign into your [Microsoft account dashboard](https://account.microsoft.com/) using your email address, phone number, or Skype ID and your existing password.
 
 1. Select **Security** from the navigation across the top of the Account home page.
 
@@ -21,3 +21,5 @@ You can reset your Microsoft account password by following these steps.
 If you don’t have the necessary security information and can’t receive a verification code, you may need to use a different verification option, see [Recover your Microsoft Account](https://support.microsoft.com/help/17875).
 
 If you've forgotten your username and can't sign into the Microsoft account dashboard, see [How to find your Microsoft account](https://support.microsoft.com/help/13811).
+
+[Source]: https://support.microsoft.com/en-us/help/4026971
