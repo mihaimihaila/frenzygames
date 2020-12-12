@@ -16,21 +16,10 @@
     "Type": "Help",
     "Name": "HelpCrowns",
     "Title": "What are Crowns",
-    "Tags": "crowns,free",
-    "Thumbnail": null,
-    "Game": "puzzle,wordsearch,mahjong",
-    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/what-are-crowns.html"
-  },
-  {
-    "Priority": 0,
-    "ContentType": "Article",
-    "Type": "Help",
-    "Name": "EarnCrowns",
-    "Title": "How to Get Crowns",
     "Tags": "crowns,free,pension",
     "Thumbnail": null,
     "Game": "puzzle,wordsearch,mahjong",
-    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-earn-crowns.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/what-are-crowns.html"
   },
   {
     "Priority": 0,
