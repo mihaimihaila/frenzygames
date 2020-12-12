@@ -1,5 +1,11 @@
 ﻿# Crowns
 
+Author: *Mihai*, last modified: _12/12/2020_
+
+---
+
+![Crown Reward](crown.png?w=50)
+
 **Crowns** are rewards you get in the game. Crowns are used for unlocking puzzles. When you have crowns, an additional button appears in the Puzzle Store, allowing you to unlock puzzles with crowns.
 
 A typical puzzle pack costs **30 crowns**. The crowns cost depends on the number of puzzles in the pack and the release date of the pack. The more puzzles a pack contains, the more crowns it costs. The more recent a pack is, the more crowns it costs.

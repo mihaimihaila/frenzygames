@@ -1,5 +1,9 @@
 # How to Purchase Puzzles
 
+Author: *Mihai*, last modified: _12/12/2020_
+
+---
+
 The game uses **Microsoft Store** to safely perform purchases.
 
 You can purchase using PayPal, or any of the following card types: Visa, MasterCard, American Expres and Discover.

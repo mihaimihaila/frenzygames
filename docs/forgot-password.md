@@ -1,5 +1,9 @@
 # Forgot Password
 
+Author: *Mihai*, last modified: _12/12/2020_
+
+---
+
 Purchases are performed using your **Microsoft account**. If you are asked to log in, use your Microsoft account password, the same password you use for Windows or for checking your email on outlook.com.
 
 ## How to reset your Microsoft account password

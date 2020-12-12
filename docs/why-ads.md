@@ -1,5 +1,9 @@
 # Why the Game contains Ads
 
+Author: *Mihai*, last modified: _12/12/2020_
+
+---
+
 The ads support the game and allow several puzzle packs and [Puzzle of the Day](https://frenzygames.net/custom/pod) to be free.
 
 You can remove ads in several ways:
