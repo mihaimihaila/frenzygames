@@ -62,8 +62,52 @@
     "Title": "Why the Game contains Ads",
     "Tags": "ads,free",
     "Thumbnail": null,
-    "Game": null,
+    "Game": "puzzle",
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/why-ads.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "MissingPuzzles",
+    "Title": "Missing Puzzles",
+    "Tags": "",
+    "Thumbnail": null,
+    "Game": "hidden",
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/missing-puzzle-packs.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "CancelSubscription",
+    "Title": "How to Cancel a Subscription",
+    "Tags": "",
+    "Thumbnail": null,
+    "Game": "hidden",
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-cancel-subscription.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "ExitGame",
+    "Title": "How to Exit the Game",
+    "Tags": "",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-exit.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "PlayFree",
+    "Title": "Play Free Puzzles",
+    "Tags": "",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/play-free-puzzles.html"
   },
   {
     "Priority": 0,
