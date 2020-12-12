@@ -111,6 +111,17 @@
   },
   {
     "Priority": 0,
+    "ContentType": "Link",
+    "Type": "Help",
+    "Name": "SubscribeNewsletter",
+    "Title": "Subscribe to newsletter",
+    "Tags": "",
+    "Thumbnail": null,
+    "Game": "hidden",
+    "Uri": "https://mailchi.mp/469e71b734d0/newsletter"
+  },
+  {
+    "Priority": 0,
     "ContentType": "Video",
     "Type": "Learn",
     "Name": "August2020Q&A",
