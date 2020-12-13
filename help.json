@@ -111,6 +111,17 @@
   },
   {
     "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "KidsPuzzles",
+    "Title": "Puzzles for Kids",
+    "Tags": "kids",
+    "Thumbnail": null,
+    "Game": "puzzle",
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/puzzle-kids.html"
+  },
+  {
+    "Priority": 0,
     "ContentType": "Link",
     "Type": "Help",
     "Name": "SubscribeNewsletter",
