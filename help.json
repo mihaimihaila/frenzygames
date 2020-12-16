@@ -126,10 +126,21 @@
     "Type": "Help",
     "Name": "AddAvatar",
     "Title": "Add Avatar",
-    "Tags": "kids",
+    "Tags": "",
     "Thumbnail": null,
     "Game": "hidden",
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/add-avatar.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "TrialTutorial",
+    "Title": "Start trial from tutorial",
+    "Tags": "",
+    "Thumbnail": null,
+    "Game": "hidden",
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/onboarding-trial.html"
   },
   {
     "Priority": 0,

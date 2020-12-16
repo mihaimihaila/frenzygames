@@ -4,7 +4,7 @@ Author: *Mihai*, last modified: _15/12/2020_
 
 ---
 
-Make your profile stand out by picking an avatar that represents you. 
+Make your profile stand out by picking an avatar that represents you.
 To add an avatar follow these steps:
 
 1. Go to your [game account](https://frenzygames.net/custom/account)
