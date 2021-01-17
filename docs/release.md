@@ -12,5 +12,5 @@ Author: *Mihai*, last modified: _17/12/2021_
 * The price in crowns have been reduced for discounted puzzles to match the money price.
 * Fix a bug that was causing incorrect congratulation push messages to be sent to players who did not win the competition.
 * Fix for puzzle piece ocassionally getting stuck underneath the pieces tray.
-* The price for products in [Hexa Word Search](https://www.microsoft.com/store/apps/9mtxw2nrnjf1?cid=github) and [Jigsaw Puzzle Kids](https://www.microsoft.com/store/apps/9wzdncrddj8g?cid=github) have been adjusted
+* The price for products in **Hexa Word Search** and __Jigsaw Puzzle Kids__ have been adjusted
 * Fix an issue that was affecting the counter on the Deal of the Day purchases.
