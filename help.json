@@ -252,5 +252,16 @@
     "Thumbnail": "https://img.youtube.com/vi/n37eicRbSMA/mqdefault.jpg",
     "Game": "puzzle",
     "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/n37eicRbSMA.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "UpdateGamesOnWindows10",
+    "Title": "How to Update Apps and Games on Windows 10",
+    "Tags": "update,game,windows,store",
+    "Thumbnail": "https://img.youtube.com/vi/YgLQTvUiSUk/mqdefault.jpg",
+    "Game": null,
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/YgLQTvUiSUk.html"
   }
 ]
