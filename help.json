@@ -41,7 +41,8 @@
     "Tags": "free,pension,ads,commercial,money",
     "Thumbnail": null,
     "Game": "puzzle",
-    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/free-puzzles.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/free-puzzles.html",
+	"IsDefault": true
   },
   {
     "Priority": 0,
@@ -173,8 +174,7 @@
     "Tags": "order,tray,side,side,move,clutter,piece,puzzle",
     "Thumbnail": "https://img.youtube.com/vi/0dIxw2qsw0s/mqdefault.jpg",
     "Game": null,
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/0dIxw2qsw0s.html",
-    "IsDefault": true
+    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/0dIxw2qsw0s.html"
   },
   {
     "Priority": 0,
