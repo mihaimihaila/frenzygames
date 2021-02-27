@@ -156,6 +156,17 @@
   },
   {
     "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "ChangeMicrosoftAccountCountry",
+    "Title": "Change Microsoft Account Country",
+    "Tags": "",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/change-microsoft-account-country.html.html"
+  },
+  {
+    "Priority": 0,
     "ContentType": "Link",
     "Type": "Help",
     "Name": "SubscribeNewsletter",

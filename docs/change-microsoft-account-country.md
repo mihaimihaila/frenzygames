@@ -1,6 +1,6 @@
-# Change Microsoft Account country
+# Change Microsoft Account Country
 
-Author: *Mihai*, last modified: _18/01/2021_
+Author: *Mihai*, last modified: _27/02/2021_
 
 ---
 
