@@ -174,7 +174,7 @@
     "Tags": "order,tray,side,side,move,clutter,piece,puzzle",
     "Thumbnail": "https://img.youtube.com/vi/0dIxw2qsw0s/mqdefault.jpg",
     "Game": null,
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/0dIxw2qsw0s.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/august-2020-q-a.html"
   },
   {
     "Priority": 0,
@@ -185,7 +185,7 @@
     "Tags": "manual,order,tray,side",
     "Thumbnail": "https://img.youtube.com/vi/Hu9HW_IMIHw/mqdefault.jpg",
     "Game": "puzzle",
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/Hu9HW_IMIHw.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/classic-vs-tray.html"
   },
   {
     "Priority": 0,
@@ -196,7 +196,7 @@
     "Tags": "side,move,clutter,piece,puzzle",
     "Thumbnail": "https://img.youtube.com/vi/qcB1hmQowHE/mqdefault.jpg",
     "Game": "puzzle,puzzlekids",
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/qcB1hmQowHE.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/move-multiple-pieces.html"
   },
   {
     "Priority": 0,
@@ -207,7 +207,7 @@
     "Tags": "missing,piece,puzzle",
     "Thumbnail": "https://img.youtube.com/vi/IBlHBF_-TRA/mqdefault.jpg",
     "Game": "puzzle,puzzlekids",
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/IBlHBF_-TRA.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/reveal-hidden-pieces.html"
   },
   {
     "Priority": 0,
@@ -218,7 +218,7 @@
     "Tags": "puzzle",
     "Thumbnail": "https://img.youtube.com/vi/9w-Mnm2qHRA/mqdefault.jpg",
     "Game": "puzzle,puzzlekids",
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/9w-Mnm2qHRA.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/peek-image.html"
   },
   {
     "Priority": 0,
@@ -229,7 +229,7 @@
     "Tags": "edge,piece,puzzle",
     "Thumbnail": "https://img.youtube.com/vi/8JtT_D704AA/mqdefault.jpg",
     "Game": "puzzle,puzzlekids",
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/8JtT_D704AA.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/solve-edges-first.html"
   },
   {
     "Priority": 0,
@@ -240,7 +240,7 @@
     "Tags": null,
     "Thumbnail": "https://img.youtube.com/vi/q6RpJSlsyNo/mqdefault.jpg",
     "Game": "puzzle",
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/q6RpJSlsyNo.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/change-background-color.html"
   },
   {
     "Priority": 0,
@@ -251,7 +251,7 @@
     "Tags": "free",
     "Thumbnail": "https://img.youtube.com/vi/n37eicRbSMA/mqdefault.jpg",
     "Game": "puzzle",
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/n37eicRbSMA.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/unlock-puzzles-free.html"
   },
   {
     "Priority": 0,
@@ -262,6 +262,6 @@
     "Tags": "update,game,windows,store",
     "Thumbnail": "https://img.youtube.com/vi/YgLQTvUiSUk/mqdefault.jpg",
     "Game": null,
-    "Uri": "https://frenzygames.blob.core.windows.net/apps/videos/YgLQTvUiSUk.html"
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/update-windows-games.html"
   }
 ]
