@@ -36,6 +36,28 @@
     "Priority": 0,
     "ContentType": "Article",
     "Type": "Help",
+    "Name": "HowToPurchaseWithPayPal",
+    "Title": "How to Purchase with PayPal",
+    "Tags": "pay,address,phone,expensive,free,card,paypal,credit,money,buy,purchase,paypal",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-purchase-with-paypal.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "HowToSeeRank",
+    "Title": "How to See Your Rank",
+    "Tags": "rank,crowns,leaderboard,puzzle,day",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-see-your-rank.html"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
     "Name": "Puzzles",
     "Title": "Free Puzzles",
     "Tags": "free,pension,ads,commercial,money",
