@@ -1,3 +1,3 @@
 # README
 
-Help articles for Frenzy Games.
+[Frenzy Games](https://mihaimihaila.github.io/frenzygames/index.html)
