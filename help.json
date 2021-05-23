@@ -43,6 +43,17 @@
     "Game": null,
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/how-to-purchase-with-paypal.html"
   },
+    {
+    "Priority": 0,
+    "ContentType": "Article",
+    "Type": "Help",
+    "Name": "BuyingWithMoneyVsUnlockingWithCrowns",
+    "Title": "Buying Puzzles with Money vs. Unlocking Puzzles with Crowns",
+    "Tags": "purchase,money,crowns,unlock,buy,cheap,expensive,free",
+    "Thumbnail": null,
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/buying-with-money-vs-unlocking-with-crowns.html"
+  },
   {
     "Priority": 0,
     "ContentType": "Article",
