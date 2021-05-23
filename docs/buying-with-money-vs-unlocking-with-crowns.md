@@ -1,4 +1,4 @@
-# Buying Puzzles with Money vs. Unlocking Puzzles with Crowns
+# Buying with Money vs. Unlocking with Crowns
 
 Author: *Silvia*, last modified: _23/05/2021_
 
