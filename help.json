@@ -75,7 +75,6 @@
     "Thumbnail": null,
     "Game": "puzzle",
     "Uri": "https://mihaimihaila.github.io/frenzygames/docs/free-puzzles.html",
-	"IsDefault": true
   },
   {
     "Priority": 0,
@@ -208,6 +207,18 @@
     "Thumbnail": null,
     "Game": "hidden",
     "Uri": "https://mailchi.mp/469e71b734d0/newsletter"
+  },
+  {
+    "Priority": 0,
+    "ContentType": "Video",
+    "Type": "Learn",
+    "Name": "AccountVideo",
+    "Title": "Login, Edit Account, Complete Missions",
+    "Tags": "login,edit,account,missions,crowns,coins,upgrade,ads",
+    "Thumbnail": "https://img.youtube.com/vi/pq1IemmBdrY/mqdefault.jpg",
+    "Game": null,
+    "Uri": "https://mihaimihaila.github.io/frenzygames/docs/login-edit-account-complete-missions.html",
+	"IsDefault": true
   },
   {
     "Priority": 0,
