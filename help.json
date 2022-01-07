@@ -213,7 +213,7 @@
         "ContentType": "Poll",
         "Type": "Help",
         "Name": "CompletedPuzzlesLayoutPoll",
-        "Title": "Completed Puzzles Layout Poll",
+        "Title": "Completed Puzzle Layout Poll",
         "Tags": "",
         "Thumbnail": null,
         "Game": "puzzle",

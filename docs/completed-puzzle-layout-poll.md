@@ -1,4 +1,4 @@
-﻿# Completed Puzzles Layout Poll
+﻿# Completed Puzzle Layout Poll
 
 Author: *Mihai*, last modified: _06/01/2022_
 
