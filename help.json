@@ -212,12 +212,12 @@
         "Priority": 0,
         "ContentType": "Poll",
         "Type": "Help",
-        "Name": "CompletedPuzzlesLayoutPoll",
+        "Name": "CompletedPuzzleLayoutPoll",
         "Title": "Completed Puzzle Layout Poll",
         "Tags": "",
         "Thumbnail": null,
         "Game": "puzzle",
-        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/completed-puzzles-layout-poll.html"
+        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/completed-puzzle-layout-poll.html"
     },
     {
         "Priority": 0,
