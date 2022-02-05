@@ -25,12 +25,12 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
-        "Name": "HelpCrowns",
-        "Title": "What are Crowns",
+        "Name": "GameRewards",
+        "Title": "Game Rewards",
         "Tags": "crowns,free,pension",
         "Thumbnail": null,
         "Game": "puzzle,wordsearch,mahjong",
-        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/what-are-crowns.html"
+        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/game-rewards.html"
     },
     {
         "Priority": 0,
