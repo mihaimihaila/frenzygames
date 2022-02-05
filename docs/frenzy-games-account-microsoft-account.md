@@ -1,4 +1,4 @@
-# Game Account and Microsoft Account
+# Frenzy Games Account and Microsoft Account
 
 Author: *Mihai*, last modified: _03/02/2022_
 

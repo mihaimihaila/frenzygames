@@ -33,9 +33,3 @@ Any purchased puzzle pack can be played even if you reinstall the game, or if yo
 ### Subscription Rules
 
 A subscription will start and renew automatically, and will be charged to your Microsoft account. You can manage your subscription in your Microsoft account settings. If the subscription includes a free trial period, you will not be charged during your free trial period. When the free trial concludes, your subscription will start and renew automatically, and will be charged to your Microsoft Account. To avoid being charged after the free trial, you must cancel the subscription before the trial expires. Any unused portion of the free trial period will be forfeited when purchasing a subscription.
-
-### Offline Play
-
-1. All free puzzles can be played offline.
-1. All purchased puzzles can be played offline for 30 days. That means that you can travel with your laptop and your puzzles will be available even if you don’t have internet access. After 30 days you will need to get internet access in order to refresh the licenses for the purchased puzzle packs.
-1. Puzzle of the Day cannot be played offline.

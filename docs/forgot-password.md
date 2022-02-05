@@ -1,4 +1,4 @@
-# Forgot Password
+# Forgot Password to Microsoft Account
 
 Author: *Mihai*, last modified: _12/12/2020_
 
