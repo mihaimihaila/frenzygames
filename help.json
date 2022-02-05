@@ -210,17 +210,6 @@
     },
     {
         "Priority": 0,
-        "ContentType": "Poll",
-        "Type": "Help",
-        "Name": "CompletedPuzzleLayoutPoll",
-        "Title": "Completed Puzzle Layout Poll",
-        "Tags": "",
-        "Thumbnail": null,
-        "Game": "hidden",
-        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/completed-puzzle-layout-poll.html"
-    },
-    {
-        "Priority": 0,
         "ContentType": "Video",
         "Type": "Learn",
         "Name": "AccountVideo",

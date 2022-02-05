@@ -1,10 +1,10 @@
 # How to Play Puzzle for Free
 
-Author: *Mihai*, last modified: _12/12/2020_
+Author: *Mihai*, last modified: _05/02/2022_
 
 ---
 
-The game contains **75 puzzles** that can be played in any difficulty mode, as many times as you want.
+The game contains [75 puzzles](https://frenzygames.net/custom/puzzles) that can be played in any difficulty mode, as many times as you want.
 
 ## Ad Sponsored Puzzle of the Day
 
