@@ -3,7 +3,7 @@
 Author: *Silvia*, last modified: _02/27/2021_
 
 ---
-You can purchase puzzles and subscriptions using any of the following credit / debit card types: Visa, MasterCard, American Expres and Discover, or with PayPal depending on your country of residence.
+You can purchase puzzles and subscriptions using any of the following credit / debit card types: Visa, MasterCard, American Express and Discover, or with PayPal depending on your country of residence.
 
 The game uses **Microsoft Store** to safely perform purchases.
 
@@ -19,7 +19,7 @@ You decide what payment method you want to use from your Microsoft account.
 
 Once you successfully added a payment method to your Microsoft account using the steps above, **return to the game and purchase puzzles or subscriptions**. When you have completed a purchase, you gain instant access to the puzzles in the pack, and your subscription plan is activated immediately.
 
-**Please note:**
+**Notice**
 
 * Make sure you have enough money on your credit / debit card or PayPal account to purchase.
 

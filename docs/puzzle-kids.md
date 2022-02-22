@@ -9,4 +9,3 @@ In the Jigsaw Puzzle Frenzy game, there are several puzzle packs for children. D
 
 **Answer**
 All puzzles in Jigsaw Puzzle Frenzy have the same number of pieces: 64, 100, 200 and 300 pieces. Even if a puzzle is in the kids’ section, they have the same number of pieces.
-

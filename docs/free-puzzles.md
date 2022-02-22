@@ -8,7 +8,7 @@ The game contains [75 puzzles](https://frenzygames.net/custom/puzzles) that can 
 
 ## Ad Sponsored Puzzle of the Day
 
-Every day we offer a unique [Puzzle of the Day](https://frenzygames.net/custom/pod) that can be played after watching a short video ad. After watching the video ad you gain access to the puzzle.
+Every day we offer a unique [Puzzle of the Day](https://frenzygames.net/custom/pod) that can be played after watching a short video ad. After watching the video ad, you gain access to the puzzle.
 
 If you want to play Puzzle of the Day without having to watch ads you can purchase a **Remove ads** subscription or a [Premium](https://frenzygames.net/custom/premium) subscription.
 

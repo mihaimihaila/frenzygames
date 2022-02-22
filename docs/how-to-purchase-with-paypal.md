@@ -17,7 +17,7 @@ To configure your PayPal account with your Microsoft account, follow these steps
 
 Once you successfully added PayPal payment method to your Microsoft account using the steps above, **return to the game and purchase puzzles or subscriptions**. When you have completed a purchase, you gain instant access to the puzzles in the pack, and your subscription plan is activated immediately.
 
-**Please note:**
+**Notice**
 
 * Make sure you have enough credit on your PayPal account to purchase.
 
