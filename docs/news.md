@@ -41,6 +41,8 @@ Author: *Mihai*, last modified: _03/03/2022_
 * Added more greetings
 * Added new avatars
 
+![New avatars](images/news/new-avatars-cute-animals.png)
+
 ## 19.01.2022
 
 * Added get new boards button to Mahjong
