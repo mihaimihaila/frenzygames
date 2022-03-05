@@ -4,10 +4,11 @@ Author: *Mihai*, last modified: _03/03/2022_
 
 ---
 
-## 03.03.2022
+## 05.03.2022
 
-* Jigsaw puzzle Tray board size increased from 85% to 100% of the screen
-![Tray board size 100 percent](images/news/tray-board-100-percent.png)
+BugFix: Fixed an occasional crash after watching an ad
+
+## 03.03.2022
 
 * BugFix: Fixed a crash when navigating to the play page before the results finished loading on the Puzzle of the Day page
 
