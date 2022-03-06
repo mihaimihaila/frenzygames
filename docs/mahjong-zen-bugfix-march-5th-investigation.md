@@ -1,5 +1,9 @@
 # Mahjong Zen BugFix March 5th Investigation
 
+Author: *Mihai*, last modified: _06/03/2022_
+
+---
+
 On March 5h, 2022 I finally fixed a bug in Mahjong Zen that was causing the game to crash after watching an ad.
 This is the retrospective of how the bug was introduced, investigated and fixed after affecting the game for more than 3 months.
 
@@ -10,24 +14,18 @@ Mahjong Zen contains interstitial video ads from Vungle. The ads provide revenue
 ## The incorrect solution
 
 In order to deal with the ads that won't load problem, I decided to use a timer that would attempt to display the ad, wait 60 seconds, then start a game of mahjong.
-I put together a simple implementation of a 60 seconds timer:
-
-`code sample`
-
+I put together a simple implementation of a 60 seconds timer.
 The code looks simple enough and I decided to start testing it manually to put it to the test.
 
-## Testing
-
-
-### Previously working behavior
+### Testing: Previously working behavior
 
 When the ad loads and completes playing the ad can be closed and the game begins. This existing behavior was still working correctly after the change.
 
-### Testing the new fix
+### Testing: The timeout fix
 
 To test the newly implemented fix I had to replicate the environment first described by the users. I prevent the local ads from being displayed and sure enough after 60 seconds the timeout mechanism would kick in and start the game.
 
-### The mistake
+## The mistake
 
 At this point I considered the fix good and the game ready for launch. The new version was soon uploaded and in the hands of customers.
 The problem is that I haven't explored all possible scenarios related to ad watching and tested creatively the implications of the timeout.
@@ -35,13 +33,13 @@ It took over 3 months to finally piece together another scenario that would caus
 
 ## Not everyone watches the ads
 
-It turns out that some players don't just stare at the screen while an unskippable ad is playing. They sometimes do something else while the ad is playing like check their phone or refill their coffee. This scenarios is the one I haven't tested and that causes the crash
+It turns out that some players don't just stare at the screen while an unskippable ad is playing. They sometimes do something else while the ad is playing like check their phone or refill their coffee. This scenario is the one I haven't tested and that causes the crash.
 
-1. The user loads an ad. The ad loads succesfully and starts playing.
-2. The ad finished playind and can be dismissed. However, the players does not do that (for whatever reason)
-3. The timeout expires and the game starts "underneath" the already finished video ad
-4. The players returns to their computer and notices the finished video ad and closes it
-5. At this point the program attemps to start a game as a reward for watching the ad. As the game is already started, the game crashes.
+1. The user loads a video ad. The ad loads succesfully and starts playing.
+1. The ad finished playind and can be dismissed, but it is not dismissed (for whatever reason)
+1. The timeout expires and the game starts "underneath" the already finished video ad
+1. The players returns to the game and notices the finished video ad and closes it
+1. At this point the program attemps to start a game as a reward for watching the ad. As the game is already started, the game crashes.
 
 ## The solution
 

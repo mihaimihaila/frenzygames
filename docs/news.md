@@ -6,11 +6,11 @@ Author: *Mihai*, last modified: _03/03/2022_
 
 ## 05.03.2022
 
-BugFix: Fixed an occasional crash after watching an ad
+BugFix: Fixed an occasional crash after watching an ad.  Read details [here](mahjong-zen-bugfix-march-5th-investigation.html)
 
 ## 03.03.2022
 
-* BugFix: Fixed a crash when navigating to the play page before the results finished loading on the Puzzle of the Day page
+* BugFix: Fixed a crash when navigating to the play page before the results finished loading on the Puzzle of the Day page.
 
 ## 01.03.2022
 
