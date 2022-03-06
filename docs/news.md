@@ -7,6 +7,9 @@ Author: *Mihai*, last modified: _03/03/2022_
 ## 05.03.2022
 
 BugFix: Fixed an occasional crash after watching an ad.  Read details [here](mahjong-zen-bugfix-march-5th-investigation.html)
+New rounds layout and new board layout for Hexa Word Search
+![Hexa Word Search color](images/news/2022-03-hws-color.png)
+![Hexa Word Search rounds](images/news/2022-03-hws-rounds.png)
 
 ## 03.03.2022
 
