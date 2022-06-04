@@ -3,6 +3,10 @@
 Author: *Mihai*, last modified: _03/03/2022_
 
 ---
+## 03.06.2022
+
+* Added explanation for how "Play random puzzle" works
+![Play random puzzle explanation](images/news/2022-06-play-random-explanation.png)
 
 ## 05.03.2022
 
