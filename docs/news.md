@@ -3,10 +3,13 @@
 Author: *Mihai*, last modified: _03/03/2022_
 
 ---
-## 03.06.2022
+## 05.06.2022
+
+* Added explanation for empty history statistics panel on Today page
+![Empty history explanation](images/news/2022-06-history-empty.png?w=480)
 
 * Added explanation for how "Play random puzzle" works
-![Play random puzzle explanation](images/news/2022-06-play-random-explanation.png)
+![Play random puzzle explanation](images/news/2022-06-play-random-explanation.png?w=480)
 
 ## 05.03.2022
 
