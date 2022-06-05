@@ -1,9 +1,12 @@
 ﻿# What's New
 
-Author: *Mihai*, last modified: _03/03/2022_
+Author: *Mihai*, last modified: _05/06/2022_
 
 ---
 ## 05.06.2022
+
+* Added new subscription plan section on Account page
+![Subscription plan](images/news/2022-06-account-subscription-plan.png?w=480)
 
 * Added explanation for Trade section in Account page
 ![Trade explanation](images/news/2022-06-trade-explanation.png?w=480)
