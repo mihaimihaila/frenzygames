@@ -5,6 +5,9 @@ Author: *Mihai*, last modified: _03/03/2022_
 ---
 ## 05.06.2022
 
+* Added explanation for Trade section in Account page
+![Trade explanation](images/news/2022-06-trade-explanation.png?w=480)
+
 * Added explanation for empty history statistics panel on Today page
 ![Empty history explanation](images/news/2022-06-history-empty.png?w=480)
 
