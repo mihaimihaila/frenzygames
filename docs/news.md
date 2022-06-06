@@ -1,8 +1,14 @@
 ﻿# What's New
 
-Author: *Mihai*, last modified: _05/06/2022_
+Author: *Mihai*, last modified: _06/06/2022_
 
 ---
+## 06.06.2022
+
+* Added explanations to **Subscription Plan** and __Trade__ sections
+* The puzzle pack image is now set to the first image in the pack
+* Fixed a UI glitch that was showing the progress and completed indicator briefly when the My Puzzles page was displayed
+
 ## 05.06.2022
 
 * Added new subscription plan section on Account page
