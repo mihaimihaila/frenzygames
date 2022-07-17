@@ -14,5 +14,5 @@ If you forgot the password to your **Microsoft Account** you can reset it follow
 
 ## Frenzy Games Account
 
-The **Frenzy Games Account** is used for participating in the daily competition and for unlocking puzzles using [crowns](https://mihaimihaila.github.io/frenzygames/docs/what-are-crowns.html). You can create a Frenzy Games Account in any of our games. You can customize your account with an avatar, country and username. Having an account allows you to participate in the daily competitions. The puzzles unlocked with crowns are linked to your Frenzy Games Account.
+The **Frenzy Games Account** is used for participating in the daily competition and for unlocking puzzles using [crowns](https://mihaimihaila.github.io/frenzygames/docs/game-rewards.html). You can create a Frenzy Games Account in any of our games. You can customize your account with an avatar, country and username. Having an account allows you to participate in the daily competitions. The puzzles unlocked with crowns are linked to your Frenzy Games Account.
 If you forgot the password to your **Frenzy Games Account** you can reset it in the game.
