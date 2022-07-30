@@ -1,33 +1,40 @@
-﻿# Game Rewards
+﻿# Game Economy
 
-Author: *Mihai*, last modified: _05/02/2022_
+Author: *Mihai*, last modified: _30/07/2022_
 
 ---
-The game contains two types of rewards: coins ![Coin Reward](coin.png?w=48) and crowns ![Crown Reward](crown.png?w=48)
 
-## Coins ![Coin Reward](coin.png?w=48)
+## Coins ![Coin](coin.png?w=48)
 
 Coins are earned by solving puzzles.
 
-## Crowns ![Crown Reward](crown.png?w=48)
+## Gems
 
-Crowns are used for unlocking puzzles. Crowns can be earned or purchased. When you own crowns, an additional button appears in the Puzzle Store, allowing you to unlock puzzles with crowns.
+![Gem](gem.png?h=48)
 
-## Exchange rate
+Gems are used for playing Puzzle of the Day.
+Playing Puzzle of the Day costs **1 gem**.
+Gems can be earned by converting coins into gems.
 
-Crowns are more valuable than coins.
+## Crowns ![Crown](crown.png?w=48)
 
-1 x ![Crown Reward](crown.png?w=48) = 30.000 x ![Coin Reward](coin.png?w=48)
+Crowns are used for unlocking puzzles.
+A puzzle pack costs around **30 crowns**.
+Crowns can be earned or purchased.
 
-You can exchange coins for crowns in your [game account](https://frenzygames.net/custom/account).
+## Convertion Rate
 
-A typical puzzle pack costs **30 crowns**. The crowns cost depends on the number of puzzles in the pack and the release date of the pack. The more puzzles a pack contains, the more crowns it costs. The more recent a pack is, the more crowns it costs.
+Gems are more valuable than coins.
+**1 gem = 300 coins**
 
-Puzzle Bundles cost **100 crowns**.
+Crowns are more valuable than coins and gems.
+**1 crown = 30.000 coins**
+
+You can convert coins to gems or crowns in your [game account](https://frenzygames.net/custom/account).
 
 ## How to get rewards
 
-There are several ways to get crowns:
+There are several ways to get rewards:
 
 1. When you play the game 7 days in a row you earn rewards. The possible rewards are: __10.000, 15.000 or 25.000 coins__ or **1, 3 or 10 crowns**.
 1. When you solve puzzles you earn **coins**

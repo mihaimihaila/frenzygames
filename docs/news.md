@@ -4,6 +4,11 @@ Author: *Mihai*, last modified: _12/06/2022_
 
 ---
 
+## 15.06.2022
+
+* Added the number of downloads to the product page
+![Downloads count](images/news/2022-06-downloads-count.png?w=600)
+
 ## 12.06.2022
 
 * Added **Top puzzles this week** section to the Store
