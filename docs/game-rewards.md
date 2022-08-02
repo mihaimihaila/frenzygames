@@ -4,7 +4,9 @@ Author: *Mihai*, last modified: _30/07/2022_
 
 ---
 
-## Coins ![Coin](coin.png?w=48)
+## Coins
+
+![Coin](coin.png?w=48)
 
 Coins are earned by solving puzzles.
 
@@ -16,7 +18,9 @@ Gems are used for playing Puzzle of the Day.
 Playing Puzzle of the Day costs **1 gem**.
 Gems can be earned by converting coins into gems.
 
-## Crowns ![Crown](crown.png?w=48)
+## Crowns
+
+![Crown](crown.png?w=48)
 
 Crowns are used for unlocking puzzles.
 A puzzle pack costs around **30 crowns**.

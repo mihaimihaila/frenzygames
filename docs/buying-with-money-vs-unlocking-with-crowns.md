@@ -18,7 +18,7 @@ If you choose to buy with money, the purchase will be handled through Microsoft.
 
 ## Unlock with crowns
 
-If you choose to unlock puzzle packs with crowns, you need to create a game account and collect enough crowns in your game account to unlock a puzzle pack. Read [**What are crowns**](https://mihaimihaila.github.io/frenzygames/docs/what-are-crowns.html) for more details.
+If you choose to unlock puzzle packs with crowns, you need to create a game account and collect enough crowns in your game account to unlock a puzzle pack. Read [**Game Economy**](game-rewards.md) for more details.
 
 ### Advantages of unlocking puzzles with crowns
 
