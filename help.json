@@ -190,17 +190,6 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
-        "Name": "TrialTutorial",
-        "Title": "Start trial from tutorial",
-        "Tags": "",
-        "Thumbnail": null,
-        "Game": "hidden",
-        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/onboarding-trial.html"
-    },
-    {
-        "Priority": 0,
-        "ContentType": "Article",
-        "Type": "Help",
         "Name": "ChangeMicrosoftAccountCountry",
         "Title": "Change Microsoft Account Country",
         "Tags": "",
