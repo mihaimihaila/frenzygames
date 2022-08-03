@@ -26,11 +26,22 @@
         "ContentType": "Article",
         "Type": "Help",
         "Name": "GameRewards",
-        "Title": "Game Rewards",
+        "Title": "Game Economy",
         "Tags": "crowns,free,pension",
         "Thumbnail": null,
         "Game": "puzzle,wordsearch,mahjong",
         "Uri": "https://mihaimihaila.github.io/frenzygames/docs/game-rewards.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
+        "Name": "Gems",
+        "Title": "Gems",
+        "Tags": "gems,free",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/gems.html"
     },
     {
         "Priority": 0,
