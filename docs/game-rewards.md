@@ -40,7 +40,7 @@ You can convert coins to gems or crowns in your [game account](https://frenzygam
 
 There are several ways to get rewards:
 
-1. When you play the game 7 days in a row you earn rewards. The possible rewards are: __10.000, 15.000 or 25.000 coins__ or **1, 3 or 10 crowns**.
+1. When you play the game 7 days in a row you earn rewards. The possible rewards are: 10.000, 15.000, 25.000 coins or 50, 100, 300 gems or 1, 3, 10 crowns.
 1. When you solve puzzles you earn **coins**
 1. When you solve [Puzzle of the Day](https://frenzygames.net/custom/pod) you earn **coins**
 1. When you create a [game account](https://frenzygames.net/custom/account) you earn **10 crowns**
