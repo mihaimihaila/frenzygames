@@ -1,8 +1,73 @@
 ﻿# What's New
 
-Author: *Mihai*, last modified: _12/06/2022_
+Author: *Mihai*, last modified: _17/09/2022_
 
 ---
+
+## 17.09.2022
+
+New puzzle pack: Cliffs
+![Cliffs puzzle pack](images/news/2022-09-jpn-cliffs.png?w=600)
+
+## 17.09.2022
+
+New puzzle pack: Andalusia
+![Andalusia puzzle pack](images/news/2022-09-jj-andalusia.png?w=600)
+
+## 17.09.2022
+
+New puzzle pack: Cottages
+![Cottages](images/news/2022-09-jpf-cottages.png?w=600)
+
+## 17.09.2022
+
+You can now see related puzzle packs to the bottom of the paid puzzle pack.
+![Similar puzzles](images/news/2022-09-jpf-purchase-similar.png?w=600)
+
+## 17.09.2022
+
+You can now start a Premium trial straight from the today page and playing the entire puzzle library for free.
+![Start a Premium trial](images/news/2022-09-jpf-purchase-premium.png?w=600)
+
+
+## 17.09.2022
+
+You can now Trade or Buy gemss straight from a puzzle pack page when you do not have enough crowns to skip the ads.
+![Purchase gems](images/news/2022-09-jpf-purchase-gems.png?w=600)
+
+
+## 17.09.2022
+
+You can now Trade or Buy crowns straight from a puzzle pack page when you do not have enough crowns to unlock the puzzles.
+![Purchase crowns](images/news/2022-09-jpf-purchase-crowns.png?w=600)
+
+## 17.09.2022
+
+You can now participate in the Puzzle of the Day competition using gems.
+![Puzzle of the Day using gems](images/news/2022-09-jpf-pod-gems.png?w=600)
+
+## 17.09.2022
+
+The Account screen has been simplified.
+![Account](images/news/2022-09-jpf-account.png?w=600)
+
+## 17.09.2022
+
+You can now get puzzle solving tools using gems.
+![Puzzle solving tools](images/news/2022-09-jpf-puzzle-tools.png?w=600)
+![Get Shuffle](images/news/2022-09-jpf-puzzle-tools-shuffle.png?w=600)
+
+## 16.09.2022
+
+You can now skip ads using gems.
+![Skip ads using gems](images/news/2022-09-jpf-skip-ads.png?w=600)
+
+## 15.09.2022
+
+Added a new screen called *Bank*.
+You can use the Bank to trade or buy crowns and gems.
+![Bank](images/news/2022-09-jpf-bank.png?w=600)
+
 
 ## 15.06.2022
 
