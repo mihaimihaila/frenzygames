@@ -21,18 +21,18 @@ New puzzle pack: Cottages
 
 ## 17.09.2022
 
-You can now see related puzzle packs to the bottom of the paid puzzle pack.
+You can now see related puzzle packs to the bottom of the paid puzzle packs.
 ![Similar puzzles](images/news/2022-09-jpf-purchase-similar.png?w=600)
 
 ## 17.09.2022
 
-You can now start a Premium trial straight from the today page and playing the entire puzzle library for free.
+You can now start a Premium trial straight from the today page and play the entire puzzle library for free.
 ![Start a Premium trial](images/news/2022-09-jpf-purchase-premium.png?w=600)
 
 
 ## 17.09.2022
 
-You can now Trade or Buy gemss straight from a puzzle pack page when you do not have enough crowns to skip the ads.
+You can now Trade or Buy gems straight from a puzzle pack page when you do not have enough gems to skip the ads.
 ![Purchase gems](images/news/2022-09-jpf-purchase-gems.png?w=600)
 
 
@@ -65,7 +65,7 @@ You can now skip ads using gems.
 ## 15.09.2022
 
 Added a new screen called *Bank*.
-You can use the Bank to trade or buy crowns and gems.
+You can use the Bank to trade and buy crowns or gems.
 ![Bank](images/news/2022-09-jpf-bank.png?w=600)
 
 
