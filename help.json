@@ -201,6 +201,17 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
+        "Name": "PuzzleCommands",
+        "Title": "Shuffle, Edge, Peek, To Right, To Left",
+        "Tags": "",
+        "Thumbnail": null,
+        "Game": "puzzle",
+        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/shuffle.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
         "Name": "ChangeMicrosoftAccountCountry",
         "Title": "Change Microsoft Account Country",
         "Tags": "",
