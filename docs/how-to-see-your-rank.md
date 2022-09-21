@@ -26,4 +26,4 @@ Follow these steps to create an account:
 After you finish the puzzle, you will see your position in the leaderboard, and compare your time to other players' who solved the Puzzle of the Day.
 The coins you earned will be added to your account automatically. You can check how many coins you have collected by going to your account page.
 
-![POD Rank](pod-rank.png)
+![POD Rank](images/pod-rank.png)

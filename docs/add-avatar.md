@@ -14,6 +14,6 @@ To add an avatar follow these steps:
 
 You can pick any of the following avatars.
 
-![Avatars](avatars1.png?w=720)
-![Avatars](avatars2.png?w=720)
-![Avatars](avatars3.png?w=720)
+![Avatars](images/avatars1.png?w=720)
+![Avatars](images/avatars2.png?w=720)
+![Avatars](images/avatars3.png?w=720)

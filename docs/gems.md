@@ -6,7 +6,7 @@ Author: *Mihai*, last modified: _03/08/2022_
 
 ## Gems
 
-![Gem](gem.png?h=48)
+![Gem](images/gem.png?h=48)
 
 Gems are used for playing Puzzle of the Day.
 Playing Puzzle of the Day costs **1 gem**.
