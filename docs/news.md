@@ -4,6 +4,13 @@ Author: *Mihai*, last modified: _17/09/2022_
 
 ---
 
+## 25.09.2022
+
+Added Daily Gift. Open a gift every day and earn rewards.
+![Daily Gift](images/news/2022-09-jpf-today-gift.png?w=320)
+![Daily Gift pick a card](images/news/2022-09-jpf-today-gift-pick.png?w=600)
+![Daily Gift card picked](images/news/2022-09-jpf-today-gift-picked.png?w=600)
+
 ## 17.09.2022
 
 New puzzle pack: Cliffs
