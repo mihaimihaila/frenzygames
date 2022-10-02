@@ -1,6 +1,6 @@
 ﻿# What's New
 
-Author: *Mihai*, last modified: _17/09/2022_
+Author: *Mihai*, last modified: _02/10/2022_
 
 ---
 
