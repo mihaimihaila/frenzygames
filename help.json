@@ -221,6 +221,17 @@
     },
     {
         "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
+        "Name": "RecommendedPuzzles",
+        "Title": "Recommended Puzzles",
+        "Tags": "recommended,purchase,pack",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://mihaimihaila.github.io/frenzygames/docs/recommended.html"
+    },
+    {
+        "Priority": 0,
         "ContentType": "Link",
         "Type": "Help",
         "Name": "SubscribeNewsletter",
