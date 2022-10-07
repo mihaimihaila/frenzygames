@@ -11,38 +11,12 @@
 
     <title>@Title</title>
 
-    <style>
-
-        a.download {
-            background: #00C853;
-            color: white;
-            padding: 16px;
-            border-radius: 8px;
-            font-size: 20px;
-            text-decoration: none;
-        }
-
-            a.download:hover {
-                background: #1B5E20;
-            }
-
-        .centeredContainer {
-            margin-left: auto;
-            margin-right: auto;
-            align-content: center;
-            width: 90%;
-            max-width: 1000px;
-            text-align: center !important;
-        }
-
-        html {
-            font-family: 'Open Sans';
-        }
-    </style>
+    @style
 
 </head>
 <body>
     <div class="centeredContainer">
+        @menu
         <a href="@Link">
             <img src="images/@Prefix_title.png" width="550" />
         </a>
@@ -52,19 +26,13 @@
             <img src="images/@Prefix_image.png" width="560" style="border-radius: 8px " />
         </a>
 
-
         <h2>
             @AppTitle
         </h2>
 
-
         <p style="padding:16px;">
             @AppDescription
         </p>
-
-
-
-
 
         <img src="images/@Prefix_reviewers.png" width="120" />
         <br />
