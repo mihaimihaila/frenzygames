@@ -4,42 +4,50 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <url>
   <loc>https://frenzygames.net/</loc>
-  <lastmod>2022-10-08T12:41:57+00:00</lastmod>
+  <lastmod>2022-10-08</lastmod>
   <priority>1.00</priority>
+   <changefreq>yearly</changefreq>
 </url>
 <url>
   <loc>https://frenzygames.net/jpf</loc>
-  <lastmod>2022-10-08T12:41:57+00:00</lastmod>
+  <lastmod>2022-10-08</lastmod>
   <priority>0.90</priority>
+   <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://frenzygames.net/jj</loc>
-  <lastmod>2022-10-08T12:41:57+00:00</lastmod>
+  <lastmod>2022-10-08</lastmod>
   <priority>0.90</priority>
+   <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://frenzygames.net/jpn</loc>
-  <lastmod>2022-10-08T12:41:57+00:00</lastmod>
+  <lastmod>2022-10-08</lastmod>
   <priority>0.90</priority>
+   <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://frenzygames.net/support</loc>
-  <lastmod>2022-10-08T12:41:57+00:00</lastmod>
+  <lastmod>2022-10-08</lastmod>
   <priority>0.80</priority>
+   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://frenzygames.net/about</loc>
-  <lastmod>2022-10-08T12:41:57+00:00</lastmod>
+  <lastmod>2022-10-08</lastmod>
   <priority>0.80</priority>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
   <loc>https://frenzygames.net/news</loc>
-  <lastmod>2022-10-08T12:41:57+00:00</lastmod>
+  <lastmod>2022-10-08</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://frenzygames.net/help</loc>
-  <lastmod>2022-10-08T12:41:57+00:00</lastmod>
+  <lastmod>2022-10-08</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>
