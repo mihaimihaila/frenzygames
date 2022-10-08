@@ -29,7 +29,7 @@
         "Title": "Game Economy",
         "Tags": "crowns,free,pension",
         "Thumbnail": null,
-        "Game": "puzzle,wordsearch,mahjong",
+        "Game": "puzzle,mahjong",
         "Uri": "https://frenzygames.net/docs/game-rewards.html"
     },
     {
@@ -194,7 +194,7 @@
         "Title": "Add Avatar",
         "Tags": "",
         "Thumbnail": null,
-        "Game": "puzzle,wordsearch,mahjong",
+        "Game": "puzzle,mahjong",
         "Uri": "https://frenzygames.net/docs/add-avatar.html"
     },
     {
@@ -254,17 +254,6 @@
     },
     {
         "Priority": 0,
-        "ContentType": "Link",
-        "Type": "Help",
-        "Name": "SubscribeNewsletter",
-        "Title": "Subscribe to newsletter",
-        "Tags": "",
-        "Thumbnail": null,
-        "Game": "hidden",
-        "Uri": "https://mailchi.mp/469e71b734d0/newsletter"
-    },
-    {
-        "Priority": 0,
         "ContentType": "Video",
         "Type": "Learn",
         "Name": "AccountVideo",
@@ -273,6 +262,7 @@
         "Thumbnail": "https://img.youtube.com/vi/pq1IemmBdrY/mqdefault.jpg",
         "Game": null,
         "Uri": "https://frenzygames.net/docs/login-edit-account-complete-missions.html",
+        "DefaultAppIds": ["jpf"],
         "IsDefault": true
     },
     {
