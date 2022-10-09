@@ -18,6 +18,13 @@
             text-align: center
         }
 
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
         .youtubeMedia {
             width: 100%;
             height: 450px;
@@ -46,17 +53,17 @@
             @AppDescription
         </p>
 
+        @reviews
+
         <img src="images/@Prefix_reviewers.png" width="120" />
         <br />
 
         <img src="images/@Prefix_rating.png" width="120" />
 
-        <p>
-            @Rating
-        </p>
+        @Rating
 
         <h2>
-            <a href="@Link">
+            <a href="@Link" class="download">
                 @CTA
             </a>
         </h2>
