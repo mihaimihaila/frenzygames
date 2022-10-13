@@ -1,8 +1,13 @@
 ﻿# What's New
 
-Author: *Mihai*, last modified: _02/10/2022_
+Author: *Mihai*, last modified: _14/10/2022_
 
 ---
+## 14.10.2022
+
+Added Lucky Wheel. Spin the wheel to win rewards.
+![Lucky Wheel](docs/images/2022-10-jpf-today-roulette.png?w=320)
+![Lucky Wheel Reward](docs/images/2022-10-jpf-today-roulette-spin.png?w=600)
 
 ## 25.09.2022
 
