@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWSTE1384P"></script>
     <script>
@@ -10,6 +11,12 @@
     </script>
 
     <title>@Title</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta name='keywords' content='game, jigsaw, puzzle, free, windows, word search, mahjong, microsoft, store' />
+    <meta name='author' content='Mihai Mihaila' />
+    <meta name="description" content="@AppDescription">
+    <meta property="og:description" content="@AppDescription">
 
     @style
 
@@ -38,12 +45,10 @@
 <body>
     <div class="centeredContainer forceCenter">
         @menu
-        <a href="@Link">
-            <img src="images/@Prefix_title.png" width="550" />
-        </a>
-        <br />
 
-        @topSection
+        <h1>
+            @Title
+        </h1>
 
         <h2>
             @AppTitle
@@ -52,12 +57,15 @@
         <p style="padding:16px;">
             @AppDescription
         </p>
+
+        @topSection
+
         @features
         @reviews
         <br />
-        <img src="images/@Prefix_reviewers.png" width="120" />
+        <img src="images/@Prefix_reviewers.png" width="120" alt="Game reviewers images" />
         <br />
-        <img src="images/@Prefix_rating.png" width="120" />
+        <img src="images/@Prefix_rating.png" width="120" alt="Game rating star image"/>
         @Rating
         <h2>
             <a href="@Link" class="download">
