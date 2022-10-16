@@ -262,7 +262,6 @@
         "Thumbnail": "https://img.youtube.com/vi/pq1IemmBdrY/mqdefault.jpg",
         "Game": null,
         "Uri": "https://frenzygames.net/docs/login-edit-account-complete-missions.html",
-        "DefaultAppIds": ["jpf"],
         "IsDefault": true
     },
     {
@@ -363,5 +362,29 @@
         "Thumbnail": "https://img.youtube.com/vi/YgLQTvUiSUk/mqdefault.jpg",
         "Game": null,
         "Uri": "https://frenzygames.net/docs/update-windows-games.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Video",
+        "Type": "Learn",
+        "Name": "JPF2022Trailer",
+        "Title": "Jigsaw Puzzle Frenzy 2022 Trailer",
+        "Tags": "game,windows,store,trailer,2022",
+        "Thumbnail": "https://img.youtube.com/vi/r8hhKdg09XM/mqdefault.jpg",
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/jpf-2022-trailer.html",
+        "DefaultAppIds": ["jpf"]
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Video",
+        "Type": "Learn",
+        "Name": "JJ2022Trailer",
+        "Title": "Jigsaw Puzzle Journey 2002 Trailer",
+        "Tags": "update,game,windows,store",
+        "Thumbnail": "https://img.youtube.com/vi/8_sSRerknv8/mqdefault.jpg",
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/jj-2022-trailer.html",
+        "DefaultAppIds": ["jj"]
     }
 ]
