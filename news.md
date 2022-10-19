@@ -1,8 +1,24 @@
 ﻿# What's New
 
-Author: *Mihai*, last modified: _14/10/2022_
+Author: *Mihai*, last modified: _19/10/2022_
 
 ---
+## 19.10.2022
+
+New puzzle packs:
+
+### Delicious Autumn
+
+![Delicious Autumn](images/news/delicious-autumn.png?w=640)
+
+### London
+
+![London](images/news/london.png?w=640)
+
+### Autumn Animals
+
+![Autumn Animals](images/news/autumn-animals.png?w=640)
+
 ## 14.10.2022
 
 Added Lucky Wheel. Spin the wheel to win rewards.
