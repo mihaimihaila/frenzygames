@@ -1,8 +1,13 @@
 ﻿# What's New
 
-Author: *Mihai*, last modified: _19/10/2022_
+Author: *Mihai*, last modified: _02/11/2022_
 
 ---
+## 02.11.2022
+
+Now you can get the latest news about the game right on the Today page.
+![News card](images/news/news-card.png?w=400)
+
 ## 19.10.2022
 
 New puzzle packs:
