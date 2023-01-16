@@ -124,6 +124,17 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
+        "Name": "FixMicrosoftStore",
+        "Title": "Fix Microsoft Store Errors",
+        "Tags": "",
+        "Thumbnail": null,
+        "Game": "hidden",
+        "Uri": "https://frenzygames.net/docs/fix-microsoft-store.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
         "Name": "MissingPuzzles",
         "Title": "Missing Puzzles",
         "Tags": "",
