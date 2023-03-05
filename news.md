@@ -1,8 +1,14 @@
 ﻿# What's New
 
-Author: *Mihai*, last modified: _02/11/2022_
+Author: *Mihai*, last modified: _05.03.2023_
 
 ---
+
+## 05.03.2023
+
+The game settings have been moved to the bottom right of the play page.
+![Settings button](images/news/2023-03-05-settings-button.png?h=400)
+
 ## 02.11.2022
 
 Now you can get the latest news about the game right on the Today page.
