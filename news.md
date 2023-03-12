@@ -1,4 +1,4 @@
-﻿# What's New
+﻿# Frenzy Games: News
 
 Author: *Mihai*, last modified: _05.03.2023_
 
