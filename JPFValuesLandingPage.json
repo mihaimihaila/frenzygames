@@ -1,9 +1,9 @@
 {
-    "Prefix": "jpf",
-    "Title": "Jigsaw Puzzle Frenzy",
-    "Link": "ms-windows-store://pdp/?mode=mini&ProductId=9wzdncrddqbm",
-    "AppTitle": "Keep your mind sharp by solving jigsaw puzzles",
-    "AppDescription": "Jigsaw puzzles are a proven way to keep your brain active. The game contains 1800 stunning jigsaw puzzles and thrilling daily competitions.",
-    "CTA": "Download",
-    "Color": "#6A1B9A"
+  "Prefix": "jpf",
+  "Title": "Jigsaw Puzzle Frenzy",
+  "Link": "ms-windows-store://pdp/?mode=mini&ProductId=9wzdncrddqbm",
+  "AppTitle": "Keep your mind sharp by solving jigsaw puzzles",
+  "AppDescription": "Jigsaw puzzles are a proven way to keep your brain active. Jigsaw Puzzle Frenzy contains 1800 stunning jigsaw puzzles and thrilling daily competitions.",
+  "CTA": "Download",
+  "Color": "#6A1B9A"
 }
