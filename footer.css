@@ -1,0 +1,11 @@
+div {overflow: hidden; margin: 1em; }
+div ul { list-style: none; padding: 0; margin-left: -4px; }
+div ul li { display: inline; white-space: nowrap; }
+div ul li:before { content: " | "; }
+
+.footerContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+}
