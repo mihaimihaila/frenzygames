@@ -1,8 +1,15 @@
 ﻿# Frenzy Games: News
 
-Author: *Mihai*, last modified: _05.03.2023_
+Author: *Mihai*, last modified: _16.03.2023_
 
 ---
+
+### Spring Blossom
+
+A new puzzle pack Spring Blossom is available for [Jigsaw Puzzle Nature](https://www.microsoft.com/en-us/p/jigsaw-puzzle-nature/9p9xk4k4q2qk).
+
+
+![Spring Blossom](images/news/packs/spring-blossom.png?w=640)
 
 ## 05.03.2023
 
