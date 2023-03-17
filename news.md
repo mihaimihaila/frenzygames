@@ -14,7 +14,7 @@ Download Jigsaw Puzzle Journey today and start your journey.
 
 Jigsaw Puzzle Journey is a fun and easy game that lets you discover the world solving puzzles. You can visit over 40 countries and explore their attractions, landscapes and food. You can also join our daily contest and earn crowns to unlock more puzzle packs.
 
-Jigsaw Puzzle Journey is available on PC and it's free to play with optional in-app purchases. You can get it from the Microsoft Store here:[https://www.microsoft.com/en-us/p/jigsaw-puzzle-journey/9ndsmccmr7m9](https://www.microsoft.com/en-us/p/jigsaw-puzzle-journey/9ndsmccmr7m9)
+Jigsaw Puzzle Journey is available on PC and it's free to play with optional in-app purchases. You can get it from the Microsoft Store here: [https://www.microsoft.com/en-us/p/jigsaw-puzzle-journey/9ndsmccmr7m9](https://www.microsoft.com/en-us/p/jigsaw-puzzle-journey/9ndsmccmr7m9)
 
 Thank you for playing our game and supporting us. We hope you enjoy our new puzzle pack as much as we do. Please let us know what you think by leaving a comment below or contacting us at [puzzlefrenzyapp@gmail.com](mailto:puzzlefrenzyapp@gmail.com). Happy puzzling!
 
