@@ -1,13 +1,28 @@
 ﻿# Frenzy Games: News
 
-Author: *Mihai*, last modified: _16.03.2023_
+Author: *Mihai*, last modified: _17.03.2023_
 
 ---
+
+### Rome
+
+We are excited to announce that we have just released a new puzzle pack called Rome for our Jigsaw Puzzle Journey game. This pack will take you on a virtual tour of the Eternal City, where you can admire its stunning monuments, culture and cuisine.
+
+Rome is one of our favorite destinations, and we wanted to share its beauty and charm with you through our puzzles. You will find 25 high-quality puzzles of Rome's attractions, such as the Colosseum, the Vatican City, the Pantheon and more. You can also customize your puzzles with different sizes, backgrounds and shapes to make them more fun and challenging.
+
+Download Jigsaw Puzzle Journey today and start your journey.
+
+Jigsaw Puzzle Journey is a fun and easy game that lets you discover the world solving puzzles. You can visit over 40 countries and explore their attractions, landscapes and food. You can also join our daily contest and earn crowns to unlock more puzzle packs.
+
+Jigsaw Puzzle Journey is available on PC and it's free to play with optional in-app purchases. You can get it from the Microsoft Store here:[https://www.microsoft.com/en-us/p/jigsaw-puzzle-journey/9ndsmccmr7m9](https://www.microsoft.com/en-us/p/jigsaw-puzzle-journey/9ndsmccmr7m9)
+
+Thank you for playing our game and supporting us. We hope you enjoy our new puzzle pack as much as we do. Please let us know what you think by leaving a comment below or contacting us at [puzzlefrenzyapp@gmail.com](mailto:puzzlefrenzyapp@gmail.com). Happy puzzling!
+
+![Rome](images/news/packs/rome.png?w=640)
 
 ### Spring Blossom
 
 A new puzzle pack Spring Blossom is available for [Jigsaw Puzzle Nature](https://www.microsoft.com/en-us/p/jigsaw-puzzle-nature/9p9xk4k4q2qk).
-
 
 ![Spring Blossom](images/news/packs/spring-blossom.png?w=640)
 
