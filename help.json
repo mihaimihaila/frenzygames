@@ -47,6 +47,17 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
+        "Name": "Crowns",
+        "Title": "Crowns",
+        "Tags": "crowns,free",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/crowns.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
         "Name": "HowToPurchase",
         "Title": "How to Purchase",
         "Tags": "pay,address,phone,expensive,free,card,paypal,credit,money,buy,purchase",
