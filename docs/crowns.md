@@ -6,7 +6,7 @@ Author: *Mihai*, last modified: _03/18/2023_
 
 ## Crowns
 
-![Crown](images/crowns.png?h=48)
+![Crown](images/crown.png?h=48)
 
 Crowns are used for unlocking puzzles.
 
