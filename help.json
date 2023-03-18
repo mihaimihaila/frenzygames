@@ -287,17 +287,6 @@
     },
     {
         "Priority": 0,
-        "ContentType": "Article",
-        "Type": "Help",
-        "Name": "News",
-        "Title": "News",
-        "Tags": null,
-        "Thumbnail": null,
-        "Game": null,
-        "Uri": "https://frenzygames.net/news.html"
-    },
-    {
-        "Priority": 0,
         "ContentType": "Video",
         "Type": "Learn",
         "Name": "AccountVideo",
