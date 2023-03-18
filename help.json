@@ -8,7 +8,7 @@
         "Tags": "account,microsoft,game",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/frenzy-games-account-microsoft-account.html"
+        "Uri": "docs/frenzy-games-account-microsoft-account.html"
     },
     {
         "Priority": 0,
@@ -19,7 +19,7 @@
         "Tags": "pin,remember,forget,forgot,sign",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/forgot-password.html"
+        "Uri": "docs/forgot-password.html"
     },
     {
         "Priority": 0,
@@ -30,7 +30,7 @@
         "Tags": "crowns,free,pension",
         "Thumbnail": null,
         "Game": "puzzle,mahjong",
-        "Uri": "https://frenzygames.net/docs/game-rewards.html"
+        "Uri": "docs/game-rewards.html"
     },
     {
         "Priority": 0,
@@ -41,7 +41,7 @@
         "Tags": "gems,free",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/gems.html"
+        "Uri": "docs/gems.html"
     },
     {
         "Priority": 0,
@@ -52,7 +52,7 @@
         "Tags": "pay,address,phone,expensive,free,card,paypal,credit,money,buy,purchase",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/how-to-purchase.html"
+        "Uri": "docs/how-to-purchase.html"
     },
     {
         "Priority": 0,
@@ -63,7 +63,7 @@
         "Tags": "pay,address,phone,expensive,free,card,paypal,credit,money,buy,purchase,paypal",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/how-to-purchase-with-paypal.html"
+        "Uri": "docs/how-to-purchase-with-paypal.html"
     },
     {
         "Priority": 0,
@@ -74,7 +74,7 @@
         "Tags": "purchase,money,crowns,unlock,buy,cheap,expensive,free",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/buying-with-money-vs-unlocking-with-crowns.html"
+        "Uri": "docs/buying-with-money-vs-unlocking-with-crowns.html"
     },
     {
         "Priority": 0,
@@ -85,7 +85,7 @@
         "Tags": "rank,crowns,leaderboard,puzzle,day",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/how-to-see-your-rank.html"
+        "Uri": "docs/how-to-see-your-rank.html"
     },
     {
         "Priority": 0,
@@ -96,7 +96,18 @@
         "Tags": "free,pension,ads,commercial,money",
         "Thumbnail": null,
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/free-puzzles.html"
+        "Uri": "docs/free-puzzles.html"
+    },
+    {
+        "Priority": 1,
+        "ContentType": "Article",
+        "Type": "Help",
+        "Name": "Delete pack",
+        "Title": "Delete a puzzle pack",
+        "Tags": "restart,puzzle",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "docs/delete-puzzle-pack.html"
     },
     {
         "Priority": 0,
@@ -107,7 +118,7 @@
         "Tags": "restart,puzzle",
         "Thumbnail": null,
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/restart-puzzle.html"
+        "Uri": "docs/restart-puzzle.html"
     },
     {
         "Priority": 0,
@@ -118,7 +129,7 @@
         "Tags": "ads,free",
         "Thumbnail": null,
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/why-ads.html"
+        "Uri": "docs/why-ads.html"
     },
     {
         "Priority": 0,
@@ -129,7 +140,7 @@
         "Tags": "",
         "Thumbnail": null,
         "Game": "hidden",
-        "Uri": "https://frenzygames.net/docs/fix-microsoft-store.html"
+        "Uri": "docs/fix-microsoft-store.html"
     },
     {
         "Priority": 0,
@@ -140,7 +151,7 @@
         "Tags": "",
         "Thumbnail": null,
         "Game": "hidden",
-        "Uri": "https://frenzygames.net/docs/missing-puzzle-packs.html"
+        "Uri": "docs/missing-puzzle-packs.html"
     },
     {
         "Priority": 0,
@@ -151,7 +162,7 @@
         "Tags": "",
         "Thumbnail": null,
         "Game": "hidden",
-        "Uri": "https://frenzygames.net/docs/how-to-cancel-subscription.html"
+        "Uri": "docs/how-to-cancel-subscription.html"
     },
     {
         "Priority": 0,
@@ -162,7 +173,7 @@
         "Tags": "",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/how-to-exit.html"
+        "Uri": "docs/how-to-exit.html"
     },
     {
         "Priority": 0,
@@ -173,7 +184,7 @@
         "Tags": "",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/play-free-puzzles.html"
+        "Uri": "docs/play-free-puzzles.html"
     },
     {
         "Priority": 0,
@@ -184,7 +195,7 @@
         "Tags": "kids",
         "Thumbnail": null,
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/puzzle-kids.html"
+        "Uri": "docs/puzzle-kids.html"
     },
     {
         "Priority": 0,
@@ -195,7 +206,7 @@
         "Tags": "puzzle,save,exit,close,left off",
         "Thumbnail": null,
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/save-puzzle.html"
+        "Uri": "docs/save-puzzle.html"
     },
     {
         "Priority": 0,
@@ -206,7 +217,7 @@
         "Tags": "",
         "Thumbnail": null,
         "Game": "puzzle,mahjong",
-        "Uri": "https://frenzygames.net/docs/add-avatar.html"
+        "Uri": "docs/add-avatar.html"
     },
     {
         "Priority": 0,
@@ -217,7 +228,7 @@
         "Tags": "",
         "Thumbnail": null,
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/shuffle.html"
+        "Uri": "docs/shuffle.html"
     },
     {
         "Priority": 0,
@@ -228,7 +239,7 @@
         "Tags": "",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/change-microsoft-account-country.html"
+        "Uri": "docs/change-microsoft-account-country.html"
     },
     {
         "Priority": 0,
@@ -239,7 +250,7 @@
         "Tags": "recommended,purchase,pack",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/recommended.html"
+        "Uri": "docs/recommended.html"
     },
     {
         "Priority": 0,
@@ -250,7 +261,7 @@
         "Tags": "gift,rewards,daily",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/daily-gift.html"
+        "Uri": "docs/daily-gift.html"
     },
     {
         "Priority": 0,
@@ -261,7 +272,7 @@
         "Tags": "gift,rewards,daily,lucky,wheel",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/daily-roulette.html"
+        "Uri": "docs/daily-roulette.html"
     },
     {
         "Priority": 0,
@@ -272,7 +283,7 @@
         "Tags": "competition,player,information",
         "Thumbnail": null,
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/competition-player-info.html"
+        "Uri": "docs/competition-player-info.html"
     },
     {
         "Priority": 0,
@@ -283,7 +294,7 @@
         "Tags": "login,edit,account,missions,crowns,coins,upgrade,ads",
         "Thumbnail": "https://img.youtube.com/vi/pq1IemmBdrY/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/login-edit-account-complete-missions.html",
+        "Uri": "docs/login-edit-account-complete-missions.html",
         "IsDefault": true
     },
     {
@@ -295,7 +306,7 @@
         "Tags": "order,tray,side,side,move,clutter,piece,puzzle",
         "Thumbnail": "https://img.youtube.com/vi/0dIxw2qsw0s/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/august-2020-q-a.html"
+        "Uri": "docs/august-2020-q-a.html"
     },
     {
         "Priority": 0,
@@ -306,7 +317,7 @@
         "Tags": "manual,order,tray,side",
         "Thumbnail": "https://img.youtube.com/vi/Hu9HW_IMIHw/mqdefault.jpg",
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/classic-vs-tray.html"
+        "Uri": "docs/classic-vs-tray.html"
     },
     {
         "Priority": 0,
@@ -317,7 +328,7 @@
         "Tags": "side,move,clutter,piece,puzzle",
         "Thumbnail": "https://img.youtube.com/vi/qcB1hmQowHE/mqdefault.jpg",
         "Game": "puzzle,puzzlekids",
-        "Uri": "https://frenzygames.net/docs/move-multiple-pieces.html"
+        "Uri": "docs/move-multiple-pieces.html"
     },
     {
         "Priority": 0,
@@ -328,7 +339,7 @@
         "Tags": "missing,piece,puzzle",
         "Thumbnail": "https://img.youtube.com/vi/IBlHBF_-TRA/mqdefault.jpg",
         "Game": "puzzle,puzzlekids",
-        "Uri": "https://frenzygames.net/docs/reveal-hidden-pieces.html"
+        "Uri": "docs/reveal-hidden-pieces.html"
     },
     {
         "Priority": 0,
@@ -339,7 +350,7 @@
         "Tags": "puzzle",
         "Thumbnail": "https://img.youtube.com/vi/9w-Mnm2qHRA/mqdefault.jpg",
         "Game": "puzzle,puzzlekids",
-        "Uri": "https://frenzygames.net/docs/peek-image.html"
+        "Uri": "docs/peek-image.html"
     },
     {
         "Priority": 0,
@@ -350,7 +361,7 @@
         "Tags": "edge,piece,puzzle",
         "Thumbnail": "https://img.youtube.com/vi/8JtT_D704AA/mqdefault.jpg",
         "Game": "puzzle,puzzlekids",
-        "Uri": "https://frenzygames.net/docs/solve-edges-first.html"
+        "Uri": "docs/solve-edges-first.html"
     },
     {
         "Priority": 0,
@@ -361,7 +372,7 @@
         "Tags": null,
         "Thumbnail": "https://img.youtube.com/vi/q6RpJSlsyNo/mqdefault.jpg",
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/change-background-color.html"
+        "Uri": "docs/change-background-color.html"
     },
     {
         "Priority": 0,
@@ -372,7 +383,7 @@
         "Tags": "free",
         "Thumbnail": "https://img.youtube.com/vi/n37eicRbSMA/mqdefault.jpg",
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/unlock-puzzles-free.html"
+        "Uri": "docs/unlock-puzzles-free.html"
     },
     {
         "Priority": 0,
@@ -383,7 +394,7 @@
         "Tags": "update,game,windows,store",
         "Thumbnail": "https://img.youtube.com/vi/YgLQTvUiSUk/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/update-windows-games.html"
+        "Uri": "docs/update-windows-games.html"
     },
     {
         "Priority": 0,
@@ -394,7 +405,7 @@
         "Tags": "game,windows,store,trailer,2022",
         "Thumbnail": "https://img.youtube.com/vi/r8hhKdg09XM/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/jpf-2022-trailer.html",
+        "Uri": "docs/jpf-2022-trailer.html",
         "DefaultAppIds": ["jpf"]
     },
     {
@@ -406,7 +417,7 @@
         "Tags": "game,windows,store,trailer,2022",
         "Thumbnail": "https://img.youtube.com/vi/8_sSRerknv8/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/jj-2022-trailer.html",
+        "Uri": "docs/jj-2022-trailer.html",
         "DefaultAppIds": ["jj"]
     }
 ]
