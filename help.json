@@ -416,8 +416,7 @@
         "Tags": "game,windows,store,trailer,2022",
         "Thumbnail": "https://img.youtube.com/vi/r8hhKdg09XM/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/jpf-2022-trailer.html",
-        "DefaultAppIds": ["jpf"]
+        "Uri": "https://frenzygames.net/docs/jpf-2022-trailer.html"
     },
     {
         "Priority": 0,
@@ -430,5 +429,17 @@
         "Game": null,
         "Uri": "https://frenzygames.net/docs/jj-2022-trailer.html",
         "DefaultAppIds": ["jj"]
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Video",
+        "Type": "Learn",
+        "Name": "JPFWalkthrough",
+        "Title": "Jigsaw Puzzle Frenzy Walkthrough",
+        "Tags": "game,windows,store,walkthrough",
+        "Thumbnail": "https://img.youtube.com/vi/UpU8lY5xj0k/mqdefault.jpg",
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/jpf-walkthrough.html",
+        "DefaultAppIds": ["jpf"]
     }
 ]
