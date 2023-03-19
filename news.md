@@ -1,8 +1,22 @@
 ﻿# Frenzy Games: News
 
-Author: *Mihai*, last modified: _17.03.2023_
+Author: *Mihai*, last modified: _19.03.2023_
 
 ---
+
+### Blossom
+
+Spring is here and so is our new puzzle pack! 🌷
+
+Introducing Blossom, a collection of 25 beautiful puzzles featuring stunning spring scenery and colorful flowers. From tulips and daffodils to cherry blossoms and magnolias, you’ll enjoy solving these puzzles and admiring the natural beauty of spring.
+
+Blossom is available now for purchase in Jigsaw Puzzle Frenzy, the game that lets you explore the world by solving puzzles of landscapes, landmarks and architecture. Join a community of 30.000 players and solve a new puzzle every day.
+
+Don’t miss this opportunity to brighten up your day with Blossom! 🌼
+
+[Download Jigsaw Puzzle Frenzy from the Microsoft Store](https://www.microsoft.com/en-us/p/jigsaw-puzzle-frenzy/9wzdncrddqbm) and start your spring adventure!
+
+![Blossom](images/news/packs/blossom.png?w=640)
 
 ### Rome
 
