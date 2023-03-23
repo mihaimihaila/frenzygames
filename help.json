@@ -14,6 +14,17 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
+        "Name": "TransferPuzzlesNewComputer",
+        "Title": "Transfer puzzles to a new computer",
+        "Tags": "account,microsoft,game",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/install-puzzles-on-new-pc.html"
+    },    
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
         "Name": "ForgotPassword",
         "Title": "Forgot Password to Microsoft Account",
         "Tags": "pin,remember,forget,forgot,sign",
