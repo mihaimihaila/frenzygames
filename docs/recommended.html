@@ -191,12 +191,14 @@
         }}
               
         var sections = getParameter('section');
-        sections = sections.split(',');
-        sections.forEach((section) => {{
-        var element = document.getElementsByClassName(section)[0];
-        element.style.display = 'none';
-        }});
+        if (sections != null) {
+            sections = sections.split(',');
+            sections.forEach((section) => {
+                var element = document.getElementsByClassName(section)[0];
+                element.style.display = 'none';
+            });
+        }
     }})();
-    </script>
+</script>
 </body>
 </html>
