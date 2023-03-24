@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Purchasing Puzzles and Subscriptions with PayPal</title>
+<title>Frenzy Games: Purchasing Puzzles and Subscriptions with PayPal</title>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWSTE1384P"/>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -10,6 +10,10 @@
     gtag('config', 'G-YWSTE1384P');
 </script>
 <style>
+    .section-selector {
+        display: block;
+    }
+
     html, body {
         font-family: 'Open Sans';
     }
@@ -18,22 +22,22 @@
         text-decoration: none;
     }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    a:hover {
+        text-decoration: underline;
+    }
 
-        a.download {
-            background: #00C853;
-            color: white;
-            padding: 16px;
-            border-radius: 8px;
-            font-size: 20px;
-            text-decoration: none;
-        }
+    a.download {
+        background: #00C853;
+        color: white;
+        padding: 16px;
+        border-radius: 8px;
+        font-size: 20px;
+        text-decoration: none;
+    }
 
-            a.download:hover {
-                background: #1B5E20;
-            }
+    a.download:hover {
+        background: #1B5E20;
+    }
 
     li {
         line-height: 1.5;
@@ -104,6 +108,15 @@
         margin-right: auto;
         padding: 8px;
     }
+
+    .width100percent {
+        width:100%
+    }
+
+    .menuLink {
+        white-space:nowrap;
+        padding-right:8px
+    }
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/x-icon" href="../images/favicon.png">
@@ -112,7 +125,30 @@
 </head>
 <body>
 <div class="centeredContainer">
-
+<div class='header section-selector'>
+    <table>
+        <tr>
+            <td>
+                <a href="../index.html">
+                    Games
+                </a>
+            </td>
+            <td class="width100percent"></td>
+            <td class="menuLink">
+                <a href="../support.html">Support</a>
+            </td>
+            <td class="menuLink">
+                <a href="../about.html">About</a>
+            </td>
+            <td class="menuLink">
+                <a href="../news.html">News</a>
+            </td>
+            <td class="menuLink">
+                <a href="../help.html">Help</a>
+            </td>
+        </tr>
+    </table>
+</div>
 
 <h1>Purchasing Puzzles and Subscriptions with PayPal</h1>
 <p>Author: <em>Silvia</em>, last modified: <em>02/27/2020</em></p>
@@ -136,5 +172,25 @@
 
 
 </div>
+<script>
+    (function() {{
+        function getParameter(name, url) {{
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }}
+              
+        var sections = getParameter('section');
+        sections = sections.split(',');
+        sections.forEach((section) => {{
+        var element = document.getElementsByClassName(section)[0];
+        element.style.display = 'none';
+        }});
+    }})();
+    </script>
 </body>
 </html>
