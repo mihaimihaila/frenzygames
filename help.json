@@ -20,6 +20,17 @@
         "Thumbnail": null,
         "Game": null,
         "Uri": "https://frenzygames.net/docs/install-puzzles-on-new-pc.html"
+    },  
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
+        "Name": "OfflinePlayRewards",
+        "Title": "Offline Play Rewards",
+        "Tags": "rewards,offline",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/offline-play-rewards.html"
     },    
     {
         "Priority": 0,
