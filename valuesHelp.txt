@@ -1,2 +1,2 @@
 menu:menuHelp.html
-style:style.html
+style:styleHelpArticle.html
