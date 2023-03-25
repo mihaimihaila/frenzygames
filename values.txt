@@ -1,2 +1,2 @@
-menu:menu.html
+menu:menuHelp.html
 style:style.html
