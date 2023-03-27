@@ -31,6 +31,17 @@
         "Thumbnail": null,
         "Game": null,
         "Uri": "https://frenzygames.net/docs/offline-play-rewards.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
+        "Name": "ConvertCoinsGemsCrowns",
+        "Title": "Convert Coins to Gems Or Crowns",
+        "Tags": "convert,trade,coin,gem,crown,purchase",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/convert-coins-to-gems-crowns.html"
     },    
     {
         "Priority": 0,
