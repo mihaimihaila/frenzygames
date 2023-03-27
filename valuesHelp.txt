@@ -1,2 +1,1 @@
 menu:menuHelp.html
-style:styleHelpArticle.html
