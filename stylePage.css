@@ -1,0 +1,71 @@
+.cornerRadius {
+    border-radius: 20%;
+}
+
+.gameIcon {
+    max-width: 120px
+}
+
+.width100percent {
+    width:100%
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section-selector {
+    display: block;
+}
+
+li {
+    line-height: 1.5;
+}
+
+.centeredContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 80px;
+}
+
+.centeredContainerMenu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.topMarginLarge {
+    margin-top: 40px
+}
+
+.icon {
+    width: 56px;
+    border-radius: 16%
+}
+
+.smallImage {
+    border-radius: 16%;
+    width: 200px
+}
+
+.topMarginLarge {
+    margin-top: 40px
+}
+
+.bottomMarginLargest {
+    margin-bottom: 64px
+}
+
+.marginRegular {
+    margin: 16px
+}
+
+
+
+.menuLink {
+    white-space:nowrap;
+    padding-right:8px
+}
