@@ -26,6 +26,14 @@ body {
     margin-right: 16px;
 }
 
+.learnMore {
+    text-decoration: none;
+}
+
+.gameTitle {
+    text-decoration: none;
+}
+
 .button {
     display: block;
     margin: 0 auto;
