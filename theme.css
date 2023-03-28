@@ -8,4 +8,17 @@ body {
     color: white;
     background-color: black;
   }
+
+  a:link { color: lightskyblue; }
+  a:visited { color: #6d4b8d; }
+  a:hover { color: #ffffff; }
+  a:active { color: #ff4040; }
+
+  .button {
+    background-color: darkgreen;
+  }
+
+  .download {
+    background-color: darkgreen;
+  }
 }   

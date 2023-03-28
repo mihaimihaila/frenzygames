@@ -2,6 +2,30 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.download {
+    background: #00C853;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.download:hover {
+    background: #1B5E20;
+}
+
+.cornerRadius {
+    border-radius: 20%;
+}
+
+.gameIcon {
+    max-width: 120px;
+    max-height: 120px;
+    margin-right: 16px;
+}
+
 .button {
     display: block;
     margin: 0 auto;
