@@ -4,4 +4,4 @@ Author: *Mihai*, last modified: _17/10/2022_
 
 ---
 
-![](https://www.youtube-nocookie.com/embed/8_sSRerknv8?w=800&h=450)
+![](https://www.youtube-nocookie.com/embed/8_sSRerknv8)
