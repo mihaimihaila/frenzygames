@@ -460,8 +460,7 @@
         "Tags": "game,windows,store,trailer,2022",
         "Thumbnail": "https://img.youtube.com/vi/8_sSRerknv8/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/jj-2022-trailer.html",
-        "DefaultAppIds": ["jj"]
+        "Uri": "https://frenzygames.net/docs/jj-2022-trailer.html"
     },
     {
         "Priority": 0,
@@ -472,7 +471,18 @@
         "Tags": "game,windows,store,walkthrough",
         "Thumbnail": "https://img.youtube.com/vi/UpU8lY5xj0k/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/jpf-walkthrough.html",
-        "DefaultAppIds": ["jpf"]
+        "Uri": "https://frenzygames.net/docs/jpf-walkthrough.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Video",
+        "Type": "Learn",
+        "Name": "HowToUseAvatars",
+        "Title": "How to use avatars",
+        "Tags": "game,windows,store,avatars",
+        "Thumbnail": "https://img.youtube.com/vi/4PFs7v_1Gwg/mqdefault.jpg",
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/how-to-use-avatars.html",
+        "DefaultAppIds": ["jpf", "jpn", "jj", "jpk"]
     }
 ]
