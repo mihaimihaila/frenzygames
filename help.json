@@ -331,6 +331,28 @@
     },
     {
         "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
+        "Name": "Premium",
+        "Title": "What is Premium",
+        "Tags": "premium,subscription,free,paid",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/premium.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
+        "Name": "SignIn",
+        "Title": "Why should I sign in",
+        "Tags": "signin,login,account,player",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/sign-in.html"
+    },
+    {
+        "Priority": 0,
         "ContentType": "Video",
         "Type": "Learn",
         "Name": "AccountVideo",
