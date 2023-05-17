@@ -42,7 +42,18 @@
         "Thumbnail": null,
         "Game": null,
         "Uri": "https://frenzygames.net/docs/convert-coins-to-gems-crowns.html"
-    },    
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
+        "Name": "ConvertCrownsGemsIntoCoins",
+        "Title": "Convert Crowns or Gems into Coins",
+        "Tags": "convert,trade,coin,gem,crown,purchase",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/convert-crowns-or-gems-into-coins.md.html"
+    },
     {
         "Priority": 0,
         "ContentType": "Article",
