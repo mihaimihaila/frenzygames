@@ -3,6 +3,17 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
+        "Name": "JigsawPuzzleFrenzyCompetitionFormula1",
+        "Title": "How Jigsaw Puzzle Frenzy rewards players with a Formula 1-inspired competition",
+        "Tags": "competition,microsoft,game",
+        "Thumbnail": null,
+        "Game": null,
+        "Uri": "https://frenzygames.net/docs/jigsaw-puzzle-frenzy-competition.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
         "Name": "FrenzyGamesAccountMicrosoftAccount",
         "Title": "Frenzy Games Account and Microsoft Account",
         "Tags": "account,microsoft,game",
