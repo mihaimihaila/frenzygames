@@ -4,59 +4,6 @@ Author: *Mihai*, last modified: _23.03.2023_
 
 ---
 
-### Easter Avatars
-
-Hello, game developers! We have some exciting news for you. We have just released a new set of Easter avatars that you can use to customize your characters and make them more festive. These avatars feature Easter eggs, animals and Easter motifs that will make your game more colorful and fun. You can find them in game account.
-We hope you enjoy them and have a happy Easter! 🐰🥚🌷
-
-![New Easters avatars](news/images/easter-avatars.png)
-
-### Blossom
-
-Spring is here and so is our new puzzle pack! 🌷
-
-Introducing Blossom, a collection of 25 beautiful puzzles featuring stunning spring scenery and colorful flowers. From tulips and daffodils to cherry blossoms and magnolias, you’ll enjoy solving these puzzles and admiring the natural beauty of spring.
-
-Blossom is available now for purchase in Jigsaw Puzzle Frenzy, the game that lets you explore the world by solving puzzles of landscapes, landmarks and architecture. Join a community of 30.000 players and solve a new puzzle every day.
-
-Don’t miss this opportunity to brighten up your day with Blossom! 🌼
-
-[Download Jigsaw Puzzle Frenzy from the Microsoft Store](https://www.microsoft.com/en-us/p/jigsaw-puzzle-frenzy/9wzdncrddqbm) and start your spring adventure!
-
-![Blossom](news/images/packs/blossom.png?w=640)
-
-### Rome
-
-We are excited to announce that we have just released a new puzzle pack called Rome for our Jigsaw Puzzle Journey game. This pack will take you on a virtual tour of the Eternal City, where you can admire its stunning monuments, culture and cuisine.
-
-Rome is one of our favorite destinations, and we wanted to share its beauty and charm with you through our puzzles. You will find 25 high-quality puzzles of Rome's attractions, such as the Colosseum, the Vatican City, the Pantheon and more. You can also customize your puzzles with different sizes, backgrounds and shapes to make them more fun and challenging.
-
-Download Jigsaw Puzzle Journey today and start your journey.
-
-Jigsaw Puzzle Journey is a fun and easy game that lets you discover the world solving puzzles. You can visit over 40 countries and explore their attractions, landscapes and food. You can also join our daily contest and earn crowns to unlock more puzzle packs.
-
-Jigsaw Puzzle Journey is available on PC and it's free to play with optional in-app purchases. You can get it from the Microsoft Store here: [https://www.microsoft.com/en-us/p/jigsaw-puzzle-journey/9ndsmccmr7m9](ms-windows-store://pdp/?mode=mini&ProductId=9ndsmccmr7m9&cid=news)
-
-Thank you for playing our game and supporting us. We hope you enjoy our new puzzle pack as much as we do. Please let us know what you think by leaving a comment below or contacting us at [puzzlefrenzyapp@gmail.com](mailto:puzzlefrenzyapp@gmail.com). Happy puzzling!
-
-![Rome](news/images/packs/rome.png?w=640)
-
-### Spring Blossom
-
-A new puzzle pack Spring Blossom is available for [Jigsaw Puzzle Nature](https://www.microsoft.com/en-us/p/jigsaw-puzzle-nature/9p9xk4k4q2qk).
-
-![Spring Blossom](news/images/packs/spring-blossom.png?w=640)
-
-### 05.03.2023
-
-The game settings have been moved to the bottom right of the play page.
-![Settings button](news/images/2023-03-05-settings-button.png?h=400)
-
-### 02.11.2022
-
-Now you can get the latest news about the game right on the Today page.
-![News card](news/images/news-card.png?w=400)
-
 ### 19.10.2022
 
 New puzzle packs:
