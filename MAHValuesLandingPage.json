@@ -1,7 +1,8 @@
 {
     "Prefix": "mah",
     "Title": "Mahjong Zen",
-    "Link": "ms-windows-store://pdp/?mode=mini&ProductId=9ppqd15kdtqx",
+    "DirectLink": "ms-windows-store://pdp/?productid=9PPQD15KDTQX",
+    "Link": "https://www.microsoft.com/store/apps/9PPQD15KDTQX",
     "AppTitle": "Mahjong Zen is a classic tile matching game.",
     "AppDescription": "Mahjong Zen is your oasis of relaxation and calm. Solve over 1200 Mahjong boards with handcrafted elaborate designs. Mahjong Zen is perfect for clearing your mind and improving your focus.",
     "CTA": "Download Now",

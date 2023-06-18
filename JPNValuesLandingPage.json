@@ -1,7 +1,8 @@
 {
     "Prefix": "jpn",
     "Title": "Jigsaw Puzzle Nature",
-    "Link": "ms-windows-store://pdp/?mode=mini&ProductId=9p9xk4k4q2qk",
+    "DirectLink": "ms-windows-store://pdp/?productid=9P9XK4K4Q2QK",
+    "Link": "https://www.microsoft.com/store/apps/9P9XK4K4Q2QK",
     "AppTitle": "Experience nature tranquility in the comfort of your home",
     "AppDescription": "1000 handpicked jigsaw puzzles of gorgeous nature landscapes that keep your brain active and improve your mood",
     "CTA": "Download Now",

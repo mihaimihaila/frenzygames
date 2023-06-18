@@ -1,7 +1,8 @@
 {
   "Prefix": "jpf",
   "Title": "Jigsaw Puzzle Frenzy",
-  "Link": "ms-windows-store://pdp/?mode=mini&ProductId=9wzdncrddqbm",
+  "DirectLink": "ms-windows-store://pdp/?productid=9WZDNCRDDQBM",
+  "Link": "https://www.microsoft.com/store/apps/9WZDNCRDDQBM",
   "AppTitle": "Keep your mind sharp by solving jigsaw puzzles",
   "AppDescription": "Jigsaw puzzles are a proven way to keep your brain active. Jigsaw Puzzle Frenzy contains 2000 stunning jigsaw puzzles and thrilling daily competitions.",
   "CTA": "Download Now",

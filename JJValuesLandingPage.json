@@ -1,7 +1,8 @@
 {
   "Prefix": "jj",
   "Title": "Jigsaw Puzzle Journey",
-  "Link": "ms-windows-store://pdp/?mode=mini&ProductId=9ndsmccmr7m9",
+  "DirectLink": "ms-windows-store://pdp/?productid=9NDSMCCMR7M9",
+  "Link": "https://www.microsoft.com/store/apps/9NDSMCCMR7M9",
   "AppTitle": "Discover the world solving puzzles",
   "AppDescription": "Solve 1600 handpicked jigsaw puzzles from over 40 countries and explore famous landmarks, beautiful landscapes and delicious food",
   "CTA": "Download Now",
