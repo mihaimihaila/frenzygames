@@ -8,7 +8,7 @@ There are two ways to get puzzle packs in our games:
 
 ## Buy with money
 
-If you choose to buy with money, the purchase will be handled through Microsoft. You need to log in to your Microsoft Account and link it to a method of paying. Read [**How to purchase**](https://mihaimihaila.github.io/frenzygames/docs/how-to-purchase.html) for more details.
+If you choose to buy with money, the purchase will be handled through Microsoft. You need to log in to your Microsoft Account and link it to a method of paying. Read [**How to purchase**](how-to-purchase.md) for more details.
 
 ### Advantages of buying puzzles with money
 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Frenzy Games: Fix Microsoft Store Errors</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="en">
+    <meta name='keywords' content='game, jigsaw, puzzle, free, windows, mahjong, microsoft, store' />
+    <meta name='author' content='Mihai Mihaila' />
+    <meta name="description" content="Fix Microsoft Store Errors help article.">
+    <meta property="og:description" content="Fix Microsoft Store Errors help article.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+    <link rel="apple-touch-icon" href="../../images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="../../footer.css">
+    <link rel="stylesheet" type="text/css" href="../../styleHelpArticle.css">
+    <link rel="stylesheet" type="text/css" href="../../theme.css">
+</head>
+<body>
+    <div class="header section-selector centeredContainerMenu">
+    <table>
+        <tr>
+            <td>
+                <a href="../index.html">
+                    Games
+                </a>
+            </td>
+            <td class="width100percent"></td>
+            <td class="menuLink">
+                <a href="../support.html">Support</a>
+            </td>
+            <td class="menuLink">
+                <a href="../about.html">About</a>
+            </td>
+            <td class="menuLink">
+                <a href="../news/news.html">News</a>
+            </td>
+            <td class="menuLink">
+                <a href="../help.html">Help</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+    <div class="centeredContainer">
+        <h1>Fix Microsoft Store Errors</h1>
+<p>Author: <em>Mihai</em>, last modified: <em>16/01/2023</em></p>
+<br/>
+<p>Occasionally, <strong>Microsoft Store</strong> does not work.</p>
+<p>Try the following solutions:</p>
+<h2>Solution 1: Restart Your Computer</h2>
+<ol>
+<li>Install any pending <strong>Windows Updates</strong></li>
+<li><strong>Restart</strong> your computer</li>
+</ol>
+<h2>Solution 2: Reset Microsoft Store Cache</h2>
+<ol>
+<li>Close the game</li>
+<li>Press <strong>Windows key<strong> + </strong>R</strong></li>
+<li>Type <strong>wsreset</strong></li>
+<li>Microsoft Store will open. Search for the game in the Microsoft Store.</li>
+<li>Once you find the game in the <strong>Microsoft Store</strong> tap on <strong>Open</strong></li>
+</ol>
+<h2>Solution 3: Troubleshoot Windows Apps</h2>
+<p>Run this <a href="https://support.microsoft.com/en-us/help/4027498/windows-run-the-troubleshooter-for-windows-apps">troubleshooter</a>.</p>
+<h2>Solution 4: Contact Microsoft Support</h2>
+<ol>
+<li>Go to <a href="https://support.microsoft.com/en-us/contactus">Microsoft Support page</a></li>
+<li>Tap on <strong>Open Get Help app</strong></li>
+</ol>
+    </div>
+
+    <div class="footerContainer footer section-selector">
+        <p> 
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/@JigsawPuzzleFrenzy">YouTube</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/JigsawPuzzleFrenzy">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/jigsawpuzzlefrenzy">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/PuzzleFrenzy">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/frenzy-games">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://www.reddit.com/user/jigsaw_puzzle_frenzy">Reddit</a>
+                </li>
+            </ul>
+        </p>
+    </div>
+<script>
+    (function() {
+        function getParameter(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+            var results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+              
+        var sections = getParameter('section');
+        if (sections != null) {
+            sections = sections.split(',');
+            sections.forEach((section) => {
+                var element = document.getElementsByClassName(section)[0];
+                element.style.display = 'none';
+            });
+        }
+    })();
+</script>
+</body>
+</html>

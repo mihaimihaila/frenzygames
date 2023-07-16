@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Frenzy Games: Mahjong Zen BugFix March 5th Investigation</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="en">
+    <meta name='keywords' content='game, jigsaw, puzzle, free, windows, mahjong, microsoft, store' />
+    <meta name='author' content='Mihai Mihaila' />
+    <meta name="description" content="Mahjong Zen BugFix March 5th Investigation help article.">
+    <meta property="og:description" content="Mahjong Zen BugFix March 5th Investigation help article.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+    <link rel="apple-touch-icon" href="../../images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="../../footer.css">
+    <link rel="stylesheet" type="text/css" href="../../styleHelpArticle.css">
+    <link rel="stylesheet" type="text/css" href="../../theme.css">
+</head>
+<body>
+    <div class="header section-selector centeredContainerMenu">
+    <table>
+        <tr>
+            <td>
+                <a href="../index.html">
+                    Games
+                </a>
+            </td>
+            <td class="width100percent"></td>
+            <td class="menuLink">
+                <a href="../support.html">Support</a>
+            </td>
+            <td class="menuLink">
+                <a href="../about.html">About</a>
+            </td>
+            <td class="menuLink">
+                <a href="../news/news.html">News</a>
+            </td>
+            <td class="menuLink">
+                <a href="../help.html">Help</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+    <div class="centeredContainer">
+        <h1>Mahjong Zen BugFix March 5th Investigation</h1>
+<p>Author: <em>Mihai</em>, last modified: <em>06/03/2022</em></p>
+<br/>
+<p>On March 5h, 2022 I finally fixed a bug in Mahjong Zen that was causing the game to crash after watching an ad.</p>
+<p>This is the retrospective of how the bug was introduced, investigated and fixed after affecting the game for more than 3 months.</p>
+<h2>How it all started</h2>
+<p>Mahjong Zen contains interstitial video ads from Vungle. The ads provide revenue to suport free play. Over the past few months I heard several complains from users describing ads that "won't load" or "loading and freezing the game". The cause of those reports is unclear to me but I suspect it has to do with the browser version the users have installed locally, the status of Windows Updates or their internet connectivity. These reports were sporadic, but enough to make me look for a solution that would attempt to fix the problem.</p>
+<h2>The incorrect solution</h2>
+<p>In order to deal with the ads that won't load problem, I decided to use a timer that would attempt to display the ad, wait 60 seconds, then start a game of mahjong.</p>
+<p>I put together a simple implementation of a 60 seconds timer.</p>
+<p>The code looks simple enough and I decided to start testing it manually to put it to the test.</p>
+<h3>Testing: Previously working behavior</h3>
+<p>When the ad loads and completes playing the ad can be closed and the game begins. This existing behavior was still working correctly after the change.</p>
+<h3>Testing: The timeout fix</h3>
+<p>To test the newly implemented fix I had to replicate the environment first described by the users. I prevent the local ads from being displayed and sure enough after 60 seconds the timeout mechanism would kick in and start the game.</p>
+<h2>The mistake</h2>
+<p>At this point I considered the fix good and the game ready for launch. The new version was soon uploaded and in the hands of customers.</p>
+<p>The problem is that I haven't explored all possible scenarios related to ad watching and tested creatively the implications of the timeout.</p>
+<p>It took over 3 months to finally piece together another scenario that would cause the game to crash after watching an ad.</p>
+<h2>Not everyone watches the ads</h2>
+<p>It turns out that some players don't just stare at the screen while an unskippable ad is playing. They sometimes do something else while the ad is playing like check their phone or refill their coffee. This scenario is the one I haven't tested and that causes the crash.</p>
+<ol>
+<li>The user loads a video ad. The ad loads succesfully and starts playing.</li>
+<li>The ad finished playind and can be dismissed, but it is not dismissed (for whatever reason)</li>
+<li>The timeout expires and the game starts "underneath" the already finished video ad</li>
+<li>The players returns to the game and notices the finished video ad and closes it</li>
+<li>At this point the program attemps to start a game as a reward for watching the ad. As the game is already started, the game crashes.</li>
+</ol>
+<h2>The solution</h2>
+<p>The easiest way to fix this issue is to remove the timeout "fix" that was applied in the first place. It was a hasty fix that was hiding a problem rather than fixing it and it triggered a new, more serious bug.</p>
+<h2>Lessons learned</h2>
+<ul>
+<li>After implementing a fix, attempt to break the game by exploring possible circumstances that relates to the fix.</li>
+<li>The bug was discovered by closely analyzing code changes that were done around the time the issue was first reported by users. I could have discovered the issue earlier if I would have analyzed the changes earlier.</li>
+<li>As this change affected a significant function of the game, a feature flag turning the "fix" on and off would have allowed to control and deploy a fix as soon as it was discovered instead of having to rollout a fix.</li>
+</ul>
+<h2>Timeline</h2>
+<p>1st of December, 2021, the bug is release in 0.0.80.0 version of Mahjong Zen</p>
+<p>Several attempts are done in the following released to understand the problem by adding logs and more analytics events.</p>
+<p>5th of March, 2022 the issue is identified</p>
+<p>5th of March, 2022 the issue is fixed</p>
+<p>5th of March, 2022 an update containing the fixed is relased in the Microsoft Store</p>
+    </div>
+
+    <div class="footerContainer footer section-selector">
+        <p> 
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/@JigsawPuzzleFrenzy">YouTube</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/JigsawPuzzleFrenzy">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/jigsawpuzzlefrenzy">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/PuzzleFrenzy">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/frenzy-games">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://www.reddit.com/user/jigsaw_puzzle_frenzy">Reddit</a>
+                </li>
+            </ul>
+        </p>
+    </div>
+<script>
+    (function() {
+        function getParameter(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+            var results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+              
+        var sections = getParameter('section');
+        if (sections != null) {
+            sections = sections.split(',');
+            sections.forEach((section) => {
+                var element = document.getElementsByClassName(section)[0];
+                element.style.display = 'none';
+            });
+        }
+    })();
+</script>
+</body>
+</html>
