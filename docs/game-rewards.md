@@ -16,7 +16,7 @@ Coins are earned by solving puzzles.
 
 Gems can be purchased or by converting coins into gems.
 Gems are used for playing Puzzle of the Day, skipping ads and refilling tools.
-[Find more details about gems](https://frenzygames.net/docs/gems.html)
+[Find more details about gems](gems.md)
 
 ## Crowns
 
@@ -25,4 +25,4 @@ Gems are used for playing Puzzle of the Day, skipping ads and refilling tools.
 Crowns are used for unlocking puzzles.
 Crowns can be purchased or by converting coins into crowns.
 
-[Find more details about crowns](https://frenzygames.net/docs/crowns.html)
+[Find more details about crowns](crowns.md)

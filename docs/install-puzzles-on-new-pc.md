@@ -10,4 +10,4 @@ Author: *Mihai*, last modified: _03/23/2023_
 
 Once you install the game make sure you sign in with the same Frenzy Games Account in order to restore any puzzles that you unlocked with crowns.
 
-Find out more details about [Frenzy Games Account and Microsoft Account](https://frenzygames.net/docs/frenzy-games-account-microsoft-account.html). 
+Find out more details about [Frenzy Games Account and Microsoft Account](frenzy-games-account-microsoft-account.md). 
