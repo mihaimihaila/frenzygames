@@ -41,7 +41,7 @@ We use the Formula 1 scoring system in [Jigsaw Puzzle Frenzy](https://frenzygame
 
 If you want to play [Jigsaw Puzzle Frenzy](https://frenzygames.net/jpf.html) with the Formula 1-inspired Puzzle of the Day competition, here are the steps you need to follow:
 
-1. Download [Jigsaw Puzzle Frenzy](https://frenzygames.net/jpf.html) from the Microsoft Store for [free](ms-windows-store://pdp/?mode=mini&ProductId=9wzdncrddqbm).
+1. Download Jigsaw Puzzle Frenzy from the [Microsoft Store](https://www.microsoft.com/store/apps/9WZDNCRDDQBM?cid=frenzygames).
 1. Create an account and log in with your Microsoft Account.
 1. Access the Puzzle of the Day feature and choose your difficulty level.
 1. Solve the puzzle as fast as possible and see your ranking and coins on the leaderboard or scorecard.
