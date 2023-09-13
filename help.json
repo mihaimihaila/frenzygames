@@ -3,6 +3,17 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
+        "Name": "puzzle-of-the-day",
+        "Title": "Puzzle of the Day",
+        "Tags": "puzzle,daily,day,free,gems,coins,subscription",
+        "Thumbnail": null,
+        "Game": "puzzle",
+        "Uri": "https://frenzygames.net/docs/puzzle-of-the-day.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
         "Name": "400-piece-puzzles",
         "Title": "How to play 400 piece puzzles in Jigsaw Puzzle Frenzy",
         "Tags": "400,pieces,premium,padlock,locked,trial,free",
