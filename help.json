@@ -8,7 +8,8 @@
         "Tags": "puzzle,daily,day,free,gems,coins,subscription",
         "Thumbnail": null,
         "Game": "puzzle",
-        "Uri": "https://frenzygames.net/docs/puzzle-of-the-day.html"
+        "Uri": "https://frenzygames.net/docs/puzzle-of-the-day.html",
+        "DefaultAppIds": ["jpf", "jpn", "jj", "jpk", "mah", "hws"]
     },
     {
         "Priority": 0,
@@ -415,8 +416,7 @@
         "Tags": "login,edit,account,missions,crowns,coins,upgrade,ads",
         "Thumbnail": "https://img.youtube.com/vi/pq1IemmBdrY/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/login-edit-account-complete-missions.html",
-        "IsDefault": true
+        "Uri": "https://frenzygames.net/docs/login-edit-account-complete-missions.html"
     },
     {
         "Priority": 0,
@@ -559,7 +559,6 @@
         "Tags": "game,windows,store,avatars",
         "Thumbnail": "https://img.youtube.com/vi/4PFs7v_1Gwg/mqdefault.jpg",
         "Game": null,
-        "Uri": "https://frenzygames.net/docs/how-to-use-avatars.html",
-        "DefaultAppIds": ["jpf", "jpn", "jj", "jpk", "mah", "hws"]
+        "Uri": "https://frenzygames.net/docs/how-to-use-avatars.html"
     }
 ]
