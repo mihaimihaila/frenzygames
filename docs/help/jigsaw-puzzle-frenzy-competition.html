@@ -17,31 +17,6 @@
     <link rel="stylesheet" type="text/css" href="../../theme.css">
 </head>
 <body>
-    <div class="header section-selector centeredContainerMenu">
-    <table>
-        <tr>
-            <td>
-                <a href="../index.html">
-                    Games
-                </a>
-            </td>
-            <td class="width100percent"></td>
-            <td class="menuLink">
-                <a href="../support.html">Support</a>
-            </td>
-            <td class="menuLink">
-                <a href="../about.html">About</a>
-            </td>
-            <td class="menuLink">
-                <a href="../news/news.html">News</a>
-            </td>
-            <td class="menuLink">
-                <a href="../help.html">Help</a>
-            </td>
-        </tr>
-    </table>
-</div>
-
     <div class="centeredContainer">
         <h1>How Jigsaw Puzzle Frenzy rewards players with a Formula 1-inspired competition</h1>
 <p>Do you love solving jigsaw puzzles and watching Formula 1 races? If so, you will love <a href="https://frenzygames.net/jpf.html">Jigsaw Puzzle Frenzy</a>, a game that combines both of these passions in a fun and engaging way.</p>
@@ -86,31 +61,6 @@
 <p>I hope you found this post helpful and informative. If you have any questions or feedback, please feel free to leave a comment below.</p>
 <p>Happy puzzling! 🧩</p>
     </div>
-
-    <div class="footerContainer footer section-selector">
-        <p> 
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/@JigsawPuzzleFrenzy">YouTube</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/JigsawPuzzleFrenzy">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/jigsawpuzzlefrenzy">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/PuzzleFrenzy">Twitter</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/frenzy-games">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://www.reddit.com/user/jigsaw_puzzle_frenzy">Reddit</a>
-                </li>
-            </ul>
-        </p>
-    </div>
 <script>
     (function() {
         function getParameter(name, url) {
@@ -121,16 +71,7 @@
             if (!results) return null;
             if (!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-              
-        var sections = getParameter('section');
-        if (sections != null) {
-            sections = sections.split(',');
-            sections.forEach((section) => {
-                var element = document.getElementsByClassName(section)[0];
-                element.style.display = 'none';
-            });
-        }
+        }            
     })();
 </script>
 </body>

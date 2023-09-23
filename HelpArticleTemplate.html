@@ -17,35 +17,8 @@
     <link rel="stylesheet" type="text/css" href="../../theme.css">
 </head>
 <body>
-    @menu
-
     <div class="centeredContainer">
         @content
-    </div>
-
-    <div class="footerContainer footer section-selector">
-        <p> 
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/@JigsawPuzzleFrenzy">YouTube</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/JigsawPuzzleFrenzy">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/jigsawpuzzlefrenzy">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/PuzzleFrenzy">Twitter</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/frenzy-games">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://www.reddit.com/user/jigsaw_puzzle_frenzy">Reddit</a>
-                </li>
-            </ul>
-        </p>
     </div>
 <script>
     (function() {
@@ -57,16 +30,7 @@
             if (!results) return null;
             if (!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-              
-        var sections = getParameter('section');
-        if (sections != null) {
-            sections = sections.split(',');
-            sections.forEach((section) => {
-                var element = document.getElementsByClassName(section)[0];
-                element.style.display = 'none';
-            });
-        }
+        }            
     })();
 </script>
 </body>
