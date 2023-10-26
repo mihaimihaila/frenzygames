@@ -3,6 +3,17 @@
         "Priority": 0,
         "ContentType": "Article",
         "Type": "Help",
+        "Name": "turn-off-animations",
+        "Title": "Turn off animations",
+        "Tags": "solve,puzzle",
+        "Thumbnail": null,
+        "Game": "puzzle",
+        "Uri": "https://frenzygames.net/docs/turn-off-animations.html"
+    },
+    {
+        "Priority": 0,
+        "ContentType": "Article",
+        "Type": "Help",
         "Name": "puzzle-of-the-day",
         "Title": "Puzzle of the Day",
         "Tags": "puzzle,daily,day,free,gems,coins,subscription",
