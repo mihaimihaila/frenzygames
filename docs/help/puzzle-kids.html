@@ -26,7 +26,46 @@
 <p><strong>Answer</strong></p>
 <p>All puzzles in Jigsaw Puzzle Frenzy have the same number of pieces: 64, 100, 200 and 300 pieces. Even if a puzzle is in the kids’ section, they have the same number of pieces.</p>
     </div>
-<script>
+        <table class="center bottomMarginLarge">
+            <tr>
+                <td>
+                    <p id='question'>Was this helpful?</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="yesButton" onclick="feedbackYes()">
+                        Yes
+                    </button>                
+                    <button id="noButton" onclick="feedbackNo()">
+                        No
+                    </button>
+                    <p id='message' class="hide">Thanks for the feedback!</p>
+                </td>
+            </tr>
+        </table>
+    <script>
+    
+    function answer(x) {
+        
+        document.getElementById('yesButton').classList.add('hide');
+        document.getElementById('noButton').classList.add('hide');
+        document.getElementById('question').classList.add('hide');
+        document.getElementById('message').classList.add('show');
+    
+        if (typeof (window.external) !== 'undefined' && ('notify' in window.external)) {
+            window.external.notify(x);
+        }
+    }
+    
+    function feedbackYes() {
+      answer('yes')
+    }
+    
+    function feedbackNo() {
+        answer('no')
+    }
+    
     (function() {
         function getParameter(name, url) {
             if (!url) url = window.location.href;

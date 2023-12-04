@@ -26,7 +26,46 @@
 <p>To unlock it, simply tap on the price in the bottom right corner and start playing the puzzles right away.</p>
 <p>Alternatively you can tap on the pack image to check out the puzzles before unlocking the pack.</p>
     </div>
-<script>
+        <table class="center bottomMarginLarge">
+            <tr>
+                <td>
+                    <p id='question'>Was this helpful?</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="yesButton" onclick="feedbackYes()">
+                        Yes
+                    </button>                
+                    <button id="noButton" onclick="feedbackNo()">
+                        No
+                    </button>
+                    <p id='message' class="hide">Thanks for the feedback!</p>
+                </td>
+            </tr>
+        </table>
+    <script>
+    
+    function answer(x) {
+        
+        document.getElementById('yesButton').classList.add('hide');
+        document.getElementById('noButton').classList.add('hide');
+        document.getElementById('question').classList.add('hide');
+        document.getElementById('message').classList.add('show');
+    
+        if (typeof (window.external) !== 'undefined' && ('notify' in window.external)) {
+            window.external.notify(x);
+        }
+    }
+    
+    function feedbackYes() {
+      answer('yes')
+    }
+    
+    function feedbackNo() {
+        answer('no')
+    }
+    
     (function() {
         function getParameter(name, url) {
             if (!url) url = window.location.href;
