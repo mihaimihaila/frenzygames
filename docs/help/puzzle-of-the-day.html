@@ -36,46 +36,48 @@
 <p>A Premium subscription costs only $12.49 per month and it includes a free 1 week trial. You can cancel anytime, and you will still have access to all the features until your subscription expires.</p>
 <p>So what are you waiting for? Try out Puzzle of the Day for free! You will love it!</p>
     </div>
-        <table class="center bottomMarginLarge">
-            <tr>
-                <td>
-                    <p id='question'>Was this helpful?</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button id="yesButton" onclick="feedbackYes()">
-                        Yes
-                    </button>                
-                    <button id="noButton" onclick="feedbackNo()">
-                        No
-                    </button>
-                    <p id='message' class="hide">Thanks for the feedback!</p>
-                </td>
-            </tr>
-        </table>
+    <table class="center bottomMarginLarge">
+        <tr>
+            <td colspan="2" align="center">
+                <p id='question'>Was this helpful?</p>
+                <p id='message' class="hide">Thanks for the feedback!</p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" class="feedbackButtonTdStyle">
+                <button class="feedbackButtonStyle" id="yesButton" onclick="feedbackYes()">
+                    Yes
+                </button>
+            </td>
+            <td align="center" class="feedbackButtonTdStyle">
+                <button class="feedbackButtonStyle" id="noButton" onclick="feedbackNo()">
+                    No
+                </button>
+            </td>
+        </tr>
+    </table>
     <script>
-    
+
     function answer(x) {
-        
+
         document.getElementById('yesButton').classList.add('hide');
         document.getElementById('noButton').classList.add('hide');
         document.getElementById('question').classList.add('hide');
         document.getElementById('message').classList.add('show');
-    
+
         if (typeof (window.external) !== 'undefined' && ('notify' in window.external)) {
             window.external.notify(x);
         }
     }
-    
+
     function feedbackYes() {
       answer('yes')
     }
-    
+
     function feedbackNo() {
         answer('no')
     }
-    
+
     (function() {
         function getParameter(name, url) {
             if (!url) url = window.location.href;
@@ -85,8 +87,8 @@
             if (!results) return null;
             if (!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }            
+        }
     })();
-</script>
+    </script>
 </body>
 </html>
