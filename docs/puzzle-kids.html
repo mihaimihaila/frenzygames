@@ -52,8 +52,8 @@
 <p>All puzzles in Jigsaw Puzzle Frenzy have the same number of pieces: 64, 100, 200 and 300 pieces. Even if a puzzle is in the kids’ section, they have the same number of pieces.</p>
     </div>
 
-    <div class="footerContainer footer section-selector">
-        <p> 
+    <div class="footerContainer footer">
+        <p>
             <ul>
                 <li>
                     <a href="https://www.youtube.com/@JigsawPuzzleFrenzy">YouTube</a>
@@ -76,27 +76,5 @@
             </ul>
         </p>
     </div>
-<script>
-    (function() {
-        function getParameter(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, "\\$&");
-            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-            var results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-              
-        var sections = getParameter('section');
-        if (sections != null) {
-            sections = sections.split(',');
-            sections.forEach((section) => {
-                var element = document.getElementsByClassName(section)[0];
-                element.style.display = 'none';
-            });
-        }
-    })();
-</script>
 </body>
 </html>

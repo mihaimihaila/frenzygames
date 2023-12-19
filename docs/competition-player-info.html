@@ -50,8 +50,8 @@
 <p><img src='./images/2022-19-competition-info.png' alt='Competition player information'/></p>
     </div>
 
-    <div class="footerContainer footer section-selector">
-        <p> 
+    <div class="footerContainer footer">
+        <p>
             <ul>
                 <li>
                     <a href="https://www.youtube.com/@JigsawPuzzleFrenzy">YouTube</a>
@@ -74,27 +74,5 @@
             </ul>
         </p>
     </div>
-<script>
-    (function() {
-        function getParameter(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, "\\$&");
-            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-            var results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-              
-        var sections = getParameter('section');
-        if (sections != null) {
-            sections = sections.split(',');
-            sections.forEach((section) => {
-                var element = document.getElementsByClassName(section)[0];
-                element.style.display = 'none';
-            });
-        }
-    })();
-</script>
 </body>
 </html>

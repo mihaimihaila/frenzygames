@@ -63,8 +63,8 @@
 <p>A subscription will start and renew automatically, and will be charged to your Microsoft account. You can manage your subscription in your Microsoft account settings. If the subscription includes a free trial period, you will not be charged during your free trial period. When the free trial concludes, your subscription will start and renew automatically, and will be charged to your Microsoft Account. To avoid being charged after the free trial, you must cancel the subscription before the trial expires. Any unused portion of the free trial period will be forfeited when purchasing a subscription.</p>
     </div>
 
-    <div class="footerContainer footer section-selector">
-        <p> 
+    <div class="footerContainer footer">
+        <p>
             <ul>
                 <li>
                     <a href="https://www.youtube.com/@JigsawPuzzleFrenzy">YouTube</a>
@@ -87,27 +87,5 @@
             </ul>
         </p>
     </div>
-<script>
-    (function() {
-        function getParameter(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, "\\$&");
-            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-            var results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-              
-        var sections = getParameter('section');
-        if (sections != null) {
-            sections = sections.split(',');
-            sections.forEach((section) => {
-                var element = document.getElementsByClassName(section)[0];
-                element.style.display = 'none';
-            });
-        }
-    })();
-</script>
 </body>
 </html>

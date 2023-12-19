@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name='author' content='Mihai Mihaila' />
@@ -12,8 +12,8 @@
     <meta property="twitter:url" content="https://frenzygames.net/help">
 </head>
 <body>
-    <div class="centeredContainer header section-selector">
-            <div class="header section-selector centeredContainerMenu">
+    <div class="centeredContainer">
+        <div class="header section-selector centeredContainerMenu">
     <table>
         <tr>
             <td>
@@ -95,28 +95,5 @@
 </ul>
 
     </div>
-
-    <script>
-      (function() {{
-          function getParameter(name, url) {{
-          if (!url) url = window.location.href;
-          name = name.replace(/[\[\]]/g, "\\$&");
-          var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-              results = regex.exec(url);
-          if (!results) return null;
-          if (!results[2]) return '';
-          return decodeURIComponent(results[2].replace(/\+/g, " "));
-          }}
-                
-          var sections = getParameter('section');
-          if (sections != null) {
-              sections = sections.split(',');
-              sections.forEach((section) => {
-                  var element = document.getElementsByClassName(section)[0];
-                  element.style.display = 'none';
-              });
-          }
-      }})();
-  </script>
 </body>
 </html>

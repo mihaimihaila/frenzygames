@@ -3,10 +3,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.section-selector {
-    display: block;
-}
-
 li {
     line-height: 1.5;
 }
