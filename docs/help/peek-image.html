@@ -20,7 +20,7 @@
         <h1>Peek at the Puzzle Image</h1>
 <p>Author: <em>Mihai</em>, last modified: <em>27/02/2021</em></p>
 <br/>
-<iframe src="https://www.youtube-nocookie.com/embed/9w-Mnm2qHRA" class="youtubeMedia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"/>
+<iframe src="https://www.youtube-nocookie.com/embed/9w-Mnm2qHRA" class="youtubeMedia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
     </div>
     <table class="center bottomMarginLarge">
         <tr>
@@ -63,18 +63,7 @@
     function feedbackNo() {
         answer('no')
     }
-
-    (function() {
-        function getParameter(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, "\\$&");
-            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-            var results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-    })();
+    
     </script>
 </body>
 </html>

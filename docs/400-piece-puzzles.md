@@ -20,6 +20,6 @@ Once you have activated your trial or your premium subscription, you will be abl
 
 The premium subscription costs only $14.99 per month or $12.49 per month when purchasing a yearly plan. That’s a great deal considering that you will get unlimited access to all the puzzles and features in the game. Plus, you will save more than 15% when you choose the yearly plan over the monthly plan.
 
-We hope that you will enjoy playing 400 piece puzzles in Jigsaw Puzzle Frenzy and experience the thrill of solving the most complex and beautiful puzzles in the game. If you have any questions or feedback, please feel free to contact us at [puzzlefrenzyapp@gmail.com](mailto:puzzlefrenzyapp@gmail.com&subject=How to play 400 piece puzzles in Jigsaw Puzzle Frenzy).
+We hope that you will enjoy playing 400 piece puzzles in Jigsaw Puzzle Frenzy and experience the thrill of solving the most complex and beautiful puzzles in the game. If you have any questions or feedback, please feel free to [contact us](https://frenzygames.net/custom/contact).
 
 Thank you for playing Jigsaw Puzzle Frenzy!
