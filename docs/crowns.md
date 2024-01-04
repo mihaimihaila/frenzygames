@@ -1,24 +1,22 @@
 ﻿# Crowns
 
-Author: *Mihai*, last modified: _03/18/2023_
+Author: *Mihai*, last modified: _04/01/2024_
 
 ---
-
-## Crowns
 
 ![Crown](images/crown.png?h=48)
 
 Crowns are used for unlocking puzzles.
 
-Crowns are earned:
+## Earning Crowns
 
-1. When you create a [game account](https://frenzygames.net/custom/account) you earn **crowns**
-1. When you purchase puzzles with money you earn **crowns**
-1. When you complete [missions](https://frenzygames.net/custom/missions) you earn **crowns**
-1. When you [recommended the game to a friend](https://frenzygames.net/custom/missions) you earn **crowns**
+Crowns are earned by:
 
-Crowns can be purchased from the [bank](https://frenzygames.net/custom/bank) or by converting coins into crowns.
+* Creating a [game account](https://frenzygames.net/custom/account)
+* Completing [missions](https://frenzygames.net/custom/missions)
+* [Recommendeding the game to a friend](https://frenzygames.net/custom/missions)
 
-## Convertion Rate
+## How to get Crowns
 
-**1 crown = 30.000 coins**
+* You can purchase crowns from the [bank](https://frenzygames.net/custom/bank)
+* You convert coins into crowns at the [bank](https://frenzygames.net/custom/bank)
