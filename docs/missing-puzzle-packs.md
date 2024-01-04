@@ -1,12 +1,13 @@
 # Missing Puzzle Packs
 
-Author: *Mihai*, last modified: _12/12/2020_
+Author: *Mihai*, last modified: _04/01/2024_
 
 ---
 
-Occasionally, **Microsoft Store** causes missing puzzle packs. The puzzles are __not__ lost and you will be able to continue playing them. 
+**Microsoft Store** sometimes causes missing puzzle packs.
+The puzzles are __not__ lost.
 
-Try the following solutions:
+You will be able to continue playing the puzzles following one of these solutions.
 
 ## Solution 1: Restart Your Computer
 
