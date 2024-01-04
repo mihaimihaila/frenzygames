@@ -1,6 +1,6 @@
 # How to Play Puzzle for Free
 
-Author: *Mihai*, last modified: _05/02/2022_
+Author: *Mihai*, last modified: _04/01/2024_
 
 ---
 
@@ -14,7 +14,7 @@ If you want to play Puzzle of the Day without having to watch ads you can purcha
 
 ## Paid Puzzle Packs
 
-We offer several puzzle packs for sale. A pack contains **25 puzzles**. Once you purchase a puzzle pack you can customize the puzzles and you can play them anytime you want.
+We offer several puzzle packs for sale in the [Store](https://frenzygames.net/custom/store). A pack contains **25 puzzles**. Once you purchase a puzzle pack you can customize the puzzles and you can play them anytime you want.
 
 ## Premium Subscription
 
@@ -24,7 +24,7 @@ Purchasing a Premium subscription also removes all ads from the game.
 
 ## Unlock Puzzle Packs with Crowns
 
-**Crowns** are rewards you get in the game. Crowns are used for unlocking puzzles.
+[Crowns](crowns.md) are rewards you get in the game. Crowns are used for unlocking puzzles.
 
 ### Purchase Rules
 
