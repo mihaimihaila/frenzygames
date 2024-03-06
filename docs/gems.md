@@ -14,5 +14,5 @@ Gems are used for:
 
 ## How to get Gems
 
-* You can purchase gems from the [bank](https://frenzygames.net/custom/bank)
-* You convert coins into gems at the [bank](https://frenzygames.net/custom/bank)
+* You can purchase gems from the [Bank](https://frenzygames.net/custom/bank)
+* You convert coins into gems at the [Market](https://frenzygames.net/custom/market)

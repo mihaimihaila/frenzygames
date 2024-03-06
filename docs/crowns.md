@@ -18,5 +18,5 @@ Crowns are earned by:
 
 ## How to get Crowns
 
-* You can purchase crowns from the [bank](https://frenzygames.net/custom/bank)
-* You convert coins into crowns at the [bank](https://frenzygames.net/custom/bank)
+* You can purchase crowns from the [Bank](https://frenzygames.net/custom/bank)
+* You convert coins into crowns at the [Market](https://frenzygames.net/custom/market)
