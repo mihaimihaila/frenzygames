@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Frenzy Games: Player Account Suspension Policy</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="en">
+    <meta name='keywords' content='game, jigsaw, puzzle, free, windows, mahjong, microsoft, store' />
+    <meta name='author' content='Mihai Mihaila' />
+    <meta name="description" content="Player Account Suspension Policy help article.">
+    <meta property="og:description" content="Player Account Suspension Policy help article.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+    <link rel="apple-touch-icon" href="../../images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="../../styleHelpArticle.css">
+    <link rel="stylesheet" type="text/css" href="../../theme.css">
+</head>
+<body>
+    <div class="centeredContainer">
+        <h1>Player Account Suspension Policy</h1>
+<p>Author: <em>Mihai</em>, last modified: <em>25/03/2024</em></p>
+<br/>
+<p>We are committed to maintaining a fair and respectful environment for all players. This Player Account Suspension Policy outlines the reasons why a player account may be suspended. Please note that violations of this policy may result in temporary or permanent suspension of player accounts.</p>
+<h2>Reasons for Account Suspension</h2>
+<p>Player accounts may be suspended for a variety of reasons, including but not limited to:</p>
+<ol>
+<li><strong>Cheating</strong>: Any form of cheating, such as using unauthorized software or exploiting game bugs for personal gain, is strictly prohibited.</li>
+<li><strong>Profanity</strong>: The use of offensive or inappropriate language in any form of communication within the game is not tolerated.</li>
+<li><strong>Inappropriate Behavior</strong>: Harassment, bullying, or any form of disrespectful behavior towards other players is unacceptable.</li>
+<li><strong>False Reporting</strong>: Misuse of in-game support buttons or filing false reports to our staff is not allowed.</li>
+<li><strong>Violation of Community Code of Conduct</strong>: Any breach of our Community Code of Conduct may result in account suspension.</li>
+</ol>
+<p>Please note that this list is not exhaustive, and we reserve the right to suspend accounts for reasons not listed here if we deem it necessary.</p>
+<h2>Appealing a Suspension</h2>
+<p>If you believe your account has been suspended, you may be eligible to appeal the decision. However, only certain types of suspensions are eligible for appeal.</p>
+<h2>Conclusion</h2>
+<p>We strive to create a fun and respectful environment for all players. By adhering to this policy, we can ensure that everyone has a positive gaming experience.</p>
+<p>This policy is subject to change at any time, and it is the responsibility of the player to stay updated on our rules and regulations.</p>
+    </div>
+    <table class="center bottomMarginLarge">
+        <tr>
+            <td colspan="2" align="center">
+                <p id='question'>Was this helpful?</p>
+                <p id='message' class="hide">Thanks for the feedback!</p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" class="feedbackButtonTdStyle">
+                <button class="feedbackButtonStyle" id="yesButton" onclick="feedbackYes()">
+                    Yes
+                </button>
+            </td>
+            <td align="center" class="feedbackButtonTdStyle">
+                <button class="feedbackButtonStyle" id="noButton" onclick="feedbackNo()">
+                    No
+                </button>
+            </td>
+        </tr>
+    </table>
+    <script>
+
+    function answer(x) {
+        document.getElementById('yesButton').classList.add('hide');
+        document.getElementById('noButton').classList.add('hide');
+        document.getElementById('question').classList.add('hide');
+        document.getElementById('message').classList.add('show');
+
+        if (typeof (window.external) !== 'undefined' && ('notify' in window.external)) {
+            window.external.notify(x);
+        }
+    }
+
+    function feedbackYes() {
+      answer('yes')
+    }
+
+    function feedbackNo() {
+        answer('no')
+    }
+    
+    </script>
+</body>
+</html>
