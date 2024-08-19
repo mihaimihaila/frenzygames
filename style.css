@@ -3,13 +3,17 @@ body {
 }
 
 .download {
+    border-radius: 4px;
+    border: none;
     background: green;
     color: white;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding: 8px;
-    border-radius: 4px;
+    padding: 8px 24px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .download:hover {
