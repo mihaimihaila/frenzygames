@@ -11,8 +11,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 12px;
-    margin-right: 12px;
+    margin: 16px;
     cursor: pointer;
     font-size: 24px;
 }
