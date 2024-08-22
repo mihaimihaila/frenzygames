@@ -19,7 +19,7 @@ You decide what payment method you want to use from your Microsoft account.
 
 Once you successfully added a payment method to your Microsoft account using the steps above, **return to the game and purchase puzzles or subscriptions**. When you have completed a purchase, you gain instant access to the puzzles in the pack, and your subscription plan is activated immediately.
 
-**Notice**
+### Notice
 
 * Make sure you have enough money on your credit / debit card or PayPal account to purchase.
 
@@ -27,5 +27,5 @@ Once you successfully added a payment method to your Microsoft account using the
 
 * If you experience problems adding your payment method to your Microsoft account, we recommend contacting [Microsoft Store Support](https://support.microsoft.com/en-us/account-billing/contact-microsoft-store-support-4f615f2a-6bbd-fd69-6695-ae213d63eef0).
 
-[Microsoft Support]: http://go.microsoft.com/fwlink/p/?LinkId=260702
+[Microsoft Support]: https://go.microsoft.com/fwlink/p/?LinkId=260702
 [Source]: https://support.microsoft.com/en-us/account-billing/change-your-microsoft-account-payment-method-or-credit-card-c39dbc30-bc83-30c8-5ea9-d0d94e6dcfe4
