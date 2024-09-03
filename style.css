@@ -1,50 +1,51 @@
-body {
-    font-family: Arial, sans-serif;
-}
+ol li { display: inline; padding: 4px; }
 
-.download {
-    border-radius: 4px;
-    border: none;
-    background: green;
-    color: white;
-    padding: 8px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    cursor: pointer;
-    font-size: 24px;
-}
-
-.download:hover {
-    background:darkgreen;
-}
-
-.cornerRadius {
-    border-radius: 20%;
-}
-
-.gameIcon {
+.authorImageContainer {
     max-width: 120px;
-    max-height: 120px;
-    margin-right: 16px;
 }
 
-.learnMore {
-    text-decoration: none;
+.authorImage {
+    border-radius: 12%;
+    max-width: 120px
 }
 
-.gameTitle {
-    text-decoration: none;
+.footerContainer {
+    display: flex;
+    justify-content: center;    
 }
+
+body {
+    color: black;
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: white;
+      background-color: black;
+    }
+  
+    a:link { color: lightskyblue; }
+    a:visited { color: #6d4b8d; }
+    a:hover { color: #ffffff; }
+    a:active { color: #ff4040; }
+  
+    .button {
+      background-color: darkgreen;
+    }
+  
+    .download {
+      background-color: darkgreen;
+    }
+  }   
 
 .button {
     display: block;
     margin: 0 auto;
     width: 200px;
     height: 50px;
-    background-color: green;
+    background-color: #00C853;
     border-radius: 10px;
     color: white;
     font-size: 18px;
@@ -55,7 +56,7 @@ body {
 }
 
 .button:hover {
-    background-color: darkgreen;
+    background-color: #1B5E20;
 }
 
 .section-selector {
@@ -90,14 +91,6 @@ img {
 
 .topMarginLarge {
     margin-top: 40px
-}
-
-.youtubeMedia {
-    width: 100%;
-    height: 450px;
-    max-width: 800px;
-    margin-top: 40px;
-    margin-bottom: 24px;
 }
 
 .heroImage {
@@ -146,4 +139,28 @@ img {
 .menuLink {
     white-space:nowrap;
     padding-right:8px
+}
+
+.zeroTopMargin {
+    margin-top: 0px;
+}
+
+.zeroVerticalMargin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textLeft {
+    text-align:left;
+}
+
+.forceCenter {
+    text-align: center
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
