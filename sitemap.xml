@@ -58,6 +58,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/news-archive</loc>
+    <lastmod>2024-08-29</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/help</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.5</priority>
