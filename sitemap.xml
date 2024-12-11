@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Home Page -->
   <url>
-    <loc>https://frenzygames.net</loc>
+    <loc>https://www.frenzygames.net</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
   <!-- Game Pages -->
   <url>
-    <loc>https://frenzygames.net/jigsaw-puzzle-frenzy</loc>
+    <loc>https://www.frenzygames.net/jigsaw-puzzle-frenzy</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://frenzygames.net/jigsaw-puzzle-journey</loc>
+    <loc>https://www.frenzygames.net/jigsaw-puzzle-journey</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://frenzygames.net/jigsaw-puzzle-nature</loc>
+    <loc>https://www.frenzygames.net/jigsaw-puzzle-nature</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://frenzygames.net/mahjong-zen</loc>
+    <loc>https://www.frenzygames.net/mahjong-zen</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://frenzygames.net/jigsaw-puzzle-kids</loc>
+    <loc>https://www.frenzygames.net/jigsaw-puzzle-kids</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <!-- Other Pages -->
   <url>
-    <loc>https://frenzygames.net/support</loc>
+    <loc>https://www.frenzygames.net/support</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.5</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
-    <loc>https://frenzygames.net/about</loc>
+    <loc>https://www.frenzygames.net/about</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://frenzygames.net/news</loc>
+    <loc>https://www.frenzygames.net/news</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://frenzygames.net/news-archive</loc>
+    <loc>https://www.frenzygames.net/news-archive</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://frenzygames.net/help</loc>
+    <loc>https://www.frenzygames.net/help</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
