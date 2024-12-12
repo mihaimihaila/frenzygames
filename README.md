@@ -1,1 +1,1 @@
-[frenzygames.net](https://www.frenzygames.net)
+[frenzygames.net](https://frenzygames.net)
