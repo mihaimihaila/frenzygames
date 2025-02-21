@@ -70,6 +70,12 @@
     <changefreq>monthly</changefreq>
   </url>
     <url>
+    <loc>https://frenzygames.net/news/2025-02-12-new-template.html</loc>
+    <lastmod>2025-02-12</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/news/2024-12-31-happy-new-year.html</loc>
     <lastmod>2024-12-31</lastmod>
     <priority>0.3</priority>
