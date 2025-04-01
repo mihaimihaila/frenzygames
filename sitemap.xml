@@ -70,6 +70,12 @@
     <changefreq>monthly</changefreq>
   </url>
     <url>
+    <loc>https://frenzygames.net/news/2025-03-15-culinary-delights.html</loc>
+    <lastmod>2025-03-15</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/news/2025-03-04-volcanoes.html</loc>
     <lastmod>2025-03-04</lastmod>
     <priority>0.3</priority>
