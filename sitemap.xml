@@ -347,6 +347,12 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/docs/create-account.html</loc>
+    <lastmod>2025-07-13</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/docs/crowns.html</loc>
     <lastmod>2023-12-03</lastmod>
     <priority>0.3</priority>
