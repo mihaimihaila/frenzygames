@@ -605,6 +605,12 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/docs/sign-in-instructions.html</loc>
+    <lastmod>2025-07-24</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/docs/solve-edges-first.html</loc>
     <lastmod>2023-12-03</lastmod>
     <priority>0.3</priority>
