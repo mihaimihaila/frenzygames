@@ -425,6 +425,12 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/docs/contact-support.html</loc>
+    <lastmod>2025-07-24</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/docs/how-to-exit.html</loc>
     <lastmod>2023-12-03</lastmod>
     <priority>0.3</priority>
