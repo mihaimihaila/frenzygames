@@ -521,6 +521,12 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/docs/move-pieces-confirmation.html</loc>
+    <lastmod>2025-09-27</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/docs/offline-play-rewards.html</loc>
     <lastmod>2023-12-03</lastmod>
     <priority>0.3</priority>
