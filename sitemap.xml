@@ -64,6 +64,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/blog-archive</loc>
+    <lastmod>2025-10-26</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/help</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.5</priority>
@@ -279,7 +285,7 @@
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
-  <url>
+    <url>
     <loc>https://frenzygames.net/news/2023-01-29-10-years-anniversary.html</loc>
     <lastmod>2023-01-29</lastmod>
     <priority>0.3</priority>
