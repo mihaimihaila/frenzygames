@@ -285,9 +285,15 @@
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
-    <url>
+  <url>
     <loc>https://frenzygames.net/news/2023-01-29-10-years-anniversary.html</loc>
     <lastmod>2023-01-29</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://frenzygames.net/news/2022-11-02-news-card.html</loc>
+    <lastmod>2022-11-02</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
