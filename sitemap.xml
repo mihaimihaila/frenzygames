@@ -695,4 +695,23 @@
     <changefreq>yearly</changefreq>
   </url>
 
+  <url>
+    <loc>https://frenzygames.net2.6.82.0.html</loc>
+    <lastmod>23/10/2025</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://frenzygames.net2.6.85.0.html</loc>
+    <lastmod>02/11/2025</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://frenzygames.netgeotags.html</loc>
+    <lastmod>28/08/2025</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
 </urlset>
