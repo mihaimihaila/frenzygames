@@ -91,7 +91,7 @@
 </table>
             </p>
 <p>Out of 5940 puzzles¹, 766 of them contain a manual label, which represents about 12% of the puzzles.</p>
-<p>The vast majority of these manual labels have been added to <a href="https://jigsawpuzzlefrenzy.com/">Jigsaw Puzzle Frenzy (external)</a>.</p>
+<p>The vast majority of these manual labels have been added to <a href="https://jigsawpuzzlefrenzy.com/">Jigsaw Puzzle Frenzy</a>.</p>
 <h2>Pack Description</h2>
 <p>We added pack descriptions for paid puzzles. Each premium puzzle pack contains a short description which we believe captures the essence of the pack.</p>
 <p>The pack description is placed at the top of the puzzle pack, just below the title.</p>
@@ -152,8 +152,8 @@
 <p>We introduced a way to describe landmarks in our puzzle images. We call these Geotags. Geotags are similar to manual labels, but instead of being manually written, they were identified using AI and represent real places in the world: e.g. Eiffel Tower, The Colosseum, Empire State Building.</p>
 <h3>How we implemented geotags</h3>
 <p>We used AI to identify landmark subjects and to accurately geotag them.</p>
-<p>We used <a href="https://azure.microsoft.com/products/ai-services">Azure Cognitive Services (external)</a> by Microsoft to process our puzzle library.</p>
-<p>We also used <a href="https://cloud.google.com/vision">Cloud Vision (external)</a> by Google for landmark detection.</p>
+<p>We used <a href="https://azure.microsoft.com/products/ai-services">Azure Cognitive Services</a> by Microsoft to process our puzzle library.</p>
+<p>We also used <a href="https://cloud.google.com/vision">Cloud Vision</a> by Google for landmark detection.</p>
 <p>Both of these services offer a REST API that makes it easier to integrate with our internal tools and existing development flow.</p>
 <p>We have developed internal scripts to process the puzzle images offline and then integrate the detected landmark names into the final game.</p>
 <p>By running the landmark detection in pre-production (as opposed to real-time, on-demand when the players access the game) we were able to review the tagging process, correct the occasional mistakes and most importantly, avoid any additional computation when running the game. This approach was guided by our long-term goal of reducing the minimum hardware requirements needed to run our games.</p>
