@@ -9,6 +9,12 @@
   </url>
   <!-- Game Pages -->
   <url>
+    <loc>https://frenzygames.net/jigsaw-puzzle-quest</loc>
+    <lastmod>2026-02-01</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/jigsaw-puzzle-frenzy</loc>
     <lastmod>2024-08-29</lastmod>
     <priority>0.8</priority>
