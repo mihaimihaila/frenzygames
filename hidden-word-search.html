@@ -93,7 +93,12 @@
             </p>
 
             <h2>
-                <a href="https://www.microsoft.com/store/apps/9PPQD15KDTQX" class="download">
+                <a href="https://www.microsoft.com/store/apps/9PPQD15KDTQX" 
+                    class="download"
+                    onclick="gtag('event', 'download_click', {
+                        'game': 'hidden-word-search',
+                        'location': 'hero_button'
+                    });">
                     Download
                 </a>
             </h2>
@@ -117,7 +122,12 @@
             <img src="images/hidden-word-search-rating.webp" width="120" alt="Hidden Word Search rating star image"/>
             (4.5/5 from 458 users)
             <h2>
-                <a href="https://www.microsoft.com/store/apps/9PPQD15KDTQX" class="download">
+                <a href="https://www.microsoft.com/store/apps/9PPQD15KDTQX" 
+                class="download" 
+                onclick="gtag('event', 'download_click', {
+                    'game': 'hidden-word-search',
+                    'location': 'bottom_button'
+                });">
                     Download Now
                 </a>
             </h2>
