@@ -71,6 +71,201 @@
 
         <p><b>Frenzy Games</b> is the ultimate destination for jigsaw puzzle lovers. We offer you hundreds of <a href="https://frenzygames.net/docs/free-puzzles.html">free jigsaw puzzles</a> to play anytime, anywhere. Our games are designed to provide endless hours of entertainment and mental stimulation.</p>
 
+        <style>
+            /* ── Shared download button style ── */
+            a.dlBtn {
+                display: inline-block;
+                font-size: 0.8rem;
+                padding: 6px 18px;
+                border-radius: 20px;
+                text-decoration: none;
+                background: #0078d4;
+                color: #fff !important;
+                font-weight: 600;
+                letter-spacing: 0.03em;
+                transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+                box-shadow: 0 2px 6px rgba(0,120,212,0.25);
+            }
+            a.dlBtn:hover {
+                background: #005fa3;
+                transform: translateY(-2px);
+                box-shadow: 0 5px 14px rgba(0,120,212,0.35);
+            }
+            a.learnMoreLink {
+                display: inline-block;
+                font-size: 0.8rem;
+                padding: 6px 14px;
+                border-radius: 20px;
+                text-decoration: none;
+                color: #0078d4 !important;
+                font-weight: 600;
+                border: 1.5px solid #0078d4;
+                transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+            }
+            a.learnMoreLink:hover {
+                background: #0078d4;
+                color: #fff !important;
+                transform: translateY(-2px);
+            }
+
+            /* ── Quick-download icon row ── */
+            .quickDownloadRow {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+                margin: 24px 0 36px;
+            }
+            .quickDownloadItem {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+                text-align: center;
+                width: 110px;
+            }
+            .quickDownloadItem a.iconLink {
+                display: block;
+                border-radius: 20px;
+                overflow: hidden;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                transition: transform 0.15s ease, box-shadow 0.15s ease;
+                line-height: 0;
+            }
+            .quickDownloadItem a.iconLink:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 6px 18px rgba(0,0,0,0.22);
+            }
+            .quickDownloadItem img {
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+                display: block;
+            }
+            .quickDownloadItem .quickGameName {
+                font-size: 0.72rem;
+                font-weight: 600;
+                line-height: 1.35;
+                color: inherit;
+                /* always reserve exactly 2 lines so all Download buttons align */
+                min-height: calc(1.35em * 2);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            /* keep the old class working in case style.css references it */
+            .quickDownloadItem a.quickDownloadBtn { display: none; }
+
+            /* ── Our Games card grid ── */
+            .gamesGrid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 20px;
+                margin: 16px 0 32px;
+            }
+            .gameCard {
+                display: flex;
+                flex-direction: column;
+                border-radius: 16px;
+                overflow: hidden;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+                border: 1px solid rgba(0,0,0,0.07);
+                transition: box-shadow 0.2s ease, transform 0.2s ease;
+                background: inherit;
+            }
+            .gameCard:hover {
+                box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+                transform: translateY(-3px);
+            }
+            .gameCard-icon {
+                display: block;
+                line-height: 0;
+                overflow: hidden;
+            }
+            .gameCard-icon img {
+                width: 100%;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.3s ease;
+            }
+            .gameCard:hover .gameCard-icon img {
+                transform: scale(1.04);
+            }
+            .gameCard-body {
+                padding: 16px 18px 18px;
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                gap: 8px;
+            }
+            .gameCard-title {
+                font-size: 1rem;
+                font-weight: 700;
+                margin: 0;
+            }
+            .gameCard-tagline {
+                font-size: 0.8rem;
+                font-weight: 600;
+                opacity: 0.6;
+                margin: 0;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+            }
+            .gameCard-desc {
+                font-size: 0.875rem;
+                line-height: 1.55;
+                margin: 4px 0 0;
+                flex: 1;
+            }
+            .gameCard-actions {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                margin-top: 10px;
+                flex-wrap: wrap;
+            }
+        </style>
+
+        <div class="quickDownloadRow">
+            <div class="quickDownloadItem">
+                <a class="iconLink" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames" title="Download Jigsaw Puzzle Quest"
+                   onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Quest', location: 'quick_row' });">
+                    <img alt="Jigsaw Puzzle Quest" src="images/jigsaw-puzzle-quest.webp" />
+                </a>
+                <span class="quickGameName">Jigsaw Puzzle Quest</span>
+                <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames" title="Download Jigsaw Puzzle Quest"
+                   onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Quest', location: 'quick_row' });">Download</a>
+            </div>
+            <div class="quickDownloadItem">
+                <a class="iconLink" href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM?cid=frenzygames" title="Download Jigsaw Puzzle Frenzy"
+                   onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Frenzy', location: 'quick_row' });">
+                    <img alt="Jigsaw Puzzle Frenzy" src="images/jigsaw-puzzle-frenzy.webp" />
+                </a>
+                <span class="quickGameName">Jigsaw Puzzle Frenzy</span>
+                <a class="dlBtn" href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM?cid=frenzygames" title="Download Jigsaw Puzzle Frenzy"
+                   onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Frenzy', location: 'quick_row' });">Download</a>
+            </div>
+            <div class="quickDownloadItem">
+                <a class="iconLink" href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9?cid=frenzygames" title="Download Jigsaw Puzzle Journey"
+                   onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Journey', location: 'quick_row' });">
+                    <img alt="Jigsaw Puzzle Journey" src="images/jigsaw-puzzle-journey.webp" />
+                </a>
+                <span class="quickGameName">Jigsaw Puzzle Journey</span>
+                <a class="dlBtn" href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9?cid=frenzygames" title="Download Jigsaw Puzzle Journey"
+                   onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Journey', location: 'quick_row' });">Download</a>
+            </div>
+            <div class="quickDownloadItem">
+                <a class="iconLink" href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK?cid=frenzygames" title="Download Jigsaw Puzzle Nature"
+                   onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Nature', location: 'quick_row' });">
+                    <img alt="Jigsaw Puzzle Nature" src="images/jigsaw-puzzle-nature.webp" />
+                </a>
+                <span class="quickGameName">Jigsaw Puzzle Nature</span>
+                <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK?cid=frenzygames" title="Download Jigsaw Puzzle Nature"
+                   onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Nature', location: 'quick_row' });">Download</a>
+            </div>
+        </div>
+
         <h2>Why Play Jigsaw Puzzles?</h2>
 
         <p>Jigsaw puzzles are both entertaining and beneficial for your mental health. Playing jigsaw puzzles can help you:</p>
@@ -115,55 +310,76 @@
 
         <h2>Our Games</h2>
 
-        <div class="gameContainer">
-            <h3>Jigsaw Puzzle Quest</h3>
-            <b>Infinite Discoveries</b> 
-            <div class="authorImageContainer">
-                <img alt="Jigsaw Puzzle Quest Logo" class="authorImage" src="images/jigsaw-puzzle-quest.webp" />
-            </div>
-            <p>
-                Jigsaw Puzzle Quest is a relaxing yet competitive jigsaw puzzle game for Windows with 750+ beautiful puzzles across themed packs. Play a free puzzle every day, compete on the daily leaderboard, and earn rewards as you progress. Free to download — no pieces ever get lost.
-            </p>            
-            <a class="download" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL" title="Download Jigsaw Puzzle Quest">Download</a> <a href="https://frenzygames.net/jigsaw-puzzle-quest" class="learnMore">Learn more</a>
-        </div>
+        <div class="gamesGrid">
 
-        <div class="gameContainer">
-            <h3>Jigsaw Puzzle Frenzy</h3>
-            <b>Stay Mentally Sharp</b> 
-            <div class="authorImageContainer">
-                <img alt="Jigsaw Puzzle Frenzy Logo" class="authorImage" src="images/jigsaw-puzzle-frenzy.webp" />
+            <div class="gameCard">
+                <a class="gameCard-icon" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames" title="Download Jigsaw Puzzle Quest"
+                   onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Quest', location: 'games_section' });">
+                    <img alt="Jigsaw Puzzle Quest Logo" src="images/jigsaw-puzzle-quest.webp" />
+                </a>
+                <div class="gameCard-body">
+                    <p class="gameCard-tagline">Infinite Discoveries</p>
+                    <h3 class="gameCard-title">Jigsaw Puzzle Quest</h3>
+                    <p class="gameCard-desc">A relaxing yet competitive jigsaw puzzle game for Windows with 750+ beautiful puzzles across themed packs. Play a free puzzle every day, compete on the daily leaderboard, and earn rewards as you progress. Free to download — no pieces ever get lost.</p>
+                    <div class="gameCard-actions">
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames" title="Download Jigsaw Puzzle Quest"
+                           onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Quest', location: 'games_section' });">Download</a>
+                        <a class="learnMoreLink" href="https://frenzygames.net/jigsaw-puzzle-quest">Learn more</a>
+                    </div>
+                </div>
             </div>
-            <p>
-                Jigsaw Puzzle Frenzy contains stunning puzzles of landmarks, architecture, landscapes, plants, and animals. This game is perfect for those who love to explore the beauty of the world through puzzles.
-            </p>
-            <a class="download" href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM?cid=frenzygames" title="Download Jigsaw Puzzle Frenzy">Download</a>
-            <a href="https://jigsawpuzzlefrenzy.com" class="learnMore">Learn more</a>
-        </div>
 
-        <div class="gameContainer">
-            <h3>Jigsaw Puzzle Journey</h3>
-            <b>Discover the World</b> 
-            <div class="authorImageContainer">
-                <img alt="Jigsaw Puzzle Journey Logo" class="authorImage" src="images/jigsaw-puzzle-journey.webp" />
+            <div class="gameCard">
+                <a class="gameCard-icon" href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM?cid=frenzygames" title="Download Jigsaw Puzzle Frenzy"
+                   onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Frenzy', location: 'games_section' });">
+                    <img alt="Jigsaw Puzzle Frenzy Logo" src="images/jigsaw-puzzle-frenzy.webp" />
+                </a>
+                <div class="gameCard-body">
+                    <p class="gameCard-tagline">Stay Mentally Sharp</p>
+                    <h3 class="gameCard-title">Jigsaw Puzzle Frenzy</h3>
+                    <p class="gameCard-desc">Contains stunning puzzles of landmarks, architecture, landscapes, plants, and animals. Perfect for those who love to explore the beauty of the world through puzzles.</p>
+                    <div class="gameCard-actions">
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM?cid=frenzygames" title="Download Jigsaw Puzzle Frenzy"
+                           onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Frenzy', location: 'games_section' });">Download</a>
+                        <a class="learnMoreLink" href="https://jigsawpuzzlefrenzy.com">Learn more</a>
+                    </div>
+                </div>
             </div>
-            <p>
-                Explore over 70 countries renowned for landmarks, beautiful landscapes, and delicious food. Jigsaw Puzzle Journey contains high-resolution photographs that capture the culture and uniqueness of each country. This game is ideal for travel enthusiasts and those who love to learn about different cultures.
-            </p>
-            <a class="download" href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9?cid=frenzygames" title="Download Jigsaw Puzzle Journey">Download</a>
-            <a href="https://frenzygames.net/jigsaw-puzzle-journey" class="learnMore">Learn more</a>
-        </div>
 
-        <div class="gameContainer">
-            <h3>Jigsaw Puzzle Nature</h3>
-            <b>Connect with Nature</b>
-            <div class="authorImageContainer">
-                <img alt="Jigsaw Puzzle Nature Logo" class="authorImage" src="images/jigsaw-puzzle-nature.webp" />
+            <div class="gameCard">
+                <a class="gameCard-icon" href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9?cid=frenzygames" title="Download Jigsaw Puzzle Journey"
+                   onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Journey', location: 'games_section' });">
+                    <img alt="Jigsaw Puzzle Journey Logo" src="images/jigsaw-puzzle-journey.webp" />
+                </a>
+                <div class="gameCard-body">
+                    <p class="gameCard-tagline">Discover the World</p>
+                    <h3 class="gameCard-title">Jigsaw Puzzle Journey</h3>
+                    <p class="gameCard-desc">Explore over 70 countries renowned for landmarks, beautiful landscapes, and delicious food. High-resolution photographs capture the culture and uniqueness of each country. Ideal for travel enthusiasts and those who love to learn about different cultures.</p>
+                    <div class="gameCard-actions">
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9?cid=frenzygames" title="Download Jigsaw Puzzle Journey"
+                           onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Journey', location: 'games_section' });">Download</a>
+                        <a class="learnMoreLink" href="https://frenzygames.net/jigsaw-puzzle-journey">Learn more</a>
+                    </div>
+                </div>
             </div>
-            <p>
-                Play Jigsaw Puzzle Nature and be inspired by breathtaking views of lakes, mountains, and forests in all their splendor. This game is perfect for nature lovers who want to relax and enjoy the beauty of the natural world.
-            </p>
-            <a class="download" href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK?cid=frenzygames" title="Download Jigsaw Puzzle Nature">Download</a>
-            <a href="https://frenzygames.net/jigsaw-puzzle-nature" class="learnMore">Learn more</a>
+
+            <div class="gameCard">
+                <a class="gameCard-icon" href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK?cid=frenzygames" title="Download Jigsaw Puzzle Nature"
+                   onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Nature', location: 'games_section' });">
+                    <img alt="Jigsaw Puzzle Nature Logo" src="images/jigsaw-puzzle-nature.webp" />
+                </a>
+                <div class="gameCard-body">
+                    <p class="gameCard-tagline">Connect with Nature</p>
+                    <h3 class="gameCard-title">Jigsaw Puzzle Nature</h3>
+                    <p class="gameCard-desc">Be inspired by breathtaking views of lakes, mountains, and forests in all their splendor. Perfect for nature lovers who want to relax and enjoy the beauty of the natural world.</p>
+                    <div class="gameCard-actions">
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK?cid=frenzygames" title="Download Jigsaw Puzzle Nature"
+                           onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Nature', location: 'games_section' });">Download</a>
+                        <a class="learnMoreLink" href="https://frenzygames.net/jigsaw-puzzle-nature">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <h2>Join Our Community</h2>
