@@ -17,6 +17,92 @@ Join a community of fellow puzzle enthusiasts and keep discovering new puzzles w
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="styleGame.css">
         <link rel="stylesheet" type="text/css" href="footer.css">
+
+        <!-- Shared button styles — ideally migrate these into styleGame.css -->
+        <style>
+            a.dlBtn {
+                display: inline-block;
+                font-size: 0.9rem;
+                padding: 10px 28px;
+                border-radius: 20px;
+                text-decoration: none;
+                background: #0078d4;
+                color: #fff !important;
+                font-weight: 600;
+                letter-spacing: 0.03em;
+                transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+                box-shadow: 0 2px 6px rgba(0,120,212,0.25);
+            }
+            a.dlBtn:hover {
+                background: #005fa3;
+                transform: translateY(-2px);
+                box-shadow: 0 5px 14px rgba(0,120,212,0.35);
+            }
+            .heroDownload {
+                /* padding-top gives the hover lift room to breathe without clipping */
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+            .reviewsGrid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                gap: 16px;
+                margin: 16px 0 24px;
+                text-align: left;
+            }
+            .reviewCard {
+                border-radius: 12px;
+                border: 1px solid rgba(0,0,0,0.08);
+                padding: 16px 18px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            }
+            .reviewCard .reviewTitle {
+                font-weight: 700;
+                margin: 0 0 2px;
+            }
+            .reviewCard .reviewStars {
+                color: #f5a623;
+                margin: 0 0 6px;
+                font-size: 0.9rem;
+            }
+            .reviewCard .reviewBody {
+                font-size: 0.875rem;
+                line-height: 1.55;
+                margin: 0;
+            }
+            /* Rating summary — tight centred unit bridging reviews → CTA */
+            .ratingRow {
+                display: flex;
+                justify-content: center;
+            }
+            .ratingGroup {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2px;
+            }
+            .ratingGroupStars {
+                color: #f5a623;
+                font-size: 1.6rem;
+                line-height: 1;
+                letter-spacing: 3px;
+            }
+            .ratingGroupText {
+                font-size: 0.78rem;
+                opacity: 0.6;
+                letter-spacing: 0.02em;
+            }
+            /* Large CTA variant */
+            a.dlBtnLarge {
+                font-size: 1.1rem;
+                padding: 14px 40px;
+                border-radius: 30px;
+            }
+            .heroDownload {
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+        </style>
             
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWSTE1384P"></script>
         <script>
@@ -112,16 +198,16 @@ Choose from different difficulty modes to match your skill level, whether you're
 Join a community of fellow puzzle enthusiasts and keep discovering new puzzles with regular updates. Dive into the world of Jigsaw Puzzle Frenzy today and start piecing together memories and moments from around the globe!
             </p>
 
-            <h2>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM" 
-                    class="download"
+                    class="dlBtn"
                     onclick="gtag('event', 'download_click', {
                         'game': 'jigsaw-puzzle-frenzy',
                         'location': 'hero_button'
                     });">
                     Download
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
 
             
@@ -182,63 +268,49 @@ Join a community of fellow puzzle enthusiasts and keep discovering new puzzles w
             
             <h2 class="topMarginLarge">What players are saying about Jigsaw Puzzle Frenzy</h2>
 <div class="forceCenter">
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Awesome</b> by Susan
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">Love the puzzles they are so beautiful and they help with stress. Best game ever. A stress free game.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Awesome <span style="font-weight:400;opacity:0.6;">by Susan</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">Love the puzzles they are so beautiful and they help with stress. Best game ever. A stress free game.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Jigsaw Puzzle Review</b> by Anonymous
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I always do this first thing in the morning with my second cup of coffee. It makes my brain work and I love all the different pictures. I do the 100 piece puzzle with the 32 inch monitor because the smaller pieces are harder to see. Old eyes you know.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Jigsaw Puzzle Review <span style="font-weight:400;opacity:0.6;">by Anonymous</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I always do this first thing in the morning with my second cup of coffee. It makes my brain work and I love all the different pictures. I do the 100 piece puzzle with the 32 inch monitor because the smaller pieces are harder to see. Old eyes you know.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Great puzzling</b> by Deborah
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">Especially love the daily puzzle. Great site!</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Great puzzling <span style="font-weight:400;opacity:0.6;">by Deborah</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">Especially love the daily puzzle. Great site!</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Relaxing and fun</b> by Anonymous
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I'm 40 years old and I absolutely love this puzzle app. There is a new free puzzle to complete every day. It is easy to use, fun and relaxing.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Relaxing and fun <span style="font-weight:400;opacity:0.6;">by Anonymous</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I'm 40 years old and I absolutely love this puzzle app. There is a new free puzzle to complete every day. It is easy to use, fun and relaxing.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>One of the best jigsaw puzzle games in the Microsoft Store</b> by Anonymous
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">Really relaxing and very nicely designed jigsaw puzzle game. Challenging puzzles and verify configurable. The best in the Microsoft Store in my opinion.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">One of the best jigsaw puzzle games in the Microsoft Store <span style="font-weight:400;opacity:0.6;">by Anonymous</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">Really relaxing and very nicely designed jigsaw puzzle game. Challenging puzzles and verify configurable. The best in the Microsoft Store in my opinion.</p>
 </div>
 </div>
 
-            <br />
-            <img src="images/jigsaw-puzzle-frenzy-reviewers.webp" width="120" alt="Jigsaw Puzzle Frenzy — Free Jigsaw Puzzle Game for Windows PC reviewers images" />
-            <br />
-            <img src="images/jigsaw-puzzle-frenzy-rating.webp" width="120" alt="Jigsaw Puzzle Frenzy — Free Jigsaw Puzzle Game for Windows PC rating star image"/>
-            (4.6/5 from 16773 users)
-            <h2>
+            <div class="ratingRow">
+                <div class="ratingGroup">
+                    <div class="ratingGroupStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="ratingGroupText">(4.6/5 from 16773 users)</div>
+                </div>
+            </div>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM" 
-                class="download" 
+                class="dlBtn dlBtnLarge" 
                 onclick="gtag('event', 'download_click', {
                     'game': 'jigsaw-puzzle-frenzy',
                     'location': 'bottom_button'
                 });">
                     Download Now
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
         </div>
 

@@ -13,6 +13,92 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="styleGame.css">
         <link rel="stylesheet" type="text/css" href="footer.css">
+
+        <!-- Shared button styles — ideally migrate these into styleGame.css -->
+        <style>
+            a.dlBtn {
+                display: inline-block;
+                font-size: 0.9rem;
+                padding: 10px 28px;
+                border-radius: 20px;
+                text-decoration: none;
+                background: #0078d4;
+                color: #fff !important;
+                font-weight: 600;
+                letter-spacing: 0.03em;
+                transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+                box-shadow: 0 2px 6px rgba(0,120,212,0.25);
+            }
+            a.dlBtn:hover {
+                background: #005fa3;
+                transform: translateY(-2px);
+                box-shadow: 0 5px 14px rgba(0,120,212,0.35);
+            }
+            .heroDownload {
+                /* padding-top gives the hover lift room to breathe without clipping */
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+            .reviewsGrid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                gap: 16px;
+                margin: 16px 0 24px;
+                text-align: left;
+            }
+            .reviewCard {
+                border-radius: 12px;
+                border: 1px solid rgba(0,0,0,0.08);
+                padding: 16px 18px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            }
+            .reviewCard .reviewTitle {
+                font-weight: 700;
+                margin: 0 0 2px;
+            }
+            .reviewCard .reviewStars {
+                color: #f5a623;
+                margin: 0 0 6px;
+                font-size: 0.9rem;
+            }
+            .reviewCard .reviewBody {
+                font-size: 0.875rem;
+                line-height: 1.55;
+                margin: 0;
+            }
+            /* Rating summary — tight centred unit bridging reviews → CTA */
+            .ratingRow {
+                display: flex;
+                justify-content: center;
+            }
+            .ratingGroup {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2px;
+            }
+            .ratingGroupStars {
+                color: #f5a623;
+                font-size: 1.6rem;
+                line-height: 1;
+                letter-spacing: 3px;
+            }
+            .ratingGroupText {
+                font-size: 0.78rem;
+                opacity: 0.6;
+                letter-spacing: 0.02em;
+            }
+            /* Large CTA variant */
+            a.dlBtnLarge {
+                font-size: 1.1rem;
+                padding: 14px 40px;
+                border-radius: 30px;
+            }
+            .heroDownload {
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+        </style>
             
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWSTE1384P"></script>
         <script>
@@ -100,16 +186,16 @@
                 Explore over 70 countries renowned for landmarks, beautiful landscapes, and delicious food. Jigsaw Puzzle Journey contains high-resolution photographs that capture the culture and uniqueness of each country. This game is ideal for travel enthusiasts and those who love to learn about different cultures.
             </p>
 
-            <h2>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9" 
-                    class="download"
+                    class="dlBtn"
                     onclick="gtag('event', 'download_click', {
                         'game': 'jigsaw-puzzle-journey',
                         'location': 'hero_button'
                     });">
                     Download
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
 
             
@@ -170,71 +256,54 @@
             
             <h2 class="topMarginLarge">What players are saying about Jigsaw Puzzle Journey</h2>
 <div class="forceCenter">
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Just Discovered these Amazing Picture Puzzles!</b> by Dorothy
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">So many different sets of phenomenal pictures. I especially love the myriad of outdoor scenes! Thank you for the many hours of pleasure ahead as I have the fun of deciding which of the many gorgeous and interesting pictures to put together!</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Just Discovered these Amazing Picture Puzzles! <span style="font-weight:400;opacity:0.6;">by Dorothy</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">So many different sets of phenomenal pictures. I especially love the myriad of outdoor scenes! Thank you for the many hours of pleasure ahead as I have the fun of deciding which of the many gorgeous and interesting pictures to put together!</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Puzzles That Challenge</b> by lilbear35438115
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I have enjoyed these puzzles that travel through the world of puzzle sets. Beautiful photos! Multiple sizes that offer an individualized challenge.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Puzzles That Challenge <span style="font-weight:400;opacity:0.6;">by lilbear35438115</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I have enjoyed these puzzles that travel through the world of puzzle sets. Beautiful photos! Multiple sizes that offer an individualized challenge.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Calm your mind</b> by Beatrice
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I love the puzzles. they are just like the ones you put together manually. They calm your mind.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Calm your mind <span style="font-weight:400;opacity:0.6;">by Beatrice</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I love the puzzles. they are just like the ones you put together manually. They calm your mind.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>I love the puzzles from all around the world!!</b> by Bruce
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I the puzzles and variety. It's aptly named jigsaw journey. With beautiful puzzles from all over the world. It really is a jigsaw journey!!</p>
+<div class="reviewCard">
+    <p class="reviewTitle">I love the puzzles from all around the world!! <span style="font-weight:400;opacity:0.6;">by Bruce</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I the puzzles and variety. It's aptly named jigsaw journey. With beautiful puzzles from all over the world. It really is a jigsaw journey!!</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>My Favorite</b> by Camstar26
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">This is my favorite jigsaw puzzle game by far. I like that I can separate the edges from the rest of the pieces and put the borders together first. Then all the puzzle pieces are on the board and I don't have to scroll through them constantly, just separate by color or item, whatever caught my eye in the preview. So much easier to put the puzzles together.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">My Favorite <span style="font-weight:400;opacity:0.6;">by Camstar26</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">This is my favorite jigsaw puzzle game by far. I like that I can separate the edges from the rest of the pieces and put the borders together first. Then all the puzzle pieces are on the board and I don't have to scroll through them constantly, just separate by color or item, whatever caught my eye in the preview. So much easier to put the puzzles together.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Unwind with a puzzle</b> by Harlow Kay7777
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I fine puzzles to be refreshing. The locations are beautiful, the colors are vibrant and any stress just melts away. When I see the finished product I feel very satisfied and refreshed from my work day.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Unwind with a puzzle <span style="font-weight:400;opacity:0.6;">by Harlow Kay7777</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I fine puzzles to be refreshing. The locations are beautiful, the colors are vibrant and any stress just melts away. When I see the finished product I feel very satisfied and refreshed from my work day.</p>
 </div>
 </div>
 
-            <br />
-            <img src="images/jigsaw-puzzle-journey-reviewers.webp" width="120" alt="Jigsaw Puzzle Journey — Travel the World Through Puzzles for Windows reviewers images" />
-            <br />
-            <img src="images/jigsaw-puzzle-journey-rating.webp" width="120" alt="Jigsaw Puzzle Journey — Travel the World Through Puzzles for Windows rating star image"/>
-            (4.6/5 from 2942 users)
-            <h2>
+            <div class="ratingRow">
+                <div class="ratingGroup">
+                    <div class="ratingGroupStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="ratingGroupText">(4.6/5 from 2942 users)</div>
+                </div>
+            </div>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9" 
-                class="download" 
+                class="dlBtn dlBtnLarge" 
                 onclick="gtag('event', 'download_click', {
                     'game': 'jigsaw-puzzle-journey',
                     'location': 'bottom_button'
                 });">
                     Download Now
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
         </div>
 

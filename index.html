@@ -114,7 +114,7 @@
                 flex-wrap: wrap;
                 gap: 20px;
                 justify-content: center;
-                margin: 24px 0 36px;
+                margin: 24px 0 36px;  /* override theme.css div { margin: 1em } */
             }
             .quickDownloadItem {
                 display: flex;
@@ -123,6 +123,8 @@
                 gap: 8px;
                 text-align: center;
                 width: 110px;
+                padding-top: 4px;
+                margin: 0;            /* override theme.css div { margin: 1em } */
             }
             .quickDownloadItem a.iconLink {
                 display: block;
@@ -162,6 +164,8 @@
                 grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
                 gap: 20px;
                 margin: 16px 0 32px;
+                /* ensure card hover lift isn't clipped */
+                padding-top: 4px;
             }
             .gameCard {
                 display: flex;
@@ -198,6 +202,7 @@
                 flex-direction: column;
                 flex: 1;
                 gap: 8px;
+                margin: 0;            /* override theme.css div { margin: 1em } */
             }
             .gameCard-title {
                 font-size: 1rem;
@@ -222,19 +227,20 @@
                 display: flex;
                 gap: 8px;
                 align-items: center;
-                margin-top: 10px;
+                margin: 10px 0 0;     /* override theme.css div { margin: 1em } */
                 flex-wrap: wrap;
+            }
             }
         </style>
 
         <div class="quickDownloadRow">
             <div class="quickDownloadItem">
-                <a class="iconLink" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames" title="Download Jigsaw Puzzle Quest"
+                <a class="iconLink" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL" title="Download Jigsaw Puzzle Quest"
                    onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Quest', location: 'quick_row' });">
                     <img alt="Jigsaw Puzzle Quest" src="images/jigsaw-puzzle-quest.webp" />
                 </a>
                 <span class="quickGameName">Jigsaw Puzzle Quest</span>
-                <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames" title="Download Jigsaw Puzzle Quest"
+                <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL" title="Download Jigsaw Puzzle Quest"
                    onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Quest', location: 'quick_row' });">Download</a>
             </div>
             <div class="quickDownloadItem">
@@ -313,7 +319,7 @@
         <div class="gamesGrid">
 
             <div class="gameCard">
-                <a class="gameCard-icon" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames" title="Download Jigsaw Puzzle Quest"
+                <a class="gameCard-icon" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL" title="Download Jigsaw Puzzle Quest"
                    onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Quest', location: 'games_section' });">
                     <img alt="Jigsaw Puzzle Quest Logo" src="images/jigsaw-puzzle-quest.webp" />
                 </a>
@@ -322,7 +328,7 @@
                     <h3 class="gameCard-title">Jigsaw Puzzle Quest</h3>
                     <p class="gameCard-desc">A relaxing yet competitive jigsaw puzzle game for Windows with 750+ beautiful puzzles across themed packs. Play a free puzzle every day, compete on the daily leaderboard, and earn rewards as you progress. Free to download — no pieces ever get lost.</p>
                     <div class="gameCard-actions">
-                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames" title="Download Jigsaw Puzzle Quest"
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL" title="Download Jigsaw Puzzle Quest"
                            onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Quest', location: 'games_section' });">Download</a>
                         <a class="learnMoreLink" href="https://frenzygames.net/jigsaw-puzzle-quest">Learn more</a>
                     </div>

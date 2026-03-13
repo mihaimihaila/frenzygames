@@ -13,6 +13,92 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="styleGame.css">
         <link rel="stylesheet" type="text/css" href="footer.css">
+
+        <!-- Shared button styles — ideally migrate these into styleGame.css -->
+        <style>
+            a.dlBtn {
+                display: inline-block;
+                font-size: 0.9rem;
+                padding: 10px 28px;
+                border-radius: 20px;
+                text-decoration: none;
+                background: #0078d4;
+                color: #fff !important;
+                font-weight: 600;
+                letter-spacing: 0.03em;
+                transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+                box-shadow: 0 2px 6px rgba(0,120,212,0.25);
+            }
+            a.dlBtn:hover {
+                background: #005fa3;
+                transform: translateY(-2px);
+                box-shadow: 0 5px 14px rgba(0,120,212,0.35);
+            }
+            .heroDownload {
+                /* padding-top gives the hover lift room to breathe without clipping */
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+            .reviewsGrid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                gap: 16px;
+                margin: 16px 0 24px;
+                text-align: left;
+            }
+            .reviewCard {
+                border-radius: 12px;
+                border: 1px solid rgba(0,0,0,0.08);
+                padding: 16px 18px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            }
+            .reviewCard .reviewTitle {
+                font-weight: 700;
+                margin: 0 0 2px;
+            }
+            .reviewCard .reviewStars {
+                color: #f5a623;
+                margin: 0 0 6px;
+                font-size: 0.9rem;
+            }
+            .reviewCard .reviewBody {
+                font-size: 0.875rem;
+                line-height: 1.55;
+                margin: 0;
+            }
+            /* Rating summary — tight centred unit bridging reviews → CTA */
+            .ratingRow {
+                display: flex;
+                justify-content: center;
+            }
+            .ratingGroup {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2px;
+            }
+            .ratingGroupStars {
+                color: #f5a623;
+                font-size: 1.6rem;
+                line-height: 1;
+                letter-spacing: 3px;
+            }
+            .ratingGroupText {
+                font-size: 0.78rem;
+                opacity: 0.6;
+                letter-spacing: 0.02em;
+            }
+            /* Large CTA variant */
+            a.dlBtnLarge {
+                font-size: 1.1rem;
+                padding: 14px 40px;
+                border-radius: 30px;
+            }
+            .heroDownload {
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+        </style>
             
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWSTE1384P"></script>
         <script>
@@ -100,16 +186,16 @@
                 Play Jigsaw Puzzle Nature and be inspired by breathtaking views of lakes, mountains, and forests in all their splendor. This game is perfect for nature lovers who want to relax and enjoy the beauty of the natural world.
             </p>
 
-            <h2>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK" 
-                    class="download"
+                    class="dlBtn"
                     onclick="gtag('event', 'download_click', {
                         'game': 'jigsaw-puzzle-nature',
                         'location': 'hero_button'
                     });">
                     Download
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
 
             
@@ -170,71 +256,54 @@
             
             <h2 class="topMarginLarge">What players are saying about Jigsaw Puzzle Nature</h2>
 <div class="forceCenter">
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Highly recommend this game</b> by DesertQueen29
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I just downloaded the Jigsaw puzzle game. The colors are bright and clear. You even get to pick your puzzle and they are very vibrant. and beautiful. I would definitely recommend it</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Highly recommend this game <span style="font-weight:400;opacity:0.6;">by DesertQueen29</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I just downloaded the Jigsaw puzzle game. The colors are bright and clear. You even get to pick your puzzle and they are very vibrant. and beautiful. I would definitely recommend it</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Fun and challenging</b> by Randy
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">These puzzles are a lot of fun and challenging without being overwhelming. I do a lot o the 300 piece puzzles</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Fun and challenging <span style="font-weight:400;opacity:0.6;">by Randy</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">These puzzles are a lot of fun and challenging without being overwhelming. I do a lot o the 300 piece puzzles</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Beautiful Photographs, Fun Puzzles</b> by BracingBeret37
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I really like these puzzles. The pictures are beautiful and the puzzles are doable in a reasonable amount of time. Just downloaded another puzzle game by this same author. Looking forward to explore those next.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Beautiful Photographs, Fun Puzzles <span style="font-weight:400;opacity:0.6;">by BracingBeret37</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I really like these puzzles. The pictures are beautiful and the puzzles are doable in a reasonable amount of time. Just downloaded another puzzle game by this same author. Looking forward to explore those next.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Stunning and fun!</b> by Siyo631902
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I love the beautiful pictures. It's very easy to use and you can choose the amount of pieces you want to put together. I a beginner but I am hooked on puzzles and I am sixty five yrs old.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Stunning and fun! <span style="font-weight:400;opacity:0.6;">by Siyo631902</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I love the beautiful pictures. It's very easy to use and you can choose the amount of pieces you want to put together. I a beginner but I am hooked on puzzles and I am sixty five yrs old.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Great Jigsaw puzzle</b> by PlumGnu26081772
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I like the colorful beaches. I also like there is not much competing, just leisurely putting the puzzle together. I liked the beginning instructions too. Most apps expect you to work it out by yourself. Being 83yrs old I just want to enjoy what apps I choose.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Great Jigsaw puzzle <span style="font-weight:400;opacity:0.6;">by PlumGnu26081772</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I like the colorful beaches. I also like there is not much competing, just leisurely putting the puzzle together. I liked the beginning instructions too. Most apps expect you to work it out by yourself. Being 83yrs old I just want to enjoy what apps I choose.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Fun for those seeking calm and relaxation</b> by GrannyM81
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I like the coloring and the ease with which the pieces interlock. Puzzling is relaxing and refreshing with a quality, beautiful puzzles like these</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Fun for those seeking calm and relaxation <span style="font-weight:400;opacity:0.6;">by GrannyM81</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I like the coloring and the ease with which the pieces interlock. Puzzling is relaxing and refreshing with a quality, beautiful puzzles like these</p>
 </div>
 </div>
 
-            <br />
-            <img src="images/jigsaw-puzzle-nature-reviewers.webp" width="120" alt="Jigsaw Puzzle Nature — Beautiful Nature Jigsaw Puzzles for Windows reviewers images" />
-            <br />
-            <img src="images/jigsaw-puzzle-nature-rating.webp" width="120" alt="Jigsaw Puzzle Nature — Beautiful Nature Jigsaw Puzzles for Windows rating star image"/>
-            (4.6/5 from 2388 users)
-            <h2>
+            <div class="ratingRow">
+                <div class="ratingGroup">
+                    <div class="ratingGroupStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="ratingGroupText">(4.6/5 from 2388 users)</div>
+                </div>
+            </div>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK" 
-                class="download" 
+                class="dlBtn dlBtnLarge" 
                 onclick="gtag('event', 'download_click', {
                     'game': 'jigsaw-puzzle-nature',
                     'location': 'bottom_button'
                 });">
                     Download Now
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
         </div>
 

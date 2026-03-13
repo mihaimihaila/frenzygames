@@ -13,6 +13,92 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="styleGame.css">
         <link rel="stylesheet" type="text/css" href="footer.css">
+
+        <!-- Shared button styles — ideally migrate these into styleGame.css -->
+        <style>
+            a.dlBtn {
+                display: inline-block;
+                font-size: 0.9rem;
+                padding: 10px 28px;
+                border-radius: 20px;
+                text-decoration: none;
+                background: #0078d4;
+                color: #fff !important;
+                font-weight: 600;
+                letter-spacing: 0.03em;
+                transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+                box-shadow: 0 2px 6px rgba(0,120,212,0.25);
+            }
+            a.dlBtn:hover {
+                background: #005fa3;
+                transform: translateY(-2px);
+                box-shadow: 0 5px 14px rgba(0,120,212,0.35);
+            }
+            .heroDownload {
+                /* padding-top gives the hover lift room to breathe without clipping */
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+            .reviewsGrid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                gap: 16px;
+                margin: 16px 0 24px;
+                text-align: left;
+            }
+            .reviewCard {
+                border-radius: 12px;
+                border: 1px solid rgba(0,0,0,0.08);
+                padding: 16px 18px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            }
+            .reviewCard .reviewTitle {
+                font-weight: 700;
+                margin: 0 0 2px;
+            }
+            .reviewCard .reviewStars {
+                color: #f5a623;
+                margin: 0 0 6px;
+                font-size: 0.9rem;
+            }
+            .reviewCard .reviewBody {
+                font-size: 0.875rem;
+                line-height: 1.55;
+                margin: 0;
+            }
+            /* Rating summary — tight centred unit bridging reviews → CTA */
+            .ratingRow {
+                display: flex;
+                justify-content: center;
+            }
+            .ratingGroup {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2px;
+            }
+            .ratingGroupStars {
+                color: #f5a623;
+                font-size: 1.6rem;
+                line-height: 1;
+                letter-spacing: 3px;
+            }
+            .ratingGroupText {
+                font-size: 0.78rem;
+                opacity: 0.6;
+                letter-spacing: 0.02em;
+            }
+            /* Large CTA variant */
+            a.dlBtnLarge {
+                font-size: 1.1rem;
+                padding: 14px 40px;
+                border-radius: 30px;
+            }
+            .heroDownload {
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+        </style>
             
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWSTE1384P"></script>
         <script>
@@ -100,16 +186,16 @@
                 Jigsaw Puzzle Quest is a game where you can complete jigsaw puzzles that unlock new worlds and adventures. Customize your own avatar, collect items and power-ups, and interact with other players online. This game offers a unique blend of puzzle-solving and adventure, making it a favorite among our users.
             </p>
 
-            <h2>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9P3T1F91S1NL" 
-                    class="download"
+                    class="dlBtn"
                     onclick="gtag('event', 'download_click', {
                         'game': 'jigsaw-puzzle-quest',
                         'location': 'hero_button'
                     });">
                     Download
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
 
             
@@ -170,63 +256,49 @@
             
             <h2 class="topMarginLarge">What players are saying about Jigsaw Puzzle Quest</h2>
 <div class="forceCenter">
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Great Jigsaw Puzzles</b> by Debbie
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">Love these jigsaw puzzles! The puzzles are beautiful, some harder than others, the personal messages are nice, and I love the free gifts every day. I do all four of their puzzle games and love them all!</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Great Jigsaw Puzzles <span style="font-weight:400;opacity:0.6;">by Debbie</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">Love these jigsaw puzzles! The puzzles are beautiful, some harder than others, the personal messages are nice, and I love the free gifts every day. I do all four of their puzzle games and love them all!</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Another game to become addicted to</b> by Toni
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I love computer generated puzzles. When I found this one, I knew for sure, I'd be hanging around a lot. I'll try my best to go to bed before 2:00 midnight. I'm hooked!!!!!!</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Another game to become addicted to <span style="font-weight:400;opacity:0.6;">by Toni</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I love computer generated puzzles. When I found this one, I knew for sure, I'd be hanging around a lot. I'll try my best to go to bed before 2:00 midnight. I'm hooked!!!!!!</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Very enjoyable</b> by Monica
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">Always loved puzzles and I do not loose a piece doing puzzle quest</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Very enjoyable <span style="font-weight:400;opacity:0.6;">by Monica</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">Always loved puzzles and I do not loose a piece doing puzzle quest</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>This is a great app!</b> by Jill
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">Just downloaded and this game has beautiful puzzles and is really user friendly. Relaxing and fun</p>
+<div class="reviewCard">
+    <p class="reviewTitle">This is a great app! <span style="font-weight:400;opacity:0.6;">by Jill</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">Just downloaded and this game has beautiful puzzles and is really user friendly. Relaxing and fun</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>The Best</b> by Sandra
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">The best puzzle app I have ever used. Beautiful, detailed pictures. Great for reducing stress!</p>
+<div class="reviewCard">
+    <p class="reviewTitle">The Best <span style="font-weight:400;opacity:0.6;">by Sandra</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">The best puzzle app I have ever used. Beautiful, detailed pictures. Great for reducing stress!</p>
 </div>
 </div>
 
-            <br />
-            <img src="images/jigsaw-puzzle-quest-reviewers.webp" width="120" alt="Jigsaw Puzzle Quest — Free Jigsaw Puzzle Game for Windows reviewers images" />
-            <br />
-            <img src="images/jigsaw-puzzle-quest-rating.webp" width="120" alt="Jigsaw Puzzle Quest — Free Jigsaw Puzzle Game for Windows rating star image"/>
-            (4.9/5 from 143 users)
-            <h2>
+            <div class="ratingRow">
+                <div class="ratingGroup">
+                    <div class="ratingGroupStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="ratingGroupText">(4.9/5 from 143 users)</div>
+                </div>
+            </div>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9P3T1F91S1NL" 
-                class="download" 
+                class="dlBtn dlBtnLarge" 
                 onclick="gtag('event', 'download_click', {
                     'game': 'jigsaw-puzzle-quest',
                     'location': 'bottom_button'
                 });">
                     Download Now
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
         </div>
 

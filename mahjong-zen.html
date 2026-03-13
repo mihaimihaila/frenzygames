@@ -13,6 +13,92 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="styleGame.css">
         <link rel="stylesheet" type="text/css" href="footer.css">
+
+        <!-- Shared button styles — ideally migrate these into styleGame.css -->
+        <style>
+            a.dlBtn {
+                display: inline-block;
+                font-size: 0.9rem;
+                padding: 10px 28px;
+                border-radius: 20px;
+                text-decoration: none;
+                background: #0078d4;
+                color: #fff !important;
+                font-weight: 600;
+                letter-spacing: 0.03em;
+                transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+                box-shadow: 0 2px 6px rgba(0,120,212,0.25);
+            }
+            a.dlBtn:hover {
+                background: #005fa3;
+                transform: translateY(-2px);
+                box-shadow: 0 5px 14px rgba(0,120,212,0.35);
+            }
+            .heroDownload {
+                /* padding-top gives the hover lift room to breathe without clipping */
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+            .reviewsGrid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                gap: 16px;
+                margin: 16px 0 24px;
+                text-align: left;
+            }
+            .reviewCard {
+                border-radius: 12px;
+                border: 1px solid rgba(0,0,0,0.08);
+                padding: 16px 18px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            }
+            .reviewCard .reviewTitle {
+                font-weight: 700;
+                margin: 0 0 2px;
+            }
+            .reviewCard .reviewStars {
+                color: #f5a623;
+                margin: 0 0 6px;
+                font-size: 0.9rem;
+            }
+            .reviewCard .reviewBody {
+                font-size: 0.875rem;
+                line-height: 1.55;
+                margin: 0;
+            }
+            /* Rating summary — tight centred unit bridging reviews → CTA */
+            .ratingRow {
+                display: flex;
+                justify-content: center;
+            }
+            .ratingGroup {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2px;
+            }
+            .ratingGroupStars {
+                color: #f5a623;
+                font-size: 1.6rem;
+                line-height: 1;
+                letter-spacing: 3px;
+            }
+            .ratingGroupText {
+                font-size: 0.78rem;
+                opacity: 0.6;
+                letter-spacing: 0.02em;
+            }
+            /* Large CTA variant */
+            a.dlBtnLarge {
+                font-size: 1.1rem;
+                padding: 14px 40px;
+                border-radius: 30px;
+            }
+            .heroDownload {
+                padding-top: 6px;
+                margin: 10px 0 8px;
+            }
+        </style>
             
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWSTE1384P"></script>
         <script>
@@ -100,16 +186,16 @@
                 Mahjong Zen is your oasis of relaxation and calm. Solve over 1200 Mahjong boards with handcrafted elaborate designs. Mahjong Zen is perfect for clearing your mind and improving your focus.
             </p>
 
-            <h2>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9PPQD15KDTQX" 
-                    class="download"
+                    class="dlBtn"
                     onclick="gtag('event', 'download_click', {
                         'game': 'mahjong-zen',
                         'location': 'hero_button'
                     });">
                     Download
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
 
             
@@ -125,63 +211,49 @@
             
             <h2 class="topMarginLarge">What players are saying about Mahjong Zen</h2>
 <div class="forceCenter">
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>The Eyes Have It</b> by Marilyn
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">My eyeballs are getting a good workout, over and under, around and through.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">The Eyes Have It <span style="font-weight:400;opacity:0.6;">by Marilyn</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">My eyeballs are getting a good workout, over and under, around and through.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Great game</b> by Tina
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I like this game so far. It has several boards you can access for free and the game play is relaxing and fun. If you like matching games like I do then this one is worth trying out.</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Great game <span style="font-weight:400;opacity:0.6;">by Tina</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I like this game so far. It has several boards you can access for free and the game play is relaxing and fun. If you like matching games like I do then this one is worth trying out.</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Mahjong Zen has great options!</b> by LESLIE
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">Not only does Mahjong Zen offer a variety of formats & timing, yet not time you out, but also lets the user choose from a number of tiles to play, allowing the gamer to continually increase their abilities</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Mahjong Zen has great options! <span style="font-weight:400;opacity:0.6;">by LESLIE</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">Not only does Mahjong Zen offer a variety of formats & timing, yet not time you out, but also lets the user choose from a number of tiles to play, allowing the gamer to continually increase their abilities</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>Give This Game A Try, One of the Best.</b> by Anonymous
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">Brilliant. Very Well Thought Out And Designed.. Easy on the Eyes!</p>
+<div class="reviewCard">
+    <p class="reviewTitle">Give This Game A Try, One of the Best. <span style="font-weight:400;opacity:0.6;">by Anonymous</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">Brilliant. Very Well Thought Out And Designed.. Easy on the Eyes!</p>
 </div>
-
-<div class="textLeft">
-    <p class="zeroVerticalMargin">
-        <b>TRULY CHILLIN OUT💕</b> by eli
-    </p>
-    <p class="zeroTopMargin">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-    <p class="zeroTopMargin;">I needed this game, it gives me a chance to put all my worries away 🤣, relax. It has a level of challenges that allow me to settle down & simply have fun. I love that it has choices that allow me to not be stressed, just having a good time!!!👏👏👏😜</p>
+<div class="reviewCard">
+    <p class="reviewTitle">TRULY CHILLIN OUT💕 <span style="font-weight:400;opacity:0.6;">by eli</span></p>
+    <p class="reviewStars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    <p class="reviewBody">I needed this game, it gives me a chance to put all my worries away 🤣, relax. It has a level of challenges that allow me to settle down & simply have fun. I love that it has choices that allow me to not be stressed, just having a good time!!!👏👏👏😜</p>
 </div>
 </div>
 
-            <br />
-            <img src="images/mahjong-zen-reviewers.webp" width="120" alt="Mahjong Zen reviewers images" />
-            <br />
-            <img src="images/mahjong-zen-rating.webp" width="120" alt="Mahjong Zen rating star image"/>
-            (4.5/5 from 820 users)
-            <h2>
+            <div class="ratingRow">
+                <div class="ratingGroup">
+                    <div class="ratingGroupStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="ratingGroupText">(4.5/5 from 820 users)</div>
+                </div>
+            </div>
+            <div class="heroDownload">
                 <a href="https://www.microsoft.com/store/apps/9PPQD15KDTQX" 
-                class="download" 
+                class="dlBtn dlBtnLarge" 
                 onclick="gtag('event', 'download_click', {
                     'game': 'mahjong-zen',
                     'location': 'bottom_button'
                 });">
                     Download Now
                 </a>
-            </h2>
+            </div>
             <p><small>Free to download — Basic with Ads, or upgrade to Premium</small></p>
         </div>
 

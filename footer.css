@@ -1,4 +1,4 @@
-div {overflow: hidden; margin: 1em; }
+div { overflow: hidden; }
 div ul { list-style: none; padding: 0; margin-left: -4px; }
 div ul li { display: inline; white-space: nowrap; }
 div ul li:before { content: " | "; }
