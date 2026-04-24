@@ -82,6 +82,24 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/news/2026-04-24-tropical-paradise.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://frenzygames.net/news/2026-04-10-spring-markets.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://frenzygames.net/news/2026-04-05-happy-easter,-puzzlers.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/news/2026-01-01-happy-new-year-2026.html</loc>
     <lastmod>2026-01-01</lastmod>
     <priority>0.3</priority>
