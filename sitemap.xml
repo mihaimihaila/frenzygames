@@ -82,6 +82,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/news/2026-04-28-40-new-packs.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/news/2026-04-27-jewelry-&-gems.html</loc>
     <lastmod>2026-04-27</lastmod>
     <priority>0.3</priority>
