@@ -82,6 +82,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/news/2026-05-08-seaside-towns.html</loc>
+    <lastmod>2026-05-08</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/news/2026-05-01-early-summer.html</loc>
     <lastmod>2026-05-01</lastmod>
     <priority>0.3</priority>
