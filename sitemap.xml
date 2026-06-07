@@ -81,6 +81,14 @@
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <url>
+    <loc>https://frenzygames.net/free-jigsaw-puzzle-game-windows.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
   <url>
     <loc>https://frenzygames.net/news/2026-05-15-breakfast-blast.html</loc>
     <lastmod>2026-05-15</lastmod>
