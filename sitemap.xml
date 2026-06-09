@@ -589,6 +589,12 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://frenzygames.net/docs/jigsaw-puzzle-offline.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://frenzygames.net/docs/how-to-purchase.html</loc>
     <lastmod>2023-12-03</lastmod>
     <priority>0.3</priority>
