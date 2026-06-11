@@ -140,6 +140,25 @@
         </script>
     </head>
 
+    <div id="stickyDownload"
+     style="display:none; position:fixed; bottom:20px; right:20px; z-index:100;">
+  <a href="https://www.microsoft.com/store/apps/9WZDNCRDDJ8G"
+     class="download"
+     onclick="gtag('event', 'download_click', {
+       'game': 'jigsaw-puzzle-kids',
+       'location': 'sticky_button'
+     });">
+    Download Free
+  </a>
+</div>
+
+<script>
+window.addEventListener('scroll', function() {
+  var btn = document.getElementById('stickyDownload');
+  btn.style.display = window.scrollY > 500 ? 'block' : 'none';
+});
+</script>
+
     <body>
         <div class="header centeredContainerMenu">
     <table>
