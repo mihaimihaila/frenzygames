@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Free Daily Jigsaw Puzzle — Play a New Puzzle Every Day | Frenzy Games</title>
+    <meta name="description" content="A free jigsaw puzzle resets every day across all Frenzy Games titles. Compete on a global leaderboard, earn coins, and never run out of something new to solve.">
+    <meta name='keywords' content='free daily jigsaw puzzle, jigsaw puzzle every day, daily puzzle game, free daily puzzle, jigsaw puzzle leaderboard'>
+    <meta name='author' content='Mihai Mihaila'>
+
+    <link rel="canonical" href="https://frenzygames.net/daily-puzzle">
+    <link rel="icon" type="image/x-icon" href="https://frenzygames.net/images/favicon.png">
+    <link rel="apple-touch-icon" href="https://frenzygames.net/images/favicon.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Free Daily Jigsaw Puzzle — Play a New Puzzle Every Day | Frenzy Games">
+    <meta property="og:description" content="A free jigsaw puzzle resets every day across all Frenzy Games titles. Compete on a global leaderboard, earn coins, and never run out of something new to solve.">
+    <meta property="og:url" content="https://frenzygames.net/daily-puzzle">
+    <meta property="og:image" content="https://frenzygames.net/images/jigsaw-puzzle-quest.webp">
+
+    <meta name="twitter:title" content="Free Daily Jigsaw Puzzle — Play a New Puzzle Every Day | Frenzy Games">
+    <meta property="twitter:url" content="https://frenzygames.net/daily-puzzle">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Free Daily Jigsaw Puzzle",
+        "description": "A free jigsaw puzzle resets every day in Frenzy Games titles. Compete on a global leaderboard, earn coins, and play in any difficulty.",
+        "url": "https://frenzygames.net/daily-puzzle",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Frenzy Games",
+            "url": "https://frenzygames.net"
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWSTE1384P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YWSTE1384P');
+    </script>
+
+    <style>
+        /* ── Shared button styles ── */
+        a.dlBtn {
+            display: inline-block;
+            font-size: 0.9rem;
+            padding: 10px 28px;
+            border-radius: 20px;
+            text-decoration: none;
+            background: #0078d4;
+            color: #fff !important;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+            box-shadow: 0 2px 6px rgba(0,120,212,0.25);
+        }
+        a.dlBtn:hover {
+            background: #005fa3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 14px rgba(0,120,212,0.35);
+        }
+        a.dlBtnLarge {
+            font-size: 1.1rem;
+            padding: 14px 40px;
+            border-radius: 30px;
+        }
+        a.learnMoreLink {
+            display: inline-block;
+            font-size: 0.9rem;
+            padding: 10px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: #0078d4 !important;
+            font-weight: 600;
+            border: 1.5px solid #0078d4;
+            transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+        }
+        a.learnMoreLink:hover {
+            background: #0078d4;
+            color: #fff !important;
+            transform: translateY(-2px);
+        }
+
+        /* ── Feature chips ── */
+        .featureChips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0 28px;
+        }
+        .featureChip {
+            background: rgba(0, 120, 212, 0.08);
+            color: #0078d4;
+            border: 1px solid rgba(0, 120, 212, 0.2);
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            white-space: nowrap;
+        }
+
+        /* ── How it works steps ── */
+        .stepsGrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0 36px;
+            text-align: left;
+        }
+        .stepItem {
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(0,0,0,0.07);
+            background: rgba(0,120,212,0.03);
+        }
+        .stepItem-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #0078d4;
+            color: #fff;
+            font-size: 0.88rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .stepItem-title {
+            font-weight: 700;
+            font-size: 0.92rem;
+            margin: 0 0 6px;
+        }
+        .stepItem-text {
+            font-size: 0.82rem;
+            line-height: 1.55;
+            margin: 0;
+            opacity: 0.75;
+        }
+
+        /* ── Rewards table ── */
+        .rewardsSection {
+            margin: 20px 0 36px;
+        }
+        .rewardsTier {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 14px;
+            margin: 16px 0;
+        }
+        .rewardCard {
+            border-radius: 12px;
+            border: 1px solid rgba(0,0,0,0.08);
+            padding: 16px 18px;
+            text-align: left;
+        }
+        .rewardCard.gold {
+            background: linear-gradient(135deg, rgba(255,197,0,0.12), rgba(255,154,0,0.08));
+            border-color: rgba(255,180,0,0.35);
+        }
+        .rewardCard.silver {
+            background: linear-gradient(135deg, rgba(180,180,200,0.12), rgba(140,140,170,0.06));
+            border-color: rgba(160,160,190,0.3);
+        }
+        .rewardCard.bronze {
+            background: rgba(0,120,212,0.04);
+            border-color: rgba(0,120,212,0.12);
+        }
+        .rewardCard-rank {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            opacity: 0.55;
+            margin: 0 0 4px;
+        }
+        .rewardCard-coins {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 0 0 2px;
+        }
+        .rewardCard-desc {
+            font-size: 0.78rem;
+            opacity: 0.65;
+            margin: 0;
+        }
+
+        /* ── FAQ ── */
+        .faqList {
+            margin: 20px 0 36px;
+            text-align: left;
+        }
+        .faqItem {
+            border-bottom: 1px solid rgba(0,0,0,0.07);
+            padding: 18px 0;
+        }
+        .faqItem:first-child {
+            border-top: 1px solid rgba(0,0,0,0.07);
+        }
+        .faqItem-q {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin: 0 0 8px;
+        }
+        .faqItem-a {
+            font-size: 0.875rem;
+            line-height: 1.65;
+            margin: 0;
+            opacity: 0.8;
+        }
+
+        /* ── Game cards ── */
+        .gameCardsGrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+            margin: 28px 0 40px;
+            text-align: left;
+        }
+        .gameCard {
+            border-radius: 16px;
+            border: 1px solid rgba(0,0,0,0.09);
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .gameCard:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+        .gameCard-icon-wrap {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 20px 20px 14px;
+        }
+        .gameCard-icon-wrap img {
+            width: 72px;
+            height: 72px;
+            border-radius: 16px;
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            flex-shrink: 0;
+        }
+        .gameCard-title-block { flex: 1; }
+        .gameCard-tagline {
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            opacity: 0.5;
+            margin: 0 0 3px;
+        }
+        .gameCard-title {
+            font-size: 1rem;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.3;
+        }
+        .gameCard-rating {
+            font-size: 0.78rem;
+            color: #f5a623;
+            margin: 3px 0 0;
+        }
+        .gameCard-rating span { color: #555; }
+        .gameCard-body {
+            padding: 0 20px 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .gameCard-desc {
+            font-size: 0.875rem;
+            line-height: 1.6;
+            margin: 0 0 18px;
+            flex: 1;
+        }
+        .gameCard-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        /* ── Divider ── */
+        .sectionDivider {
+            border: none;
+            border-top: 1px solid rgba(0,0,0,0.08);
+            margin: 40px 0;
+        }
+
+        /* ── CTA band ── */
+        .ctaBand {
+            text-align: center;
+            padding: 36px 24px;
+            border-radius: 16px;
+            background: rgba(0, 120, 212, 0.06);
+            border: 1px solid rgba(0, 120, 212, 0.15);
+            margin: 36px 0 48px;
+        }
+        .ctaBand h2 { margin-top: 0; }
+
+        .heroDownload {
+            padding-top: 6px;
+            margin: 10px 0 8px;
+        }
+        .forceCenter { text-align: center; }
+
+        /* ── Callout box ── */
+        .calloutBox {
+            background: rgba(0,120,212,0.06);
+            border: 1px solid rgba(0,120,212,0.18);
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin: 24px 0;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            text-align: left;
+        }
+        .calloutBox strong { color: #0078d4; }
+    </style>
+</head>
+
+<body>
+    <!-- ── Nav ── -->
+    <div class="header section-selector centeredContainerMenu">
+        <table>
+            <tr>
+                <td><a href="https://frenzygames.net">Games</a></td>
+                <td class="width100percent"></td>
+                <td class="menuLink"><a href="https://frenzygames.net/contact">Contact</a></td>
+                <td class="menuLink"><a href="https://frenzygames.net/about">About</a></td>
+                <td class="menuLink"><a href="https://frenzygames.net/news">News</a></td>
+                <td class="menuLink"><a href="https://frenzygames.net/blog">Blog</a></td>
+                <td class="menuLink"><a href="https://frenzygames.net/help">Help</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ── Hero ── -->
+    <div class="centeredContainer forceCenter">
+        <header>
+            <h1>Free Daily Jigsaw Puzzle</h1>
+            <h2>A brand-new puzzle every day — free for every player.</h2>
+        </header>
+
+        <p>Every Frenzy Games jigsaw title includes a <strong>free Daily Puzzle</strong> that resets at midnight. No subscription required. Just open the game, tap the daily puzzle, and you're in. A different image every single day — landscapes, animals, landmarks, food, travel, and more — drawn at random from thousands of hand-curated photographs.</p>
+
+        <p>It's also a <strong>global speed competition</strong>. Finish faster than other players to climb the leaderboard and earn coins. The top 100 finishers each day walk away with rewards.</p>
+
+        <div class="featureChips">
+            <span class="featureChip">🆓 Free every day</span>
+            <span class="featureChip">🔄 Resets at midnight</span>
+            <span class="featureChip">🏆 Global leaderboard</span>
+            <span class="featureChip">💰 Top 100 earn coins</span>
+            <span class="featureChip">🧩 64 to 400 pieces (Premium)</span>
+            <span class="featureChip">💾 Save &amp; resume</span>
+        </div>
+
+        <div class="heroDownload">
+            <a class="dlBtn dlBtnLarge" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames"
+               onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Quest', location: 'daily_puzzle_hero' });">
+                Play Today's Puzzle — Free
+            </a>
+        </div>
+        <p><small>Free to download from the Microsoft Store · Windows 10 &amp; 11</small></p>
+
+        <hr class="sectionDivider">
+
+        <!-- ── How it works ── -->
+        <h2>How Daily Puzzle Works</h2>
+        <p>The daily puzzle is the same image for all players on that day — meaning everyone is solving the same puzzle, on the same clock. Your score is based purely on speed: how long it takes you to place the last piece.</p>
+
+        <div class="stepsGrid">
+            <div class="stepItem">
+                <div class="stepItem-number">1</div>
+                <p class="stepItem-title">Open the game</p>
+                <p class="stepItem-text">Download any Frenzy Games title for free. New players start with 300 gems — enough to jump straight in.</p>
+            </div>
+            <div class="stepItem">
+                <div class="stepItem-number">2</div>
+                <p class="stepItem-title">Tap Daily Puzzle</p>
+                <p class="stepItem-text">Find it in the main menu. It costs 3 gems to participate during the free trial period.</p>
+            </div>
+            <div class="stepItem">
+                <div class="stepItem-number">3</div>
+                <p class="stepItem-title">Choose your difficulty</p>
+                <p class="stepItem-text">Pick from 64, 100, 200, or 300 pieces — or 400 pieces with a Premium subscription.</p>
+            </div>
+            <div class="stepItem">
+                <div class="stepItem-number">4</div>
+                <p class="stepItem-title">Solve it fast</p>
+                <p class="stepItem-text">The timer starts when you place your first piece. Finish as quickly as you can to maximize your score.</p>
+            </div>
+            <div class="stepItem">
+                <div class="stepItem-number">5</div>
+                <p class="stepItem-title">See your rank</p>
+                <p class="stepItem-text">Your position on the global leaderboard updates in real time as other players finish.</p>
+            </div>
+            <div class="stepItem">
+                <div class="stepItem-number">6</div>
+                <p class="stepItem-title">Collect your coins</p>
+                <p class="stepItem-text">If you finish in the top 100, your prize appears in the Prizes panel on the home screen. Tap Claim to add the coins to your account.</p>
+            </div>
+        </div>
+
+        <div class="calloutBox">
+            <strong>Good to know:</strong> The puzzle can be saved and resumed any time while it's still active. If the daily window closes before you finish, the puzzle moves to your Saved pack so you can still complete it — though leaderboard rewards are only available while the competition is active.
+        </div>
+
+        <hr class="sectionDivider">
+
+        <!-- ── Leaderboard & Rewards ── -->
+        <h2>Global Leaderboard &amp; Daily Coin Rewards</h2>
+        <p>Every Daily Puzzle is a live competition against players around the world. Your final rank is determined by how fast you complete the puzzle — not just that you finished. The top 100 players each day earn coins, with significantly larger payouts for the top finishers.</p>
+
+        <div class="rewardsSection">
+            <div class="rewardsTier">
+                <div class="rewardCard gold">
+                    <p class="rewardCard-rank">🥇 1st place</p>
+                    <p class="rewardCard-coins">15,000 coins</p>
+                    <p class="rewardCard-desc">Daily champion</p>
+                </div>
+                <div class="rewardCard gold">
+                    <p class="rewardCard-rank">🥈 2nd place</p>
+                    <p class="rewardCard-coins">11,000 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard gold">
+                    <p class="rewardCard-rank">🥉 3rd place</p>
+                    <p class="rewardCard-coins">9,000 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard silver">
+                    <p class="rewardCard-rank">4th place</p>
+                    <p class="rewardCard-coins">7,000 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard silver">
+                    <p class="rewardCard-rank">5th place</p>
+                    <p class="rewardCard-coins">6,000 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard silver">
+                    <p class="rewardCard-rank">6th place</p>
+                    <p class="rewardCard-coins">4,000 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard silver">
+                    <p class="rewardCard-rank">7th place</p>
+                    <p class="rewardCard-coins">3,000 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard silver">
+                    <p class="rewardCard-rank">8th place</p>
+                    <p class="rewardCard-coins">2,000 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard silver">
+                    <p class="rewardCard-rank">9th place</p>
+                    <p class="rewardCard-coins">1,500 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard silver">
+                    <p class="rewardCard-rank">10th place</p>
+                    <p class="rewardCard-coins">1,000 coins</p>
+                    <p class="rewardCard-desc"></p>
+                </div>
+                <div class="rewardCard bronze">
+                    <p class="rewardCard-rank">11th–20th place</p>
+                    <p class="rewardCard-coins">500 coins</p>
+                    <p class="rewardCard-desc">each</p>
+                </div>
+                <div class="rewardCard bronze">
+                    <p class="rewardCard-rank">21st–30th place</p>
+                    <p class="rewardCard-coins">300 coins</p>
+                    <p class="rewardCard-desc">each</p>
+                </div>
+                <div class="rewardCard bronze">
+                    <p class="rewardCard-rank">31st–100th place</p>
+                    <p class="rewardCard-coins">100 coins</p>
+                    <p class="rewardCard-desc">each</p>
+                </div>
+            </div>
+        </div>
+
+        <p>Coins can be converted into gems or crowns. Gems unlock game features; crowns are used to unlock puzzles. The leaderboard resets each day along with the puzzle, so every day is a fresh chance to place.</p>
+
+        <hr class="sectionDivider">
+
+        <!-- ── Gems & getting started ── -->
+        <h2>Gems, Coins, Crowns — and Getting Started</h2>
+        <p>Frenzy Games uses three currencies. <strong>Coins</strong> are earned through gameplay and daily rewards. <strong>Gems</strong> are used to enter game features like Daily Puzzle. <strong>Crowns</strong> are used to unlock puzzles, and can be earned through loyalty rewards, trading coins, or purchase.</p>
+        <p>Coins can be traded for gems or crowns, so everything connects: play regularly, accumulate coins, convert them to gems, and keep participating in the daily puzzle indefinitely.</p>
+        <p>Participating in Daily Puzzle costs gems. During the <strong>free trial period</strong>, it costs just 3 gems per day. Every new player receives <strong>300 gems</strong> when they first install the game — enough to play the daily puzzle for months without spending a dime.</p>
+        <p>After the trial period ends, the participation cost increases to 100 gems per day. You have a few options: purchase gems directly, convert accumulated coins into gems, or subscribe to Premium for unlimited daily puzzle access.</p>
+
+        <div class="calloutBox">
+            <strong>New player tip:</strong> Your 300 starting gems are yours immediately. No tutorial to complete, no waiting period. Tap Daily Puzzle on day one and you're competing.
+        </div>
+
+        <hr class="sectionDivider">
+
+        <!-- ── Premium note ── -->
+        <h2>Premium Subscription</h2>
+        <p>Premium removes the per-day gem cost for Daily Puzzle entirely, along with several other perks:</p>
+        <ul style="text-align:left; font-size: 0.9rem; line-height: 1.8; margin: 12px 0 20px;">
+            <li>Unlimited daily puzzle access — no gems required</li>
+            <li>All ads removed</li>
+            <li>Puzzles up to 400 pieces (free players can play up to 300)</li>
+            <li>Access to the full puzzle library</li>
+            <li>Exclusive new puzzles and themes each month</li>
+        </ul>
+        <p>Premium costs $14.99/month or $139.99/year and includes a free one-week trial. You can cancel at any time.</p>
+
+        <hr class="sectionDivider">
+
+        <!-- ── FAQ ── -->
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faqList">
+            <div class="faqItem">
+                <p class="faqItem-q">Is the daily puzzle really free?</p>
+                <p class="faqItem-a">Yes. During the free trial period it costs 3 gems, and every new player starts with 300 gems. You can play for months without spending a dime.</p>
+            </div>
+            <div class="faqItem">
+                <p class="faqItem-q">When does the puzzle reset?</p>
+                <p class="faqItem-a">The puzzle resets at midnight. A new image — randomly selected from the game's full puzzle library — becomes available every day. You have 24 hours to complete each one.</p>
+            </div>
+            <div class="faqItem">
+                <p class="faqItem-q">Can I save and come back to it later?</p>
+                <p class="faqItem-a">Yes. Daily Puzzle can be saved and resumed at any time. If the daily window closes before you finish, the puzzle moves to your Saved pack so you can still complete it at your own pace — though leaderboard eligibility and coin rewards only apply while the competition window is open.</p>
+            </div>
+            <div class="faqItem">
+                <p class="faqItem-q">Do all four Frenzy Games titles have a daily puzzle?</p>
+                <p class="faqItem-a">Yes — Jigsaw Puzzle Quest, Jigsaw Puzzle Frenzy, Jigsaw Puzzle Journey, and Jigsaw Puzzle Nature all include Daily Puzzle with their own daily image and separate leaderboard.</p>
+            </div>
+            <div class="faqItem">
+                <p class="faqItem-q">What difficulty should I pick?</p>
+                <p class="faqItem-a">Any difficulty you like. Free players can choose from 64, 100, 200, or 300 pieces; 400 pieces is available with a Premium subscription. Lower piece counts solve faster and may give you an edge on the leaderboard; higher counts are more satisfying if you're not in a hurry.</p>
+            </div>
+            <div class="faqItem">
+                <p class="faqItem-q">How do I collect my coin prize?</p>
+                <p class="faqItem-a">After the competition closes, your final rank and prize appear in the Prizes panel on the home screen. Tap the Claim button to add the coins to your account — they won't be added automatically.</p>
+            </div>
+            <div class="faqItem">
+                <p class="faqItem-q">What can I do with coins?</p>
+                <p class="faqItem-a">Coins can be converted into gems or crowns. Gems are used to enter game features like Daily Puzzle. Crowns are used to unlock puzzles. Coins are earned through daily puzzle rewards, regular gameplay, and other in-game activities.</p>
+            </div>
+            <div class="faqItem">
+                <p class="faqItem-q">How is the daily puzzle image chosen?</p>
+                <p class="faqItem-a">Each day's puzzle is picked at random from the game's full library of thousands of images. You never know what you'll get — it could be a mountain landscape, a close-up of food, a city skyline, or a wildlife shot. That's part of the fun.</p>
+            </div>
+        </div>
+
+        <hr class="sectionDivider">
+
+        <!-- ── Game cards ── -->
+        <h2>Available in All Four Frenzy Games Titles</h2>
+        <p>Every game in the collection includes Daily Puzzle with its own library of images and its own daily leaderboard. All are free to download from the Microsoft Store.</p>
+
+        <div class="gameCardsGrid">
+
+            <!-- Jigsaw Puzzle Quest -->
+            <div class="gameCard">
+                <div class="gameCard-icon-wrap">
+                    <a href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames"
+                       onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Quest', location: 'daily_puzzle_page' });">
+                        <img src="images/jigsaw-puzzle-quest.webp" alt="Jigsaw Puzzle Quest game icon" />
+                    </a>
+                    <div class="gameCard-title-block">
+                        <p class="gameCard-tagline">Infinite Discoveries</p>
+                        <h3 class="gameCard-title">Jigsaw Puzzle Quest</h3>
+                        <p class="gameCard-rating">★★★★★ <span>(4.9 · 143 reviews)</span></p>
+                    </div>
+                </div>
+                <div class="gameCard-body">
+                    <p class="gameCard-desc">The newest title in the collection — Animals, Nature, Travel, Food, Patterns, Space, and more. Refined image curation and a reward system that makes the daily puzzle feel like an event.</p>
+                    <div class="gameCard-actions">
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames"
+                           onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Quest', location: 'daily_puzzle_page' });">Download</a>
+                        <a class="learnMoreLink" href="https://frenzygames.net/jigsaw-puzzle-quest">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jigsaw Puzzle Frenzy -->
+            <div class="gameCard">
+                <div class="gameCard-icon-wrap">
+                    <a href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM?cid=frenzygames"
+                       onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Frenzy', location: 'daily_puzzle_page' });">
+                        <img src="images/jigsaw-puzzle-frenzy.webp" alt="Jigsaw Puzzle Frenzy game icon" />
+                    </a>
+                    <div class="gameCard-title-block">
+                        <p class="gameCard-tagline">Stay Mentally Sharp</p>
+                        <h3 class="gameCard-title">Jigsaw Puzzle Frenzy</h3>
+                        <p class="gameCard-rating">★★★★★ <span>(4.6 · 16773 reviews)</span></p>
+                    </div>
+                </div>
+                <div class="gameCard-body">
+                    <p class="gameCard-desc">The original Frenzy Games title and the largest library in the collection — landmarks, architecture, landscapes, plants, and animals. Over a decade of daily puzzles and counting.</p>
+                    <div class="gameCard-actions">
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9WZDNCRDDQBM?cid=frenzygames"
+                           onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Frenzy', location: 'daily_puzzle_page' });">Download</a>
+                        <a class="learnMoreLink" href="https://frenzygames.net/jigsaw-puzzle-frenzy">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jigsaw Puzzle Journey -->
+            <div class="gameCard">
+                <div class="gameCard-icon-wrap">
+                    <a href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9?cid=frenzygames"
+                       onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Journey', location: 'daily_puzzle_page' });">
+                        <img src="images/jigsaw-puzzle-journey.webp" alt="Jigsaw Puzzle Journey game icon" />
+                    </a>
+                    <div class="gameCard-title-block">
+                        <p class="gameCard-tagline">Discover the World</p>
+                        <h3 class="gameCard-title">Jigsaw Puzzle Journey</h3>
+                        <p class="gameCard-rating">★★★★★ <span>(4.6 · 2942 reviews)</span></p>
+                    </div>
+                </div>
+                <div class="gameCard-body">
+                    <p class="gameCard-desc">Every daily puzzle is a destination — over 70 countries, captured in high-resolution photography. If travel and geography are your thing, the daily puzzle here always feels like going somewhere new.</p>
+                    <div class="gameCard-actions">
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9NDSMCCMR7M9?cid=frenzygames"
+                           onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Journey', location: 'daily_puzzle_page' });">Download</a>
+                        <a class="learnMoreLink" href="https://frenzygames.net/jigsaw-puzzle-journey">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jigsaw Puzzle Nature -->
+            <div class="gameCard">
+                <div class="gameCard-icon-wrap">
+                    <a href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK?cid=frenzygames"
+                       onclick="gtag('event', 'game_icon_click', { game_name: 'Jigsaw Puzzle Nature', location: 'daily_puzzle_page' });">
+                        <img src="images/jigsaw-puzzle-nature.webp" alt="Jigsaw Puzzle Nature game icon" />
+                    </a>
+                    <div class="gameCard-title-block">
+                        <p class="gameCard-tagline">Connect with Nature</p>
+                        <h3 class="gameCard-title">Jigsaw Puzzle Nature</h3>
+                        <p class="gameCard-rating">★★★★★ <span>(4.6 · 2388 reviews)</span></p>
+                    </div>
+                </div>
+                <div class="gameCard-body">
+                    <p class="gameCard-desc">Lakes, mountains, forests, wildlife, and open skies — every daily puzzle is a moment of calm. If the outdoors is what draws you to jigsaw puzzles, Nature's daily is the one to set as your routine.</p>
+                    <div class="gameCard-actions">
+                        <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK?cid=frenzygames"
+                           onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Nature', location: 'daily_puzzle_page' });">Download</a>
+                        <a class="learnMoreLink" href="https://frenzygames.net/jigsaw-puzzle-nature">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /gameCardsGrid -->
+
+        <!-- ── Bottom CTA ── -->
+        <div class="ctaBand">
+            <h2>Start Your Daily Puzzle Habit</h2>
+            <p>Free to download. Free to play every day. A new puzzle — and a new chance to top the leaderboard — waiting for you each morning.</p>
+            <div class="heroDownload">
+                <a class="dlBtn dlBtnLarge" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames"
+                   onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Quest', location: 'daily_puzzle_bottom_cta' });">
+                    Download Jigsaw Puzzle Quest — Free
+                </a>
+            </div>
+            <p><small>Free to download · Windows 10 &amp; 11 · <a href="https://frenzygames.net">See all games</a> · <a href="https://frenzygames.net/docs/puzzle-of-the-day.html">Help article</a></small></p>
+        </div>
+
+    </div><!-- /centeredContainer -->
+
+    <!-- ── Footer ── -->
+    <nav class="footerContainer">
+        <p>
+            <ol>
+                <li><a href="https://www.youtube.com/@JigsawPuzzleFrenzy">YouTube</a></li>
+                <li><a href="https://www.facebook.com/JigsawPuzzleFrenzy">Facebook</a></li>
+                <li><a href="https://www.instagram.com/jigsawpuzzlefrenzy">Instagram</a></li>
+                <li><a href="https://twitter.com/PuzzleFrenzy">X</a></li>
+            </ol>
+        </p>
+    </nav>
+</body>
+</html>
