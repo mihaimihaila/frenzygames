@@ -69,7 +69,7 @@
 
         <p>Do you love jigsaw puzzles? Do you enjoy relaxing, training your brain, or simply admiring stunning images? If so, you're in the right place.</p>
 
-        <p><b>Frenzy Games</b> is the ultimate destination for jigsaw puzzle lovers. We offer you hundreds of <a href="https://frenzygames.net/docs/free-puzzles.html">free jigsaw puzzles</a> to play anytime, anywhere. Looking for a <a href="https://frenzygames.net/free-jigsaw-puzzle-game-windows">free jigsaw puzzle game for Windows PC</a>? Our games are designed to provide endless hours of entertainment and mental stimulation.</p>
+        <p><b>Frenzy Games</b> is the ultimate destination for jigsaw puzzle lovers. We offer you hundreds of <a href="https://frenzygames.net/docs/free-puzzles.html">free jigsaw puzzles</a> to play anytime, anywhere — including a <a href="https://frenzygames.net/daily-puzzle">free Daily Puzzle</a> that resets every morning. Looking for a <a href="https://frenzygames.net/free-jigsaw-puzzle-game-windows">free jigsaw puzzle game for Windows PC</a>? Our games are designed to provide endless hours of entertainment and mental stimulation.</p>
 
         <style>
             /* ── Shared download button style ── */
@@ -157,6 +157,63 @@
             }
             /* keep the old class working in case style.css references it */
             .quickDownloadItem a.quickDownloadBtn { display: none; }
+
+            /* ── Daily Puzzle feature band ── */
+            .dailyPuzzleBand {
+                display: flex;
+                align-items: center;
+                gap: 28px;
+                background: rgba(0,120,212,0.05);
+                border: 1px solid rgba(0,120,212,0.15);
+                border-radius: 16px;
+                padding: 24px 28px;
+                margin: 0 0 36px;
+                text-align: left;
+            }
+            .dailyPuzzleBand-icon {
+                font-size: 2.6rem;
+                line-height: 1;
+                flex-shrink: 0;
+            }
+            .dailyPuzzleBand-content { flex: 1; }
+            .dailyPuzzleBand-content h2 {
+                font-size: 1.1rem;
+                font-weight: 700;
+                margin: 0 0 6px;
+            }
+            .dailyPuzzleBand-content p {
+                font-size: 0.875rem;
+                line-height: 1.6;
+                margin: 0 0 14px;
+                opacity: 0.85;
+            }
+            .dailyPuzzleBand-chips {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-bottom: 16px;
+            }
+            .dailyPuzzleBand-chip {
+                background: rgba(0,120,212,0.09);
+                color: #0078d4;
+                border: 1px solid rgba(0,120,212,0.2);
+                border-radius: 20px;
+                padding: 4px 12px;
+                font-size: 0.76rem;
+                font-weight: 600;
+                letter-spacing: 0.02em;
+                white-space: nowrap;
+            }
+            .dailyPuzzleBand-actions {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            @media (max-width: 520px) {
+                .dailyPuzzleBand { flex-direction: column; text-align: center; }
+                .dailyPuzzleBand-chips { justify-content: center; }
+            }
 
             /* ── Our Games card grid ── */
             .gamesGrid {
@@ -269,6 +326,27 @@
                 <span class="quickGameName">Jigsaw Puzzle Nature</span>
                 <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P9XK4K4Q2QK?cid=frenzygames" title="Download Jigsaw Puzzle Nature"
                    onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Nature', location: 'quick_row' });">Download</a>
+            </div>
+        </div>
+
+        <!-- ── Daily Puzzle feature band ── -->
+        <div class="dailyPuzzleBand">
+            <div class="dailyPuzzleBand-icon">🗓️</div>
+            <div class="dailyPuzzleBand-content">
+                <h2>Free Daily Puzzle — Every Single Day</h2>
+                <p>A brand-new puzzle resets every morning across all Frenzy Games titles. It's free for every player, available in any difficulty, and part of a global speed competition — the top 100 finishers each day earn coins. New players start with 300 gems, enough to jump straight in.</p>
+                <div class="dailyPuzzleBand-chips">
+                    <span class="dailyPuzzleBand-chip">🆓 Free every day</span>
+                    <span class="dailyPuzzleBand-chip">🔄 Resets at midnight</span>
+                    <span class="dailyPuzzleBand-chip">🏆 Global leaderboard</span>
+                    <span class="dailyPuzzleBand-chip">💰 Top 100 earn coins</span>
+                    <span class="dailyPuzzleBand-chip">💾 Save &amp; resume</span>
+                </div>
+                <div class="dailyPuzzleBand-actions">
+                    <a class="dlBtn" href="https://www.microsoft.com/store/apps/9P3T1F91S1NL?cid=frenzygames"
+                       onclick="gtag('event', 'game_download_click', { game_name: 'Jigsaw Puzzle Quest', location: 'daily_puzzle_band' });">Download &amp; Play Today's Puzzle</a>
+                    <a class="learnMoreLink" href="https://frenzygames.net/daily-puzzle">Learn more</a>
+                </div>
             </div>
         </div>
 
